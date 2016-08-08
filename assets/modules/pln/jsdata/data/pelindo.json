@@ -1,0 +1,163 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "PELABUHAN": "Sabang", "PANJANG__M": 212.000000, "KEDALAMAN_": "6 -11", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 95.216670, 5.333330 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Malahayati", "PANJANG__M": 250.000000, "KEDALAMAN_": "7 - 9", "LUAS_GUDAN": 800.000000, "LUAS_OPENS": 2000.000000, "LUAS_TERMI": 500.000000 }, "geometry": { "type": "Point", "coordinates": [ 95.509720, 5.597220 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Meulaboh", "PANJANG__M": 52.500000, "KEDALAMAN_": "5", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 2520.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 96.133330, 4.130560 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Lhokseumawe", "PANJANG__M": 288.000000, "KEDALAMAN_": "6 - 10", "LUAS_GUDAN": 2000.000000, "LUAS_OPENS": 20158.000000, "LUAS_TERMI": 290.000000 }, "geometry": { "type": "Point", "coordinates": [ 97.033300, 5.250000 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Kuala Langsa", "PANJANG__M": 75.000000, "KEDALAMAN_": "5", "LUAS_GUDAN": 800.000000, "LUAS_OPENS": 5000.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 98.168060, 4.523300 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Belawan", "PANJANG__M": 3127.000000, "KEDALAMAN_": "5 - 11", "LUAS_GUDAN": 82380.000000, "LUAS_OPENS": 276000.000000, "LUAS_TERMI": 3344.000000 }, "geometry": { "type": "Point", "coordinates": [ 98.700000, 3.783330 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "TPK-Belawan", "PANJANG__M": 850.000000, "KEDALAMAN_": "10 - 11", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 170520.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, -179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Kuala Tanjung", "PANJANG__M": 80.000000, "KEDALAMAN_": "6", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 99.465830, 3.370830 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tanjung Balai Asahan", "PANJANG__M": 204.000000, "KEDALAMAN_": "2 - 4", "LUAS_GUDAN": 3100.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 141.000000 }, "geometry": { "type": "Point", "coordinates": [ 99.800000, 2.133330 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Sibolga", "PANJANG__M": 279.000000, "KEDALAMAN_": "8", "LUAS_GUDAN": 2900.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 128.000000 }, "geometry": { "type": "Point", "coordinates": [ 98.782500, 1.730000 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Gunung Sitoli", "PANJANG__M": 135.000000, "KEDALAMAN_": "7", "LUAS_GUDAN": 960.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 1243.000000 }, "geometry": { "type": "Point", "coordinates": [ 97.606940, 1.291110 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Dumai", "PANJANG__M": 903.000000, "KEDALAMAN_": "6 - 12", "LUAS_GUDAN": 20400.000000, "LUAS_OPENS": 29216.000000, "LUAS_TERMI": 1000.000000 }, "geometry": { "type": "Point", "coordinates": [ 101.461670, 1.687220 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Bagan Siapi-api", "PANJANG__M": 37.500000, "KEDALAMAN_": "2 - 3", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 100.766670, 2.150000 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Pekan Baru", "PANJANG__M": 426.000000, "KEDALAMAN_": "7 - 10", "LUAS_GUDAN": 1920.000000, "LUAS_OPENS": 5250.000000, "LUAS_TERMI": 225.000000 }, "geometry": { "type": "Point", "coordinates": [ 101.439170, 0.541390 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Bengkalis", "PANJANG__M": 75.000000, "KEDALAMAN_": "3 - 5", "LUAS_GUDAN": 600.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 196.000000 }, "geometry": { "type": "Point", "coordinates": [ 102.100000, 1.333330 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tembilahan", "PANJANG__M": 75.000000, "KEDALAMAN_": "3 - 5", "LUAS_GUDAN": 2400.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 103.161390, 0.325000 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Rengat", "PANJANG__M": 70.000000, "KEDALAMAN_": "3 - 5", "LUAS_GUDAN": 1200.000000, "LUAS_OPENS": 2400.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 102.704170, 1.016670 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Selat Panjang", "PANJANG__M": 217.000000, "KEDALAMAN_": "3 - 7", "LUAS_GUDAN": 1120.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 618.000000 }, "geometry": { "type": "Point", "coordinates": [ 102.704170, 1.016670 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tanjung Pinang", "PANJANG__M": 1099.000000, "KEDALAMAN_": "3 - 9", "LUAS_GUDAN": 3600.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 2155.000000 }, "geometry": { "type": "Point", "coordinates": [ 104.435000, 0.931940 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tanjung Balai Karimu", "PANJANG__M": 97.000000, "KEDALAMAN_": "3 - 6", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 418.000000 }, "geometry": { "type": "Point", "coordinates": [ 103.437220, 0.988060 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Makassar", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 119.402675, -5.130387 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Terminal Peti Kemas", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 119.410823, -5.113041 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Balikpapan", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 117.063091, -1.201633 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Samarinda", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 117.370257, -0.606714 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Ambon", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 128.048015, -3.742092 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Sorong", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 131.229693, -0.743288 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Jayapura", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 140.680746, -2.414945 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Ternate", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 127.282472, 0.837899 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Kendari", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 122.638236, -3.930615 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Pare pare", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 119.624136, -4.001999 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Merauke", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 140.317469, -8.577834 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Fak Fak", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 132.236438, -3.024607 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Gorontalo", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 123.028495, 0.476500 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tolitoli", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 120.724317, 1.004776 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Nunukan", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 117.585449, 4.088135 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Manokwari", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 133.906855, -0.676591 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Biak", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 136.041772, -1.181295 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Pantoloan", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 119.822715, -0.727937 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tarakan", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 117.555293, 3.244781 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Bitung", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 125.152757, 1.418142 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tanjung Perak", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 112.663375, -7.210467 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tanjung Emas", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 110.433764, -6.942247 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "TPKS", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 110.428497, -6.947120 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tanjung Intan", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 109.018371, -7.728211 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Banjarmasin", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 114.506162, -3.538401 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Gresik", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 112.660939, -7.153840 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Probolinggo", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 113.219607, -7.726721 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Benoa", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 115.232405, -8.756097 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Sampit", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 112.941619, -2.728799 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Kumai", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 111.745266, -2.808596 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Lembar", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 115.965788, -8.729102 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Celukan Bawang", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 114.935305, -8.173485 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Bima", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 118.696535, -8.396827 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tegal", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 109.137083, -6.847277 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Pulang Pisau", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 114.089130, -3.372656 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Maumere", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 122.199093, -8.562588 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Kotabaru", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 116.206829, -3.222645 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tanjung Wangi", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 114.399058, -8.122916 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Kupang", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 123.585185, -10.146097 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Makassar", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 119.402617, -5.130179 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "TPM", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 119.410842, -5.112824 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Balikpapan", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 117.063249, -1.200571 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Samarinda", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 117.371202, -0.605519 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Bitung", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 125.152100, 1.417935 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Ambon", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 128.047384, -3.740653 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Sorong", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 131.227847, -0.741442 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tarakan", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 117.554663, 3.242879 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Pantoloan", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 119.824602, -0.727303 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Jayapura", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 140.682233, -2.416667 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Ternate", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 127.283095, 0.838523 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Kendari", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 122.607125, -3.867096 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Pare Pare", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 119.622242, -4.001369 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Biak", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 136.042346, -1.180688 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Manokwari", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 133.908666, -0.677194 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Merauke", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 140.319733, -8.578158 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Nunukan", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 117.586964, 4.086615 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Fak fak", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 132.236943, -3.026074 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Gorontalo", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 123.028541, 0.476642 ] } }
+,
+{ "type": "Feature", "properties": { "PELABUHAN": "Tolitoli", "PANJANG__M": 0.000000, "KEDALAMAN_": "", "LUAS_GUDAN": 0.000000, "LUAS_OPENS": 0.000000, "LUAS_TERMI": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 120.724314, 1.004766 ] } }
+
+]
+}

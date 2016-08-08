@@ -1,0 +1,441 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "BENDUNGAN": "Palasari", "KODE_BDG": "5101.03.01.069", "KABUPATEN": "Jembrana", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 114.553786, -8.238186 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Grokgak", "KODE_BDG": "5108.03.01.070", "KABUPATEN": "Buleleng", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 114.929499, -8.217145 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Seraya", "KODE_BDG": "5107.03.01.001", "KABUPATEN": "Karang Asem", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 115.616600, -8.422313 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Serang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 105.839259, -6.231554 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Serang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 106.102415, -6.004259 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Sermo", "KODE_BDG": "3401.02.11.025", "KABUPATEN": "Kulon Progo", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.130430, -7.822437 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Cipanunjang", "KODE_BDG": "3204.02.04.006", "KABUPATEN": "Bandung", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 107.570922, -7.202535 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Pongkor", "KODE_BDG": "3201.02.02.001", "KABUPATEN": "Bogor", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 106.562854, -6.663164 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Ciburuy", "KODE_BDG": "3204.02.04.126", "KABUPATEN": "Bandung", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 107.412502, -6.803788 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Situ Lembang", "KODE_BDG": "3204.02.04.125", "KABUPATEN": "Bandung", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 107.611717, -6.809464 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Situ Bagendit", "KODE_BDG": "3205.02.05.127", "KABUPATEN": "Garut", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 107.929694, -7.160223 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Situpatok", "KODE_BDG": "3209.02.05.008", "KABUPATEN": "Cirebon", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 108.566323, -6.776507 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Cileunca", "KODE_BDG": "3204.02.04.005", "KABUPATEN": "Bandung", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 107.564012, -7.195634 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Kedung Ombo", "KODE_BDG": "3315.02.10.018", "KABUPATEN": "Grobogan", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.848639, -7.250270 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Sempor", "KODE_BDG": "3305.02.09.014", "KABUPATEN": "Kebumen", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 109.486654, -7.568045 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Wonogiri\/Gajah Mungkur", "KODE_BDG": "3312.02.12.031", "KABUPATEN": "Wonogiri", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.924631, -7.837088 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Song Putri", "KODE_BDG": "3312.02.12.028", "KABUPATEN": "Wonogiri", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.864418, -7.974556 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Parang Joho", "KODE_BDG": "3312.02.12.030", "KABUPATEN": "Wonogiri", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.838248, -7.929424 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Ketro", "KODE_BDG": "3314.02.12.035", "KABUPATEN": "Sragen", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.948671, -7.401142 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Garung", "KODE_BDG": "3307.02.09.013", "KABUPATEN": "Wonosobo", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 109.818849, -7.372800 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Nawangan", "KODE_BDG": "3312.02.12.026", "KABUPATEN": "Wonogiri", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.917246, -8.047686 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Banyukuwung", "KODE_BDG": "3317.02.10.001", "KABUPATEN": "Rembang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.342015, -6.779634 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Pejengkolan", "KODE_BDG": "3305.02.09.016", "KABUPATEN": "Kebumen", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 109.778663, -7.660598 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Cacaban", "KODE_BDG": "3328.02.08.010", "KABUPATEN": "Tegal", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 109.181986, -7.011105 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Cengklik", "KODE_BDG": "3309.02.12.099", "KABUPATEN": "Boyolali", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.733486, -7.497096 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Gembong", "KODE_BDG": "3318.02.10.024", "KABUPATEN": "Pati", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.945127, -6.712856 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Greneng", "KODE_BDG": "3316.02.10.019", "KABUPATEN": "Blora", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.371728, -6.897936 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Gunung Rowo", "KODE_BDG": "3318.02.10.023", "KABUPATEN": "Pati", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.947235, -6.618922 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Krisak", "KODE_BDG": "3312.02.12.032", "KABUPATEN": "Wonogiri", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.860926, -7.803966 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Ngancar", "KODE_BDG": "3312.02.12.027", "KABUPATEN": "Wonogiri", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.974863, -8.044169 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Penjalin", "KODE_BDG": "3329.02.08.011", "KABUPATEN": "Brebes", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 109.052217, -7.323922 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Plumbon", "KODE_BDG": "3312.02.12.029", "KABUPATEN": "Wonogiri", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.850189, -7.952032 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Tempuran", "KODE_BDG": "3316.02.10.021", "KABUPATEN": "Blora", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.490347, -6.933578 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Wadaslintang", "KODE_BDG": "3305.02.09.015", "KABUPATEN": "Kebumen", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 109.784772, -7.612954 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Klego", "KODE_BDG": "3309.02.10.017", "KABUPATEN": "Boyolali", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.693039, -7.360819 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Nglangon", "KODE_BDG": "3315.02.10.020", "KABUPATEN": "Grobogan", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.121251, -7.171946 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Lodan Wetan", "KODE_BDG": "3317.02.10.022", "KABUPATEN": "Rembang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.606452, -6.779415 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Delingan", "KODE_BDG": "3313.02.12.034", "KABUPATEN": "Karanganyar", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.994374, -7.582462 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Lalung", "KODE_BDG": "3313.02.12.091", "KABUPATEN": "Karanganyar", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.936839, -7.612768 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Gebyar", "KODE_BDG": "3314.02.12.088", "KABUPATEN": "Sragen", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.083901, -7.508064 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Malahayu", "KODE_BDG": "3329.02.08.009", "KABUPATEN": "Brebes", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 108.816711, -7.029685 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Mulur", "KODE_BDG": "3311.02.12.092", "KABUPATEN": "Sukoharjo", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.869179, -7.662709 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Sanggeh", "KODE_BDG": "3315.02.10.016", "KABUPATEN": "Grobogan", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 110.940220, -7.109364 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Kembangan", "KODE_BDG": "3314.02.12.089", "KABUPATEN": "Sragen", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.042099, -7.420068 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Botok", "KODE_BDG": "3313.02.12.090", "KABUPATEN": "Karanganyar", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.018145, -7.534091 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Lahor", "KODE_BDG": "3507.02.13.044", "KABUPATEN": "Malang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 112.449847, -8.138602 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Wlingi", "KODE_BDG": "3505.02.13.043", "KABUPATEN": "Blitar", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 112.340578, -8.168404 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Sampean Baru", "KODE_BDG": "3511.02.14.048", "KABUPATEN": "Bondowoso", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 113.939355, -7.828208 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Gondang", "KODE_BDG": "3524.02.12.038", "KABUPATEN": "Lamongan", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 112.267552, -7.200274 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Klampis", "KODE_BDG": "3527.02.15.049", "KABUPATEN": "Sampang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 113.215391, -7.052812 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Bening\/Widas", "KODE_BDG": "3519.02.13.047", "KABUPATEN": "Madiun", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.798005, -7.545398 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Wonorejo", "KODE_BDG": "3504.02.13.046", "KABUPATEN": "Tulungagung", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.789156, -8.021316 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Sengguruh", "KODE_BDG": "3507.02.13.042", "KABUPATEN": "Malang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 112.734751, -8.104590 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Pacal", "KODE_BDG": "3522.02.12.036", "KABUPATEN": "Bojonegoro", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.871446, -7.361331 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Prijetan", "KODE_BDG": "3524.02.12.037", "KABUPATEN": "Lamongan", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 112.209502, -7.216703 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Selorejo", "KODE_BDG": "3507.02.13.041", "KABUPATEN": "Malang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 112.353221, -7.874942 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Karangkates\/Ir. Soetami", "KODE_BDG": "3507.02.13.045", "KABUPATEN": "Malang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 112.445265, -8.160362 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Kedung Bendo", "KODE_BDG": "3519.02.12.087", "KABUPATEN": "Madiun", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.685637, -7.512437 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Telaga Pasir\/Sarangan", "KODE_BDG": "3520.02.12.094", "KABUPATEN": "Magetan", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.220034, -7.626140 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Ngebel", "KODE_BDG": "3502.02.12.039", "KABUPATEN": "Ponorogo", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.631374, -7.805832 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Dawuhan", "KODE_BDG": "3519.02.12.085", "KABUPATEN": "Madiun", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.611261, -7.651344 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Lodoyo", "KODE_BDG": "3505.02.13.044", "KABUPATEN": "Blitar", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 112.222695, -8.149622 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Pondok", "KODE_BDG": "3521.02.12.040", "KABUPATEN": "Ngawi", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 111.571708, -7.399810 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Riam  Kanan", "KODE_BDG": "6303.04.02.062", "KABUPATEN": "Banjar", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 115.003613, -3.511904 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Barito Selatan", "N_BENDUNG": "Talohen" }, "geometry": { "type": "Point", "coordinates": [ 115.231387, -1.828561 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Barito Selatan", "N_BENDUNG": "Natampin" }, "geometry": { "type": "Point", "coordinates": [ 115.303295, -1.869652 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Barito Utara", "N_BENDUNG": "Trising" }, "geometry": { "type": "Point", "coordinates": [ 114.602506, -0.738319 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Barito Utara", "N_BENDUNG": "Tandrahean" }, "geometry": { "type": "Point", "coordinates": [ 114.706042, -0.756903 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Kapuas", "N_BENDUNG": "Riam G Rawa" }, "geometry": { "type": "Point", "coordinates": [ 113.433534, -1.275360 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Lagoi", "KODE_BDG": "1411.01.17.061", "KABUPATEN": "Kepulauan Riau", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 104.386022, 1.162794 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Muka Kuning", "KODE_BDG": "1472.01.17.057", "KABUPATEN": "Kodya Batam", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 104.071066, 1.052467 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Duriangkang", "KODE_BDG": "1472.01.17.058", "KABUPATEN": "Kodya Batam", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 104.107043, 1.036241 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Way Jepara", "KODE_BDG": "1805.01.26.055", "KABUPATEN": "Lampung Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 105.728651, -5.192519 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Batutegi", "KODE_BDG": "1803.01.26.056", "KABUPATEN": "Lampung Selatan", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 104.759714, -5.304746 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Way Rarem", "KODE_BDG": "1806.01.25.054", "KABUPATEN": "Lampung Utara", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 104.819259, -4.874253 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Tutukey", "KODE_BDG": "8101.06.01.001", "KABUPATEN": "Maluku Tenggara Barat", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 127.694506, -8.172868 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Way Meten", "KODE_BDG": "", "KABUPATEN": "Buru", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 126.799125, -3.259673 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Aceh Besar", "N_BENDUNG": "Geunteut" }, "geometry": { "type": "Point", "coordinates": [ 95.279090, 5.252651 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Aceh Besar", "N_BENDUNG": "Panca" }, "geometry": { "type": "Point", "coordinates": [ 95.696629, 5.339367 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Aceh Besar", "N_BENDUNG": "Jantho" }, "geometry": { "type": "Point", "coordinates": [ 95.665479, 5.321959 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Aceh Besar", "N_BENDUNG": "Kr. Aceh" }, "geometry": { "type": "Point", "coordinates": [ 95.605467, 5.386794 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Aceh Barat", "N_BENDUNG": "Jeuram" }, "geometry": { "type": "Point", "coordinates": [ 96.370801, 4.229700 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Aceh Utara", "N_BENDUNG": "Pante  Lhong" }, "geometry": { "type": "Point", "coordinates": [ 96.634641, 5.121410 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Aceh Selatan", "N_BENDUNG": "Susoh" }, "geometry": { "type": "Point", "coordinates": [ 96.816302, 3.718972 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Aceh Selatan", "N_BENDUNG": "Tangan Tangan" }, "geometry": { "type": "Point", "coordinates": [ 96.971590, 3.740985 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Aceh Utara", "N_BENDUNG": "Jambo Aye" }, "geometry": { "type": "Point", "coordinates": [ 97.410846, 4.939854 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Batu Bokah", "KODE_BDG": "5202.03.02.073", "KABUPATEN": "Lombok Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.232253, -8.844588 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Mamak", "KODE_BDG": "5204.03.03.076", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 117.545776, -8.623662 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Tiu Kulit", "KODE_BDG": "5204.03.03.077", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 117.653628, -8.675480 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Ncera", "KODE_BDG": "5206.03.03.080", "KABUPATEN": "Bima", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 118.791843, -8.664032 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Sepayung Dalam", "KODE_BDG": "5204.03.03.078", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 117.858631, -8.778272 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Selante", "KODE_BDG": "5204.03.03.081", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 117.746661, -8.743091 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Lamenta", "KODE_BDG": "5204.03.03.082", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 118.001096, -8.782246 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Bringe", "KODE_BDG": "5202.03.02.001", "KABUPATEN": "Lombok Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.411591, -8.740253 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Gunung Paok", "KODE_BDG": "5203.03.02.075", "KABUPATEN": "Lombok Timur", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.417091, -8.597512 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Pore", "KODE_BDG": "5202.03.02.002", "KABUPATEN": "Lombok Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.153867, -8.757992 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Roi\/Roka", "KODE_BDG": "5206.03.03.001", "KABUPATEN": "Bima", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 118.802168, -8.508658 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Sumi", "KODE_BDG": "5206.03.03.177", "KABUPATEN": "Bima", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 118.983260, -8.645830 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Gapit", "KODE_BDG": "5204.03.03.178", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 117.915890, -8.796676 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Pengga", "KODE_BDG": "5202.03.02.072", "KABUPATEN": "Lombok Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.187556, -8.744939 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Batujae", "KODE_BDG": "5202.03.02.071", "KABUPATEN": "Lombok Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.257563, -8.746975 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Pelaperado", "KODE_BDG": "5206.03.03.237", "KABUPATEN": "Bima", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 118.612235, -8.718326 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Jangkih Jawe", "KODE_BDG": "5202.03.02.236", "KABUPATEN": "Lombok Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.225887, -8.798988 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Sepit", "KODE_BDG": "5202.03.02.003", "KABUPATEN": "Lombok Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.292747, -8.825105 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Muncan", "KODE_BDG": "5202.03.02.004", "KABUPATEN": "Lombok Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.311441, -8.727116 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Batunampar", "KODE_BDG": "5203.03.02.001", "KABUPATEN": "Lombok Timur", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.407270, -8.816025 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Bayan", "KODE_BDG": "5201.03.02.001", "KABUPATEN": "Lombok Barat", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.388114, -8.263026 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Olat Rawa", "KODE_BDG": "5204.03.03.001", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 117.450456, -8.442329 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Batu Bulan", "KODE_BDG": "5202.03.02.212", "KABUPATEN": "Lombok Tengah", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 116.238981, -8.687640 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Pemasar", "KODE_BDG": "5204.03.03.002", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 117.616229, -8.654500 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Sajari", "KODE_BDG": "5204.03.03.235", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 117.746674, -8.784051 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Muer", "KODE_BDG": "5204.03.03.159", "KABUPATEN": "Sumbawa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 117.769195, -8.878284 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Kempo", "KODE_BDG": "5205.03.03.161", "KABUPATEN": "Dompu", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 118.313364, -8.548094 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Kotapanjang", "KODE_BDG": "1406.01.17.053", "KABUPATEN": "Kampar", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 101.032681, 0.363008 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Bakaru", "KODE_BDG": "7315.05.15.066", "KABUPATEN": "Pinrang", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 119.583509, -3.435210 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Kalola", "KODE_BDG": "7313.05.16.067", "KABUPATEN": "Wajo", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 120.088613, -3.851754 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Larona (Batu Besi)", "KODE_BDG": "7317.05.14.065", "KABUPATEN": "Luwu", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 121.345366, -2.765308 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "BiliBili", "KODE_BDG": "7306.05.17.068", "KABUPATEN": "Gowa", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 119.573209, -5.292951 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Balambano", "KODE_BDG": "7317.05.14.239", "KABUPATEN": "Luwu", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 121.219549, -2.631134 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Salomeko", "KODE_BDG": "7307.05.17.162", "KABUPATEN": "Sinjai", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 120.129819, -5.092236 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Labean" }, "geometry": { "type": "Point", "coordinates": [ 119.914069, -0.128508 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Sibayu" }, "geometry": { "type": "Point", "coordinates": [ 119.907841, 0.053681 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Siweli" }, "geometry": { "type": "Point", "coordinates": [ 119.965456, -0.025735 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Tambu" }, "geometry": { "type": "Point", "coordinates": [ 119.890712, -0.056878 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Tanamea" }, "geometry": { "type": "Point", "coordinates": [ 119.670503, -0.784714 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Tanamea Kiri" }, "geometry": { "type": "Point", "coordinates": [ 119.684317, -0.788482 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Watatu" }, "geometry": { "type": "Point", "coordinates": [ 119.641621, -0.822387 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Ngatabaru" }, "geometry": { "type": "Point", "coordinates": [ 120.086110, -0.908586 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Pakuli" }, "geometry": { "type": "Point", "coordinates": [ 119.972758, -1.227298 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Malonas" }, "geometry": { "type": "Point", "coordinates": [ 119.903033, 0.312266 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Siboang" }, "geometry": { "type": "Point", "coordinates": [ 120.047875, 0.423390 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Sioyong" }, "geometry": { "type": "Point", "coordinates": [ 119.928826, 0.138320 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Tonggolobibi" }, "geometry": { "type": "Point", "coordinates": [ 119.961544, 0.398565 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Baluase" }, "geometry": { "type": "Point", "coordinates": [ 119.934360, -1.220405 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Bangga" }, "geometry": { "type": "Point", "coordinates": [ 119.933391, -1.257237 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Rogo" }, "geometry": { "type": "Point", "coordinates": [ 119.915944, -1.218467 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Sambo" }, "geometry": { "type": "Point", "coordinates": [ 119.909160, -1.170005 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Gimpu" }, "geometry": { "type": "Point", "coordinates": [ 120.119575, -1.573097 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Bomba" }, "geometry": { "type": "Point", "coordinates": [ 119.901352, -1.023290 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Tongoa" }, "geometry": { "type": "Point", "coordinates": [ 120.138065, -1.243350 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Kodya Palu", "N_BENDUNG": "Kawatuna" }, "geometry": { "type": "Point", "coordinates": [ 119.930743, -0.890248 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Kodya Palu", "N_BENDUNG": "Poboya" }, "geometry": { "type": "Point", "coordinates": [ 119.906565, -0.839590 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Alindau" }, "geometry": { "type": "Point", "coordinates": [ 119.817219, -0.306833 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Tamanreja" }, "geometry": { "type": "Point", "coordinates": [ 119.852840, -0.410358 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Sumari" }, "geometry": { "type": "Point", "coordinates": [ 119.809427, -0.573994 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Jono'oge" }, "geometry": { "type": "Point", "coordinates": [ 119.985885, -1.003723 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "lende" }, "geometry": { "type": "Point", "coordinates": [ 119.855890, -0.162910 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Pangalangsiang" }, "geometry": { "type": "Point", "coordinates": [ 119.923982, 0.368395 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Tompe" }, "geometry": { "type": "Point", "coordinates": [ 119.866654, -0.193721 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Ogoamas" }, "geometry": { "type": "Point", "coordinates": [ 120.139372, 0.728728 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Panii" }, "geometry": { "type": "Point", "coordinates": [ 119.993837, 0.183978 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Sibualong" }, "geometry": { "type": "Point", "coordinates": [ 119.920199, 0.027555 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Borone" }, "geometry": { "type": "Point", "coordinates": [ 121.727829, -1.020280 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Kabalo" }, "geometry": { "type": "Point", "coordinates": [ 121.060687, -1.460743 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Mawomba" }, "geometry": { "type": "Point", "coordinates": [ 121.082580, -1.458167 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Pandiri" }, "geometry": { "type": "Point", "coordinates": [ 120.723269, -1.521272 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Silanca" }, "geometry": { "type": "Point", "coordinates": [ 120.790238, -1.418244 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Tayawa" }, "geometry": { "type": "Point", "coordinates": [ 121.114776, -1.471046 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Gintu" }, "geometry": { "type": "Point", "coordinates": [ 120.277798, -1.885118 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Wanga" }, "geometry": { "type": "Point", "coordinates": [ 120.346624, -1.480573 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Boe" }, "geometry": { "type": "Point", "coordinates": [ 120.616615, -2.112323 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Mayoa" }, "geometry": { "type": "Point", "coordinates": [ 120.741696, -2.192490 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Pendolo Baru" }, "geometry": { "type": "Point", "coordinates": [ 120.679771, -2.076666 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Tindoli" }, "geometry": { "type": "Point", "coordinates": [ 120.687225, -2.007287 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Toinasa" }, "geometry": { "type": "Point", "coordinates": [ 120.527251, -1.841006 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "kelei" }, "geometry": { "type": "Point", "coordinates": [ 120.712453, -1.790548 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Salukaya" }, "geometry": { "type": "Point", "coordinates": [ 120.516216, -1.884446 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Taipa" }, "geometry": { "type": "Point", "coordinates": [ 120.547662, -1.950452 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Taripa" }, "geometry": { "type": "Point", "coordinates": [ 120.489751, -1.960104 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Tonusu" }, "geometry": { "type": "Point", "coordinates": [ 120.525333, -1.721048 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Kasiguncu" }, "geometry": { "type": "Point", "coordinates": [ 120.604821, -1.401289 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Kilo Kamiasi" }, "geometry": { "type": "Point", "coordinates": [ 120.514894, -1.304746 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Tambarana Kiri" }, "geometry": { "type": "Point", "coordinates": [ 120.440271, -1.213398 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Tambara Kanan" }, "geometry": { "type": "Point", "coordinates": [ 120.406820, -1.230124 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Uekuli" }, "geometry": { "type": "Point", "coordinates": [ 121.199347, -1.481567 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Siuna" }, "geometry": { "type": "Point", "coordinates": [ 122.969852, -0.726858 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Pohl" }, "geometry": { "type": "Point", "coordinates": [ 122.968162, -0.825698 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Bantayan" }, "geometry": { "type": "Point", "coordinates": [ 123.069536, -0.851041 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Toili" }, "geometry": { "type": "Point", "coordinates": [ 122.409117, -1.414919 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Tolisu Atas\/bawah" }, "geometry": { "type": "Point", "coordinates": [ 122.299082, -1.456715 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Baya" }, "geometry": { "type": "Point", "coordinates": [ 123.020309, -0.829290 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Dongin" }, "geometry": { "type": "Point", "coordinates": [ 122.275508, -1.537362 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Hek" }, "geometry": { "type": "Point", "coordinates": [ 122.189794, -0.960052 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Longkoga" }, "geometry": { "type": "Point", "coordinates": [ 123.066697, -0.607384 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Bunta" }, "geometry": { "type": "Point", "coordinates": [ 121.394498, -2.027414 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Singkoyo" }, "geometry": { "type": "Point", "coordinates": [ 122.169895, -1.204268 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Tolisu" }, "geometry": { "type": "Point", "coordinates": [ 122.298609, -1.469357 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Rata" }, "geometry": { "type": "Point", "coordinates": [ 122.015131, -1.355966 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Samaku" }, "geometry": { "type": "Point", "coordinates": [ 123.135653, -0.720272 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Pandanwangi" }, "geometry": { "type": "Point", "coordinates": [ 122.295608, -1.524288 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Tatakalai" }, "geometry": { "type": "Point", "coordinates": [ 123.366434, -1.279962 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Banggai", "N_BENDUNG": "Lomba" }, "geometry": { "type": "Point", "coordinates": [ 123.226605, -0.865125 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Bajugan" }, "geometry": { "type": "Point", "coordinates": [ 120.859248, 1.226998 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Bangkir" }, "geometry": { "type": "Point", "coordinates": [ 120.248614, 0.780104 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Soni" }, "geometry": { "type": "Point", "coordinates": [ 120.248614, 0.732081 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Lakea" }, "geometry": { "type": "Point", "coordinates": [ 121.160114, 1.148145 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Salumpage" }, "geometry": { "type": "Point", "coordinates": [ 120.953085, 1.311104 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Malulu" }, "geometry": { "type": "Point", "coordinates": [ 120.524479, 0.715825 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Malomba" }, "geometry": { "type": "Point", "coordinates": [ 120.479792, 0.749679 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Tampiala" }, "geometry": { "type": "Point", "coordinates": [ 120.248232, 0.699575 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Lonu" }, "geometry": { "type": "Point", "coordinates": [ 121.563771, 0.954608 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Bambapun" }, "geometry": { "type": "Point", "coordinates": [ 120.365226, 0.726235 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Banagan" }, "geometry": { "type": "Point", "coordinates": [ 120.314097, 0.875112 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Kombo" }, "geometry": { "type": "Point", "coordinates": [ 120.178755, 0.717212 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Pinjan" }, "geometry": { "type": "Point", "coordinates": [ 121.021173, 1.254515 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Pinamula" }, "geometry": { "type": "Point", "coordinates": [ 121.317420, 1.121070 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Talaki" }, "geometry": { "type": "Point", "coordinates": [ 121.996221, 1.006350 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Bambapula" }, "geometry": { "type": "Point", "coordinates": [ 120.301637, 0.961084 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Binontoan" }, "geometry": { "type": "Point", "coordinates": [ 121.077230, 1.201264 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Buol Toli Toli", "N_BENDUNG": "Air Terang" }, "geometry": { "type": "Point", "coordinates": [ 121.273998, 1.097466 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Ensa" }, "geometry": { "type": "Point", "coordinates": [ 121.069654, -2.067868 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Kamba" }, "geometry": { "type": "Point", "coordinates": [ 120.876649, -1.850558 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Era" }, "geometry": { "type": "Point", "coordinates": [ 121.132560, -1.614662 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Donggala", "N_BENDUNG": "Mamo" }, "geometry": { "type": "Point", "coordinates": [ 120.009700, -1.817162 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Tambayoli" }, "geometry": { "type": "Point", "coordinates": [ 121.317498, -1.673480 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "", "KODE_BDG": "", "KABUPATEN": "Poso", "N_BENDUNG": "Ungkaya" }, "geometry": { "type": "Point", "coordinates": [ 121.593265, -2.231843 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Siguragura", "KODE_BDG": "1205.01.12.051", "KABUPATEN": "Tapanuli Utara", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 99.296913, 2.537709 ] } }
+,
+{ "type": "Feature", "properties": { "BENDUNGAN": "Tangga", "KODE_BDG": "1205.01.12.052", "KABUPATEN": "Tapanuli Utara", "N_BENDUNG": "" }, "geometry": { "type": "Point", "coordinates": [ 99.452485, 2.600451 ] } }
+
+]
+}

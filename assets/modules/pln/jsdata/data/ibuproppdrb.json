@@ -1,0 +1,71 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "NAMA": "Palu", "prop": "Sulawesi Tengah", "prop_id": 72, "propname": "Sulawesi Tengah", "pdrb10": 7.790000, "pdrb11": 9.460000 }, "geometry": { "type": "Point", "coordinates": [ 119.863632, -0.894636 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Banda Aceh", "prop": "Nangroe Aceh Darussalam", "prop_id": 11, "propname": "Nangroe Aceh Darussalam", "pdrb10": 2.640000, "pdrb11": 5.590000 }, "geometry": { "type": "Point", "coordinates": [ 95.320426, 5.552582 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Medan", "prop": "Sumatera Utara", "prop_id": 12, "propname": "Sumatera Utara", "pdrb10": 6.350000, "pdrb11": 6.320000 }, "geometry": { "type": "Point", "coordinates": [ 98.677268, 3.589864 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Padang", "prop": "Sumatera Barat", "prop_id": 13, "propname": "Sumatera Barat", "pdrb10": 5.930000, "pdrb11": 7.870000 }, "geometry": { "type": "Point", "coordinates": [ 100.358688, -0.945560 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Pekanbaru", "prop": "Riau", "prop_id": 14, "propname": "Riau", "pdrb10": 4.170000, "pdrb11": 4.040000 }, "geometry": { "type": "Point", "coordinates": [ 101.448139, 0.537962 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Bengkulu", "prop": "Bengkulu", "prop_id": 17, "propname": "Bengkulu", "pdrb10": 6.020000, "pdrb11": 5.240000 }, "geometry": { "type": "Point", "coordinates": [ 102.263474, -3.792851 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Palembang", "prop": "Sumatera Selatan", "prop_id": 16, "propname": "Sumatera Selatan", "pdrb10": 5.430000, "pdrb11": 5.920000 }, "geometry": { "type": "Point", "coordinates": [ 104.753646, -2.995367 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Bandar Lampung", "prop": "Lampung", "prop_id": 18, "propname": "Lampung", "pdrb10": 5.750000, "pdrb11": 6.380000 }, "geometry": { "type": "Point", "coordinates": [ 105.266302, -5.428707 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Kendari", "prop": "Sulawesi Tenggara", "prop_id": 74, "propname": "Sulawesi Tenggara", "pdrb10": 8.190000, "pdrb11": 8.940000 }, "geometry": { "type": "Point", "coordinates": [ 122.549912, -3.963001 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Menado", "prop": "Sulawesi Utara", "prop_id": 71, "propname": "Sulawesi Utara", "pdrb10": 7.120000, "pdrb11": 6.990000 }, "geometry": { "type": "Point", "coordinates": [ 124.838318, 1.482932 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Denpasar", "prop": "Bali", "prop_id": 51, "propname": "Bali", "pdrb10": 5.830000, "pdrb11": 6.010000 }, "geometry": { "type": "Point", "coordinates": [ 115.209526, -8.655051 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Surabaya", "prop": "Jawa Timur", "prop_id": 35, "propname": "Jawa Timur", "pdrb10": 6.680000, "pdrb11": 6.990000 }, "geometry": { "type": "Point", "coordinates": [ 112.737297, -7.270911 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Yogyakarta", "prop": "DI Yogyakarta", "prop_id": 34, "propname": "DI Yogyakarta", "pdrb10": 4.870000, "pdrb11": 4.310000 }, "geometry": { "type": "Point", "coordinates": [ 110.378548, -7.789815 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Semarang", "prop": "Jawa Tengah", "prop_id": 33, "propname": "Jawa Tengah", "pdrb10": 5.840000, "pdrb11": 5.900000 }, "geometry": { "type": "Point", "coordinates": [ 110.425331, -6.977685 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Bandung", "prop": "Jawa Barat", "prop_id": 32, "propname": "Jawa Barat", "pdrb10": 6.090000, "pdrb11": 6.870000 }, "geometry": { "type": "Point", "coordinates": [ 107.600832, -6.920069 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "JAKARTA", "prop": "DKI Jakarta", "prop_id": 31, "propname": "DKI Jakarta", "pdrb10": 6.510000, "pdrb11": 6.740000 }, "geometry": { "type": "Point", "coordinates": [ 106.831671, -6.157048 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Pontianak", "prop": "Kalimantan Barat", "prop_id": 61, "propname": "Kalimantan Barat", "pdrb10": 5.350000, "pdrb11": 5.130000 }, "geometry": { "type": "Point", "coordinates": [ 109.331500, -0.028010 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Palangkaraya", "prop": "Kalimantan Tengah", "prop_id": 62, "propname": "Kalimantan Tengah", "pdrb10": 6.470000, "pdrb11": 5.970000 }, "geometry": { "type": "Point", "coordinates": [ 113.913102, -2.195955 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Banjarmasin", "prop": "Kalimantan selatan", "prop_id": 63, "propname": "Kalimantan Selatan", "pdrb10": 5.580000, "pdrb11": 5.950000 }, "geometry": { "type": "Point", "coordinates": [ 114.589100, -3.315920 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Samarinda", "prop": "Kalimantan Timur", "prop_id": 64, "propname": "Kalimantan Timur", "pdrb10": 4.950000, "pdrb11": 1.340000 }, "geometry": { "type": "Point", "coordinates": [ 117.139400, -0.496820 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Ambon", "prop": "Maluku", "prop_id": 81, "propname": "Maluku", "pdrb10": 6.470000, "pdrb11": 7.400000 }, "geometry": { "type": "Point", "coordinates": [ 128.162552, -3.695689 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Mataram", "prop": "Nusa Tenggara Barat", "prop_id": 52, "propname": "Nusa Tenggara Barat", "pdrb10": 6.290000, "pdrb11": -3.340000 }, "geometry": { "type": "Point", "coordinates": [ 116.139100, -8.583280 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Kupang", "prop": "Nusa Tenggara Timur", "prop_id": 53, "propname": "Nusa Tenggara Timur", "pdrb10": 5.130000, "pdrb11": 4.600000 }, "geometry": { "type": "Point", "coordinates": [ 123.583600, -10.167930 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Jambi", "prop": "Jambi", "prop_id": 15, "propname": "Jambi", "pdrb10": 7.310000, "pdrb11": 8.730000 }, "geometry": { "type": "Point", "coordinates": [ 103.601143, -1.596934 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Jayapura", "prop": "Papua", "prop_id": 95, "propname": "Papua", "pdrb10": -2.650000, "pdrb11": 12.620000 }, "geometry": { "type": "Point", "coordinates": [ 140.769599, -2.654274 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Makassar", "prop": "Sulawesi Selatan", "prop_id": 76, "propname": "Sulawesi Selatan", "pdrb10": 8.180000, "pdrb11": 7.040000 }, "geometry": { "type": "Point", "coordinates": [ 119.408524, -5.129804 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Pangkal Pinang", "prop": "Bangka Belitung", "prop_id": 19, "propname": "Kepulauan Bangka Belitung", "pdrb10": 5.850000, "pdrb11": 5.840000 }, "geometry": { "type": "Point", "coordinates": [ 106.116177, -2.117775 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Tanjung Pinang", "prop": "Kepulauan Riau", "prop_id": 20, "propname": "Kepulauan Riau", "pdrb10": 7.210000, "pdrb11": 5.350000 }, "geometry": { "type": "Point", "coordinates": [ 104.443058, 0.925817 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Serang", "prop": "Banten", "prop_id": 36, "propname": "Banten", "pdrb10": 5.940000, "pdrb11": 6.520000 }, "geometry": { "type": "Point", "coordinates": [ 106.150715, -6.114791 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Gorontalo", "prop": "Gorontalo", "prop_id": 75, "propname": "Gorontalo", "pdrb10": 7.630000, "pdrb11": 8.420000 }, "geometry": { "type": "Point", "coordinates": [ 123.064855, 0.546932 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Mamuju", "prop": "Sulawesi Barat", "prop_id": 73, "propname": "Sulawesi Barat", "pdrb10": 11.910000, "pdrb11": 11.620000 }, "geometry": { "type": "Point", "coordinates": [ 118.930974, -2.664692 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Ternate", "prop": "Maluku Utara", "prop_id": 82, "propname": "Maluku Utara", "pdrb10": 7.960000, "pdrb11": 6.600000 }, "geometry": { "type": "Point", "coordinates": [ 127.370975, 0.785058 ] } }
+,
+{ "type": "Feature", "properties": { "NAMA": "Manokwari", "prop": "Papua Barat", "prop_id": 94, "propname": "Papua Barat", "pdrb10": 26.820000, "pdrb11": 12.990000 }, "geometry": { "type": "Point", "coordinates": [ 134.066238, -0.848755 ] } }
+
+]
+}

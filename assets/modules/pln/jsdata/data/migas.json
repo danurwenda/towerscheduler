@@ -1,0 +1,221 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "Depo BBM Udara", "KAPASITAS": "", "CATATAN": "Depo Bbm Laut, Depo Bbm Udara" }, "geometry": { "type": "Point", "coordinates": [ 106.005574, -2.142433 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "Depo Bbm Udara", "KAPASITAS": "405 kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.771402, -6.345435 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm Laut", "NAMA": "", "KAPASITAS": "77.379 kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.022393, -5.897381 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "", "KAPASITAS": "", "CATATAN": "depo laut" }, "geometry": { "type": "Point", "coordinates": [ 102.291501, -3.974381 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Adisucipto", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.449993, -7.809306 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Rewulu", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.281412, -7.791295 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "-", "KAPASITAS": "-", "CATATAN": "-" }, "geometry": { "type": "Point", "coordinates": [ 106.927261, -6.099223 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "2765", "UNSUR": "Depo BBM Darat", "NAMA": "Gorontalo", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.121006, 0.490304 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Ujung Berung", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 107.763440, -7.002883 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depo Bbm Tasikmalaya", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.094378, -7.383939 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Padalarang", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 107.456379, -6.844972 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depo Bbm Sukabumi", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 107.017160, -6.882937 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Balongan", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.526550, -6.545245 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "", "UNSUR": "Depo BBM", "NAMA": "Hulu Jambi", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.483674, -1.554725 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Pertamina Depot Cepu", "KAPASITAS": "-", "CATATAN": "Depo Bbm Udara" }, "geometry": { "type": "Point", "coordinates": [ 111.578797, -7.025547 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Pertamina Depot Solo", "KAPASITAS": "-", "CATATAN": "Depo Bbm Darat" }, "geometry": { "type": "Point", "coordinates": [ 110.918979, -7.631682 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Pertamina Depot Semarang", "KAPASITAS": "-", "CATATAN": "Depo Bbm Darat" }, "geometry": { "type": "Point", "coordinates": [ 110.417797, -6.956566 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Pertamina Depot Maos", "KAPASITAS": "-", "CATATAN": "Depo Bbm Darat" }, "geometry": { "type": "Point", "coordinates": [ 109.223751, -7.655109 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Pertamina Depot Cilacap", "KAPASITAS": "-", "CATATAN": "Depo Bbm Laut" }, "geometry": { "type": "Point", "coordinates": [ 109.049561, -7.715444 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Pertamina Depot Tegal", "KAPASITAS": "-", "CATATAN": "Depo Bbm Laut" }, "geometry": { "type": "Point", "coordinates": [ 109.152368, -6.857921 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depot Malang", "KAPASITAS": "46,951.35 Barrels", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.643069, -8.053636 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Dppu Iswahyudi", "KAPASITAS": "6.893,78 Barrels", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.673262, -7.567090 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depot Kediri", "KAPASITAS": "362.973,63 Barrels", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.087279, -7.844167 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depot Madiun", "KAPASITAS": "172.564,53 Barrels", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.498894, -7.669110 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Dppu Juanda", "KAPASITAS": "16.127,41 Barrels", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.734586, -7.516464 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Camplong", "KAPASITAS": "172.564,53 Barrels", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 113.275085, -7.158939 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Pabrik Aspal Gresik", "KAPASITAS": "", "CATATAN": "Khusus Untuk Operasi Produk Aspal" }, "geometry": { "type": "Point", "coordinates": [ 112.731532, -7.212118 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Instalasi T. Perak, Instalasi Bandaran", "KAPASITAS": "774.216,27 Barrels, 641.636,89 Barrels", "CATATAN": "Kodya Surabaya" }, "geometry": { "type": "Point", "coordinates": [ 112.757627, -7.291204 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depot Jember", "KAPASITAS": "", "CATATAN": "Tidak Untuk Operasi Bbm Hanya Untuk Peny" }, "geometry": { "type": "Point", "coordinates": [ 113.646100, -8.235225 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depo Laut Tanjung Wangi", "KAPASITAS": "362,973,63 Barrels", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 114.354068, -8.243148 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "175", "UNSUR": "DEPO BBM", "NAMA": "Depo 2 Supadio", "KAPASITAS": "Avtur : 1.038 Kl, Avgas : 7 Kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 109.573044, -0.356102 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "175", "UNSUR": "DEPO BBM", "NAMA": "Depo 1 Pontianak", "KAPASITAS": "Solar : 19.949 Kl, Kerosene : 7. 664 Kl, Premium : 11.103 Kl, Avtur : 2631 Kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 109.243966, -0.025123 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depo Sintang", "KAPASITAS": "Premium 3000 Kl, Kerosene  6500 Kl, Solar 12.500 Kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.513485, 0.034741 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Banjarmasin", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 114.624992, -3.262933 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Palangkaraya", "KAPASITAS": "-", "CATATAN": "DEPO BBM UDARA" }, "geometry": { "type": "Point", "coordinates": [ 113.661106, -2.212479 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Pangkalanbun", "KAPASITAS": "-", "CATATAN": "DEPO BBM LAUT" }, "geometry": { "type": "Point", "coordinates": [ 111.544345, -2.664588 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Pangkalanbun", "KAPASITAS": "-", "CATATAN": "DEPO BBM UDARA" }, "geometry": { "type": "Point", "coordinates": [ 111.580498, -2.773946 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Sampit", "KAPASITAS": "-", "CATATAN": "DEPO BBM LAUT" }, "geometry": { "type": "Point", "coordinates": [ 112.797232, -2.382111 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Sampit", "KAPASITAS": "-", "CATATAN": "DEPO BBM UDARA" }, "geometry": { "type": "Point", "coordinates": [ 112.768925, -2.549701 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depot Tarakan", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 117.674961, 3.408004 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depo Samarinda", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 117.129035, -0.328575 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depo Temindung", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 117.382597, -0.465893 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depo Lpg Balikpapan", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.703155, -1.089761 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "", "KAPASITAS": "", "CATATAN": "Jenis Depo Bbm Laut" }, "geometry": { "type": "Point", "coordinates": [ 108.393002, 3.808858 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "", "KAPASITAS": "", "CATATAN": "Jenis Depo Bbm Laut Ekisisting" }, "geometry": { "type": "Point", "coordinates": [ 108.390312, 3.933371 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "", "KAPASITAS": "", "CATATAN": "Jenis Depo Bbm Udara" }, "geometry": { "type": "Point", "coordinates": [ 108.224550, 3.971067 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "", "KAPASITAS": "", "CATATAN": "Jenis Depo Bbm Darat Ekisisting" }, "geometry": { "type": "Point", "coordinates": [ 108.112044, 3.856540 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "2765", "UNSUR": "depo bbm", "NAMA": "depo bbm Tual", "KAPASITAS": "avtur : 545 kl, minyak tanah : 1.189 kl, minyak solar : 10.076 kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 132.726381, -5.790211 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "2765", "UNSUR": "depo bbm", "NAMA": "depo bbm Dobo", "KAPASITAS": "premium : 190 kl, solar : 2.027 kl, m tuh : 200 kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 134.268158, -5.896186 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "2765", "UNSUR": "depo bbm", "NAMA": "depo bbm Saumlaki", "KAPASITAS": "", "CATATAN": "depo bbm laut" }, "geometry": { "type": "Point", "coordinates": [ 131.190140, -7.874777 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "2765", "UNSUR": "depo bbm", "NAMA": "depo bbm Masohi", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 129.179081, -3.249613 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "2765", "UNSUR": "depo bbm", "NAMA": "depo bbm Bula", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 130.568818, -3.247869 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "2765", "UNSUR": "depo bbm", "NAMA": "depo bbm Namlea", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 127.111678, -3.465983 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "1750", "UNSUR": "depo bbm", "NAMA": "", "KAPASITAS": "", "CATATAN": "depo bbm laut" }, "geometry": { "type": "Point", "coordinates": [ 125.872981, -2.084531 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "1750", "UNSUR": "depo bbm", "NAMA": "", "KAPASITAS": "", "CATATAN": "depo bbm laut" }, "geometry": { "type": "Point", "coordinates": [ 127.539589, -0.507509 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "1750", "UNSUR": "depo bbm", "NAMA": "", "KAPASITAS": "", "CATATAN": "depo bbm udara" }, "geometry": { "type": "Point", "coordinates": [ 127.383044, 0.807223 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "1750", "UNSUR": "depo bbm", "NAMA": "", "KAPASITAS": "", "CATATAN": "depo bbm laut" }, "geometry": { "type": "Point", "coordinates": [ 127.318001, 0.780822 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "1750", "UNSUR": "depo bbm", "NAMA": "bbm laut", "KAPASITAS": "", "CATATAN": "lhokseumawe" }, "geometry": { "type": "Point", "coordinates": [ 97.188437, 5.155041 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "1750", "UNSUR": "depo bbm", "NAMA": "bbm laut", "KAPASITAS": "", "CATATAN": "melaboh" }, "geometry": { "type": "Point", "coordinates": [ 96.097872, 4.186739 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "migas", "KODE": "1750", "UNSUR": "depo bbm", "NAMA": "bbm laut", "KAPASITAS": "", "CATATAN": "sabang" }, "geometry": { "type": "Point", "coordinates": [ 95.265811, 5.874621 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm Udara", "NAMA": "Pagesangan", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.079817, -8.641916 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm Udara", "NAMA": "Mataram", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.136266, -8.671722 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm Udara", "NAMA": "Sumbawa Besar", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 117.374727, -8.537739 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Depo BBM", "KODE": "", "UNSUR": "", "NAMA": "Ende", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.664645, -8.733880 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Depo BBM", "KODE": "", "UNSUR": "", "NAMA": "Maumere", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.428173, -8.722061 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Depo BBM", "KODE": "", "UNSUR": "", "NAMA": "Atapupu", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.950414, -9.095551 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Depo BBM", "KODE": "", "UNSUR": "", "NAMA": "udara dan laut Kupang", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.655017, -10.119103 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "2765", "UNSUR": "Depo BBM", "NAMA": "Depo BBM Merauke", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 140.540351, -8.367380 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "2765", "UNSUR": "Depo BBM", "NAMA": "Depo BBM Sentani", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 140.482790, -2.814270 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "2765", "UNSUR": "Depo BBM", "NAMA": "Depo BBM Nabire", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 135.476157, -3.512414 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Depo BBM Serui", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 136.373377, -1.937093 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Depo BBM Biak", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 136.188469, -1.289194 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "", "KAPASITAS": "", "CATATAN": "Bbm Laut" }, "geometry": { "type": "Point", "coordinates": [ 133.821783, -3.508774 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depo Bbm Sorong Daratan", "KAPASITAS": "", "CATATAN": "Bbm Laut" }, "geometry": { "type": "Point", "coordinates": [ 131.342802, -0.801914 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "", "KAPASITAS": "", "CATATAN": "Bbm Laut" }, "geometry": { "type": "Point", "coordinates": [ 131.364911, -0.909079 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depo Bbm Rendani", "KAPASITAS": "", "CATATAN": "Bbm Laut" }, "geometry": { "type": "Point", "coordinates": [ 133.951780, -0.780357 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Tembilahan", "KAPASITAS": "6.549", "CATATAN": "Solar" }, "geometry": { "type": "Point", "coordinates": [ 103.139099, -0.543885 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Tembilahan", "KAPASITAS": "2.461", "CATATAN": "Jenis Minyak Tanah" }, "geometry": { "type": "Point", "coordinates": [ 103.199676, -0.426679 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Tembilahan", "KAPASITAS": "1.293", "CATATAN": "Jenis Premium" }, "geometry": { "type": "Point", "coordinates": [ 103.264845, -0.368702 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Sei Siak", "KAPASITAS": "", "CATATAN": "Jenis Solar 8.027" }, "geometry": { "type": "Point", "coordinates": [ 101.529767, 0.629059 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Sei Siak", "KAPASITAS": "", "CATATAN": "Jenis M. Tanah 3.017" }, "geometry": { "type": "Point", "coordinates": [ 101.564101, 0.570715 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Jenis Premium 3.390", "KAPASITAS": "", "CATATAN": "Jenis Premium 3.390" }, "geometry": { "type": "Point", "coordinates": [ 101.478058, 0.636671 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Premium", "KAPASITAS": "5.204", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.231944, 1.644059 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "M. Tanah", "KAPASITAS": "3.206", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.297318, 1.512850 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Solar", "KAPASITAS": "11.555", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.503116, 1.588455 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Poso", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.604022, -1.361763 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Tolitoli dan Baolan", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.872963, 1.018794 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Luwuk", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.869901, -0.901721 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Biau", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.196824, 1.152883 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Banggai", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.021622, -1.413008 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Parigi", "KAPASITAS": "", "CATATAN": "Depo BBM Darat" }, "geometry": { "type": "Point", "coordinates": [ 120.205382, -0.925248 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Parigi", "KAPASITAS": "", "CATATAN": "Depo BBM Laut" }, "geometry": { "type": "Point", "coordinates": [ 120.088512, -0.855061 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo BBM", "NAMA": "Palu", "KAPASITAS": "", "CATATAN": "Depo BBM Udara" }, "geometry": { "type": "Point", "coordinates": [ 119.733918, -1.054493 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "Kolaka", "KAPASITAS": "Premium = 2365 Kl, Mtanah= 1179 Kl, Solar = 3220 Kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.641407, -4.116855 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "P Muna", "KAPASITAS": "Premium = 2365 Kl, Mtanah= 1179 Kl, Solar = 3220 Kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.666167, -4.880044 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "Baubau", "KAPASITAS": "Premium = 2365 Kl, Mtanah= 1179 Kl, Solar = 3220 Kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.609443, -5.473304 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "Kendari", "KAPASITAS": "Avtur = 1061 Kl, Premium = 2365 Kl, Mtanah= 1179 Kl, Solar = 3220 Kl", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.482615, -3.990164 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.450967, -0.889645 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.455745, -0.957445 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm", "NAMA": "", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.430013, -1.042258 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depot Lubuk Linggau", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.979196, -3.215255 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depot Baturaja", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.160698, -4.158454 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depot Lahat", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.611495, -3.691013 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "DEPO BBM", "NAMA": "Depot Kertapati Baru, Depot Kertapati Lama, Depot Lpg Plant Pulau Layang,", "KAPASITAS": "", "CATATAN": "Kota Palembang  Ada 3 Unit Depot Bbm" }, "geometry": { "type": "Point", "coordinates": [ 104.937523, -3.128874 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "2785", "UNSUR": "Kilang Minyak", "NAMA": "Pangkalan Susu", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.166664, 4.228240 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm Darat", "NAMA": "Medan", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.627963, 3.716683 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm Darat", "NAMA": "Lubuk Pakam", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.700902, 3.518580 ] } }
+,
+{ "type": "Feature", "properties": { "TEMA": "Migas", "KODE": "1750", "UNSUR": "Depo Bbm Darat", "NAMA": "Sibolga", "KAPASITAS": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.860020, 1.633609 ] } }
+
+]
+}

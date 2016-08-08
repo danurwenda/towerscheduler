@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "Investasi": 130000.000000, "Mulai": "2012\/05\/07", "Selesai": "2015\/04\/01", "Status": 0, "keterangan": "Infrastruktur Kota Baru Maja" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 106.371521, -6.362648 ], [ 106.382721, -6.336177 ], [ 106.418355, -6.337195 ], [ 106.427507, -6.366720 ], [ 106.412247, -6.390138 ], [ 106.377630, -6.385047 ], [ 106.371521, -6.362648 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "Investasi": 760.000000, "Mulai": "2015\/05\/07", "Selesai": "2019\/05\/07", "Status": 0, "keterangan": "Inner City Surabaya" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 112.675941, -7.271483 ], [ 112.684315, -7.254734 ], [ 112.714462, -7.259759 ], [ 112.741260, -7.325078 ], [ 112.684315, -7.306655 ], [ 112.675941, -7.271483 ] ] ] } }
+
+]
+}

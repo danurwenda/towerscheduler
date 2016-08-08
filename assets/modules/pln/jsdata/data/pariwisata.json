@@ -1,0 +1,981 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Pasir Padi", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.131512, -2.128020 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Air Anyer", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.105413, -1.957274 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Tanjung Tiris", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.783206, -2.961594 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Tanjung Kelayang", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 107.507048, -2.769689 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Rumah Menumbing, Wisma Ranggan", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.281409, -1.927918 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Penganak", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.441508, -1.620495 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Museum Mentok, PEMDA", "TIPE": "Museum", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.192312, -2.011041 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Penyak", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.295967, -2.427706 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Air Terjun Sadap", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.431629, -2.548696 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Batuampar", "TIPE": "-", "CATATAN": "Luas : 14,124 Ha, Meliputi Kel. Penyabangan, Banyupoh, Pemuteran, Sumberkimo, Pejarakan. (kec. Gerokgak)" }, "geometry": { "type": "Point", "coordinates": [ 114.755681, -8.200956 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Ubud", "TIPE": "-", "CATATAN": "Luas : 7,120 Ha, Meliputi Diantaranyakel. Ubud, Melinggih Kaja, Kedewatan, Peliatan, Mas, Petulu, Sayan, Kliki, Puhu (kec. Ubud)" }, "geometry": { "type": "Point", "coordinates": [ 115.241956, -8.460359 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Lebih", "TIPE": "-", "CATATAN": "Luas : 4,534 Ha, Meliputi Kel. Candidasa, Ketewel, Sukawati Daan Saba (kec. Gianyar)" }, "geometry": { "type": "Point", "coordinates": [ 115.296222, -8.564056 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Candidasa", "TIPE": "-", "CATATAN": "Luas : 5,417 Ha, Meliputi Kel. Padangbai, Ulakan, Manggis, Nyuh Tebel, Bugbug,pratima, Subagan. (kec. Manggis)" }, "geometry": { "type": "Point", "coordinates": [ 115.476242, -8.520985 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Ujung", "TIPE": "-", "CATATAN": "Luas : 2,353 Ha, Meliputi Kel. Tumbu Dan Seraya Barat (kec. Karangasem)" }, "geometry": { "type": "Point", "coordinates": [ 115.601404, -8.478069 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Tulamben", "TIPE": "-", "CATATAN": "Luas : 9,031 Ha, Meliputi Kel. Tulamben, Datah, Purwakerti Dan Bunutan (kec. Kubu)" }, "geometry": { "type": "Point", "coordinates": [ 115.568071, -8.294901 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Nusa Penida", "TIPE": "-", "CATATAN": "Luas : 12,341, Meliputi Kel. Suana, Batumunggul, Ped, Toyapakeh, Sakti, Lembongan, Jungutbatu. (kec. Nusa Penida)" }, "geometry": { "type": "Point", "coordinates": [ 115.483694, -8.706098 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Candi Kusuma", "TIPE": "-", "CATATAN": "Luas : 4,930 Ha, Meliputi : Kel. Baluk, Banyubiru, Tukadaya, Tuwed, Sangiangcerik. (kec. Negara)" }, "geometry": { "type": "Point", "coordinates": [ 114.521973, -8.307942 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Perancak", "TIPE": "-", "CATATAN": "Luas : 20,010 Ha, Meliputi Diantaranya Kel. Perancak, Yeh Kuning, Penyaringan, Yeh Sumbul, Medewi, Pulukan. (kec. Perancak)" }, "geometry": { "type": "Point", "coordinates": [ 114.572985, -8.338263 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Kalibukbuk", "TIPE": "-", "CATATAN": "Luas : 3,524 Ha, Meliputi Kel. Kalibukbuk, Pemaron, Tukad Mungga, Anturan, Kaliasem, Temukus, Tigawasa (kec. Buleleng)" }, "geometry": { "type": "Point", "coordinates": [ 115.009004, -8.173435 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Soka", "TIPE": "-", "CATATAN": "Luas : 4,814 Ha Meliputi Kel. Lalanglinggih, Antap, Beraban, Tegalmengkeb, Kelating, Tibubiu (kec. Selemadeg)" }, "geometry": { "type": "Point", "coordinates": [ 115.018782, -8.533644 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Nusa Dua", "TIPE": "-", "CATATAN": "Luas : 10,462 Ha Meliputi Kel. Benoa, Jimbaran, Ungasan Dan Pecatu (kec. Kuta)" }, "geometry": { "type": "Point", "coordinates": [ 115.200082, -8.789271 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Tuban", "TIPE": "-", "CATATAN": "Luas : 410 Ha Di Kelurahan Tuban, Kec Kuta" }, "geometry": { "type": "Point", "coordinates": [ 115.104712, -8.628655 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Kuta", "TIPE": "-", "CATATAN": "Luas : 2,768 Ha Meliputi Kelurahan Kuta, Kerobokan, Canggu (kec. Kuta)" }, "geometry": { "type": "Point", "coordinates": [ 115.165317, -8.730435 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam Dan Bud", "NAMA": "Kawasan Sanur", "TIPE": "-", "CATATAN": "Luas : 1.448 Ha Berada Di Kec. Denpasar Selatan" }, "geometry": { "type": "Point", "coordinates": [ 115.242720, -8.663197 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Salira Indah", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.051104, -5.875494 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Karang Bolong", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.875908, -6.101121 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Pulau Dua, Kec. Kasemen", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.200939, -6.012503 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Batu Kuwung", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.195983, -6.146596 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Banten Lama", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.167416, -6.089752 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Wulandira Purnama", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.123107, -6.020957 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Pantai Anyer", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.874742, -6.091210 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Curug Cigumawang", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.927796, -6.229968 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Bendungan Irigasi Pamarayan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.279355, -6.287395 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Bulakan Air Belerang", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.209101, -6.086546 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Curug Sawer", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.042650, -6.235215 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Bengkenang", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.895630, -4.486629 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Taman Buru", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.420587, -3.901429 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Danau Mas Harun Bastari, Bukit Kaba, Suban Air Panas, Air Terjun Kepala Curup, Air Terjun Air Simpang, Air Terjun Talang Rimbo Lama", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.464939, -3.451846 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Danau Tes", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.322952, -3.287340 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Pasir Putih", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.298691, -3.864096 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Muko-muko", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.048089, -2.545898 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Dayang Pandan", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.328375, -4.728154 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum Negeri Prov. Bengkulu", "NAMA": "Mus. Rumah Bung Karno", "TIPE": "Museum", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.275624, -3.660453 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Taman Buru Gunung Navana", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.265107, -5.377973 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Terbo", "TIPE": "Petilasan \/  Makam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.568430, -7.849922 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Wanagama", "TIPE": "Taman Wisata", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.549239, -7.920931 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Rancang", "TIPE": "Gua", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.502752, -7.964985 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Sundak", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.680121, -8.178131 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "BAron", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.594054, -8.144081 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Ngabaran", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.516861, -8.120894 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Langsa", "TIPE": "Gua", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.377599, -8.066673 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Imogiri", "TIPE": "Makam.", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.400712, -7.935967 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Gembiro Loka", "TIPE": "Kebon Binatang", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.414912, -7.833854 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Ngayojokarto", "TIPE": "Keraton", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.380221, -7.839129 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Selarong", "TIPE": "Gua", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.313247, -7.889525 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Pantai", "NAMA": "Parangteritis", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.349347, -8.036973 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Samas", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.273263, -8.006141 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Pandansigegek", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.203235, -7.975415 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Pleret", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.146158, -7.945227 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Alam", "NAMA": "Congot", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.035426, -7.897211 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Kiskendo", "TIPE": "Goa", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.125240, -7.755524 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Nyi Ageng Serang", "TIPE": "Petilasan\/Makam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.223819, -7.692941 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Suralaya", "TIPE": "Panorama", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.172625, -7.656487 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Prambanan", "TIPE": "Candi", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.488130, -7.775742 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Yogya Kembali", "TIPE": "Monumen", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.377710, -7.771052 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Plawangan", "TIPE": "Panorama", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.432928, -7.621845 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Wisata Andalan", "NAMA": "Makam Sendangsono", "TIPE": "Petilasan \/  Makam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.201876, -7.674870 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Wisata Andalan", "NAMA": "Sikidang", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.137594, -7.732221 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Wisata Andalan", "NAMA": "Jonggrangan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.146436, -7.741541 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Wisata Andalan", "NAMA": "Makam Girigondo", "TIPE": "Petilasan \/  Makam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.104617, -7.844534 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Wisata Alam", "NAMA": "Pantai Glagah", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.073552, -7.913355 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Wisata Alam", "NAMA": "Pantai Bugel", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.164597, -7.955891 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Wisata Alam", "NAMA": "Pantai Trisik", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.210717, -7.980982 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata budaya", "NAMA": "Taman Impian Jaya Ancol", "TIPE": "-", "CATATAN": "-" }, "geometry": { "type": "Point", "coordinates": [ 106.819673, -6.120829 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata budaya", "NAMA": "Monumen Nasional", "TIPE": "-", "CATATAN": "-" }, "geometry": { "type": "Point", "coordinates": [ 106.825532, -6.175130 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata budaya", "NAMA": "Monumen Lubang Buaya", "TIPE": "-", "CATATAN": "-" }, "geometry": { "type": "Point", "coordinates": [ 106.897203, -6.291483 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata budaya", "NAMA": "Taman Mini Indonesia Indah", "TIPE": "-", "CATATAN": "-" }, "geometry": { "type": "Point", "coordinates": [ 106.886903, -6.301590 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata budaya", "NAMA": "Kebun Binatang Ragunan", "TIPE": "-", "CATATAN": "-" }, "geometry": { "type": "Point", "coordinates": [ 106.814512, -6.323641 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata budaya", "NAMA": "Taman Bunga Cibubur", "TIPE": "-", "CATATAN": "-" }, "geometry": { "type": "Point", "coordinates": [ 106.885213, -6.363042 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Gor 28 Januari,pemandian Air Panas Pentadio", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.028478, 0.571754 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Cagar Alam Tangale", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.878741, 0.668228 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Bahari Pulau Sarode,cagar Alam Pulau Mas", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.954597, 0.859770 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Rumah Adat Gorontalo,bukit Ppn 32,sirkuit Pacuan Kuda Dan Lapangan Golf", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.888317, 0.540294 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Bekas Pendaratan Pesawat Udara Katalina", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.758741, 0.498692 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pemandian Air Panas Lombongo,danau Perintis", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.125791, 0.458238 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Teluk Paguyuman,teluk Leago,teluk Bubaa,pulau Limba", "TIPE": "Obyek Wisata", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.582990, 0.505381 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Air Terjun Desa Ayuhulalo,pulau Dalupi-pulau Mahupomba,pulau Pasia-pantai Pasir Putih,perkampungan Suku Bajo", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.397055, 0.573721 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Laut P. Bitila,pulau Batila,pulau Pasir Putih,perkampungan Suku Sangihe", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.212320, 0.516172 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pulau Napo Libuo,pulau Lahe", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.827256, 0.470612 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Perkampungan Suku Sangihe", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.426597, 0.514973 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Alam", "NAMA": "Danau Limboto", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.948958, 0.600764 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Sankanurip Spa,kuningan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.564861, -6.967038 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Linggarjati Resort,kuningan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.435465, -6.870049 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Mata Air Cibulah,kuningan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.411229, -6.951775 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Keraton Kasepuhan Cirebon", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.440439, -6.645928 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Kebun Teh Malabar,kab.bandung", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 107.620560, -7.170637 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Bunga Nusantara,desa Karangluwuk,cipanas,cianjur", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.889977, -6.812190 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Rekreasi Lido,desa Cigombong Dan Watas Jaya,bogor", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.838760, -6.752071 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Sumber Air Panas Cisolok,7km Barat Pelabuhan Ratu", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.430226, -6.918222 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Kebun Raya Bogor Dan Istana Bogor", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.783166, -6.530739 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Safari.desa Cibeureum,bogor", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.900201, -6.660478 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Makam Sunan Gunung Jati,", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.580175, -6.885801 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Nasional Gede-pangrango,cianjur", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.968231, -6.716527 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Arung Jeram S. Citarik", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.662224, -6.946064 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Pangumbahan Diujung Genteng,kab Sukabumi", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.410532, -7.313874 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Kawah Tangkuban Perahu", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 107.576836, -6.787225 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Kawah Putih", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 107.514138, -7.120329 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pelabuhan Ratu", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 106.510280, -6.940834 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Sumber Air Panas Cipanas", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 107.855999, -7.105209 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Suaka Alam Pananjung", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.505255, -7.669110 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Kampung Naga,tasikmalaya.", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 107.977633, -7.390794 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Green Canyon", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.255475, -7.745967 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Pangandaran", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.655815, -7.700192 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "151655170", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Taman Hutan Raya", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.445803, -1.625777 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Makam Pahlawan Nasional (sultan Thaha Syaifuddin)", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.133526, -1.300899 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Bunga Bangkai", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.211118, -1.282336 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Taman Nasional Kerinci Seblat, Perkebunan Teh Kayu Aro", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.272085, -1.734676 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Danau Gunung Tujuh", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.429182, -1.733523 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Rekreasi Rengas Condong,60 Km Dari Kota Jambi,kec.muara Bulian", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.353820, -2.121688 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Sentra Buah-buahan,58 Km Dari Kota Jambi", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.342643, -1.853067 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Perkebunan Karet,58 Km Dari Kota Jambi", "TIPE": "Luas 5.195,92 Ha", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.205066, -1.979970 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Hutan Raya Senami,10 Km Dari Kota Muara Bulian", "TIPE": "Luas 10 Ha", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.236863, -1.862244 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata", "NAMA": "Air Terjun Simpang Narso,kec.batang Asai Desa Simpang Narso,92 Km Dari Ibukota Sarolangun", "TIPE": "Obyek Wisata Alam Dengan Ketinggian 45 M", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.475201, -2.507191 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata", "NAMA": "Perkampungan Tradisional,lokasi Pusat Kota Sarolangun Ditepi Sungai Tembesi,jaraknya 1km Dari Pusat Kota Sarolangun", "TIPE": "Obyek Wisata Budaya.lokasi Pusat Kota Sarolangun,ditepi S.tembesi Jarak 1 Km Dari Pusat Kota Sarolangun", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.565496, -2.393420 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata", "NAMA": "Sungai Batang Asai,jarak 90 Km Dari Kota Sarolangun,lokasi Kec.batang Asai,", "TIPE": "Obyek Wisata Alam Yg Mempunyai Panjang 90km Merupakan Sungai Arus Deras Dan Berbatu-batu Kiri Dan Kanannya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.448754, -2.414227 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata", "NAMA": "Batu Bersurat Karang Berahi,jarak 25 Km Dari Kota Bangko,lokasi Desa Karang Berahi Kec.pemenang", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.660350, -2.145582 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata", "NAMA": "Taman Nasional Bukit Dua Belas,lokasi  Kec. Pauh,luas Lahan 60.500 Ha", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.821259, -2.275068 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Alam", "NAMA": "Goa Tritis", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.915444, -6.435798 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Sejarah", "NAMA": "Benteng Portugis", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.858008, -6.416653 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Alam", "NAMA": "Tirto Samudro", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.664583, -6.556020 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Kartini", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.651632, -6.580796 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Pendopo Jepara", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.660641, -6.597408 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Sejarah", "NAMA": "Museum Kartini", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.664020, -6.583612 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Sejarah", "NAMA": "Masjid Mantingan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.688233, -6.638795 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Negeri Jawa Timur", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.652732, -7.295393 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Daerah Kembang Putih", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.989682, -6.864141 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Blambangan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 114.345396, -8.296257 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Bangkalan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.857576, -7.033048 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Airlangga", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.932181, -7.818286 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Balai Penyelemat Tulungagung", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.955541, -8.019537 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Blitar", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.176557, -8.021334 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Sumenep", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 113.937503, -6.968360 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Purbakala Trowulan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.365230, -7.431956 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Brawijaya", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.557497, -8.033912 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Sunan Drajat", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.325079, -6.899367 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Trinil", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.398507, -7.417581 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Arca", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.955541, -7.559534 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Pantai", "NAMA": "Tanjung Kodok", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.307912, -6.863919 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Goa Maharani", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.330301, -6.922770 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Museum", "NAMA": "Van Der Wijck", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.483507, -7.122993 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Rumah Betang  Di Kec. Parindu", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.323455, 0.064953 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Kraton Ismahayana (dusun Raja)", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.051663, 0.535996 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Batu Payung(teluk Suak)", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.791442, 0.663457 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Cagar Alam Pakpung\/panrisen", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 109.098392, 0.712761 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Hutan Pancur Air", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.582317, -0.094466 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Onyek Wisata Alam", "NAMA": "Pantai Kijang", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.793080, 0.498786 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Keraton Amantubillah,masjid Jami,komplek Makam Raja Raja, Makam Upu Daeng", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.996035, 0.315135 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Nasional Bukit Baka", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.543490, -0.415073 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Keraton Jara Juanti, Masjid Jami Sultan Nata, Makam Raden Mahmud", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.361705, 0.093155 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Kerajaan Senggaok (dusun Pak Kana)", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.058341, 0.370137 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Air Terjun Angan Tembawang", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.084738, 0.229655 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Keraton Gusti Muhammad", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.038556, -1.796701 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Tanjung Datuk", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.057640, -2.120594 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Nasional Gunung Palung", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 110.167561, -1.218888 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Keraton Alwatzhiqubilla", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 109.448767, 1.263323 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Kebun Jeruk", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 109.195809, 1.048523 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Tanjung Batu", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 108.805984, 0.788682 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Pantai", "NAMA": "Sarang Tiung", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.288459, -3.323815 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Pantai", "NAMA": "Jorong", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 114.949613, -4.074655 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Budaya", "NAMA": "Candi Agung", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 115.252662, -2.377350 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Pantai", "NAMA": "Takisung", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 114.575324, -3.796482 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Pantai", "NAMA": "Batakan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 114.597939, -4.151548 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Rumah Betang Dan Sandung, Kab. Katingan", "TIPE": "-", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 113.240168, -1.820147 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai di Teluk Sebangau, Kab. Katingan", "TIPE": "Terdapat Di 2 Lokasi", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 113.468673, -3.170127 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Rumah Betang, Sandung, Pembuatan Kapal Tradisional, Kab. Seruyan", "TIPE": "-", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 112.174314, -1.959756 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Riam, Kec. Seruan Hulu, Kab. Seruyan", "TIPE": "Terdapat Di 2 Lokasi", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.993274, -1.380760 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai dan Taman Nasional Tanjung Puting", "TIPE": "-", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.897667, -3.303577 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Masjid Kuno Dan Kerajaan Kuno, Kab. Kotawaringin Barat", "TIPE": "-", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.498533, -2.470836 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Rumah Betang, Kec. Delang, Kab. Lamandau", "TIPE": "Terdapat Di 3 Lokasi", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 111.350922, -1.788453 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "0", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Nasional Kayan Mentarang", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 115.644345, 2.855304 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "0", "UNSUR": "Obyek Wisata Alam", "NAMA": "Cagar Alam Kersik Luwai", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 115.595756, -0.414333 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "0", "UNSUR": "Objek Wisata Bahari", "NAMA": "Objek Wisata Bahari P. Derawan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 118.229180, 2.251611 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "0", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Istana Kerajaan Tanah Grogot", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.163514, -2.154933 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "0", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Rumah Adat dan Kehidupan Suku", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 114.385712, 0.799634 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "0", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Rumah Adat dan Kehidupan Suku", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 115.951569, 0.492789 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "0", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Rumah Adat dan Kehidupan Suku", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 115.287266, 2.087117 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "0", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Istana Kerajaan Tanjungredeb", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 117.397219, 1.897316 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "0", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Istana Kerajaan Bulungan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 117.324462, 2.647029 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Pelabuhan Batam Centre", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.963132, 1.129771 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Masjid Raja Sultan Riau", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.504297, 0.898097 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Pelalawan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.395688, 0.997932 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Musium Kerajaan Melayu Lingga", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.746962, -0.309792 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Alam", "NAMA": "Buru", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.511446, 0.877694 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Alam", "NAMA": "Lubuk", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.425091, 0.636471 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Alam", "NAMA": "Sawang", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.348966, 0.851879 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Batu Linau", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.376596, 0.828759 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Tirta Tembeling", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.492024, 0.999930 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Pantai Trikora", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.660157, 1.018540 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Wisata Gunung Lengkuas", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.579941, 0.831796 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Way Kamabs", "TIPE": "Atraksi Gajah Way Kambas", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.563849, -4.932363 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Kalianda", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.481413, -5.674983 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Danau Ranau", "TIPE": "Danau", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.900428, -4.852726 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Belimbing", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.683608, -5.985624 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Sebesi", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.467100, -5.955769 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Wisata Andalan", "NAMA": "Sebeku", "TIPE": "Wisata Pantai", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 105.501120, -5.894924 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "Pantai Pasir Putih", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 133.251163, -5.373362 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "Pantai pasir putih, pasir panjang, sorbat, tamelan, dinor, ditur, waerblel", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 132.626990, -5.881490 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "Suaka margasatwa pulau baun & cagar alam laut kep. Aru Tenggara", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 134.029808, -6.458515 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "Pantai waipapa", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 128.750818, -3.279041 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "Taman laut pulau kasa", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 129.525650, -3.328061 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "Taman nasional manusela", "TIPE": "obyek wisata budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 129.450200, -2.897104 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "Benteng Kolonial Defensie dan Benteng Kolonial Portugis", "TIPE": "obyek wisata budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 127.284593, -3.433313 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "Taman Laut Bandanaira", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 129.900195, -4.532413 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "taman laut pulau dodola", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 128.321075, 2.137870 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "taman laut pulau doi", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 127.614484, 1.755653 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "pantai luari dan kupu-kupu", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 127.770129, 1.871697 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "meriam antik dan bunker eks pd II", "TIPE": "obyek wisata budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 127.719345, 1.182054 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "taman laut p widi", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 127.754894, 0.231243 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "pantai watambi", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 127.506494, -0.412454 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "lalayon", "TIPE": "obyek wisata budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 127.820104, -1.665414 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "benteng de verwaching", "TIPE": "obyek wisata budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.909449, -2.083229 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata andalan", "NAMA": "goa mananga", "TIPE": "obyek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.557327, -1.951854 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "obyek wisata alam", "NAMA": "taman nasional gunung leuser", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 97.275521, 3.778247 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "obyek wisata budaya", "NAMA": "Masjid raya Baitur Rahman", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.402304, 5.499546 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "obyek wisata alam", "NAMA": "taman laut pulau rubiah", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.322293, 5.901907 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata budaya", "NAMA": "Rumah Cut Nyak Dhien", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.230520, 5.549517 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata alam", "NAMA": "Pantai Empenalu", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.204986, 5.518933 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata alam", "NAMA": "Pantai Bunga Karang\/Pantai Lhoknga", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.229117, 5.476283 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata alam", "NAMA": "Pemandian mata le", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.305156, 5.493679 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata budaya", "NAMA": "Masjid Lam Rak", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.343878, 5.473196 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Pabrik Semen PT. Sai", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.249600, 5.497327 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata alam", "NAMA": "Pantai Cemara, Pantai Taman Laut Tepi", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.235570, 5.422410 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "", "NAMA": "Makam Tengku Chik Ditiro", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.392981, 5.464218 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata budaya", "NAMA": "Mesjid Benteng Purbakala", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.411780, 5.433353 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata budaya", "NAMA": "Mesjid Tuha Bueng Sidom", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.410658, 5.499011 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata alam", "NAMA": "Pantai Pelabuhan Malahayati", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.473791, 5.601987 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata budaya", "NAMA": "Perpustakaan Kuno Tanoh Abee", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.552636, 5.397157 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata alam", "NAMA": "Daerah Wisata Agro Saree", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.699384, 5.447943 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "obyek wisata alam", "NAMA": "Taman Satwa", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 95.630640, 5.300353 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Pantai Kuta Segerdan Aan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.297297, -8.902132 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Pantai Lingsar", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.161415, -8.474120 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Pantai Suranadi", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.250609, -8.391614 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Mata Air Narmada", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.214246, -8.479254 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Pantai Gili Air, Gili Meno, Gili Trawangan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.124778, -8.402407 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Pulau Moyo", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 116.068817, -8.367465 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Pulau Satonda", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 117.718928, -8.111770 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Teluk Lawata", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 118.693778, -8.506284 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Objek Wisata Lakey", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 118.459357, -8.827462 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata alam", "NAMA": "Daya Tarik Wisata G.tambora", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 117.946424, -8.268347 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Oeseli,pantai Nemberalla,pantai Boa", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.880527, -10.756013 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Terimbang, Air Terjun Prangkareha", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.075148, -10.010608 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Baing", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.469431, -10.199830 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Tenun Ikat", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.822500, -10.039720 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Kampung Rindi, Pusat Tenun Ikat", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.577456, -9.801792 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Tenun Ikat, Kamp Raja, Patai Watu Baka", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.187252, -9.742400 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Katewel", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.180494, -9.369168 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Wisata Kampung Adat", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.397567, -9.504757 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Kampung Adat Wainyapu", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.081360, -9.569699 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Kampung Besar Djawa", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.270249, -9.668217 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Rua", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.464214, -9.713574 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Wisata Kampung Adat Pasunggoa", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.578318, -9.511595 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Roa Lee Tabala, Pantai Mesara, Pantai Seba", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.923994, -10.420597 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Wisata Kampung Adat Manu", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.676345, -9.382632 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Laut Saba Timur, Raeloro, Tablolong, Pulau Kera, Pantai Idaman, Pantai Bakalate, Pantai Hansisi, Pasir Putih Seba", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.877671, -10.012739 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Teberek", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.086241, -9.424688 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Nualeen", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.161455, -9.145749 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Betun", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.961638, -9.366203 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Apupu Pasir Putih", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.832418, -9.010577 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Bahari", "NAMA": "Di Kab. Lewoleba", "TIPE": "pantai pasirputih waijarang,pulau pasir putihawaloloh,pantai dan taman laut tanah treket", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.361355, -8.450035 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Bahari", "NAMA": "Pantai Lewoleba,tanjung Nuhanera,ltaman Laut", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.713778, -8.354691 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Budaya", "NAMA": "Ilape (prosesi Jumat Agung)", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.536367, -8.253932 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Mbu'u", "TIPE": "Wisata Bahari", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.882582, -8.799977 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Air Panas Okadan Taman Teluk Hading", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.757234, -8.371991 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Danau Sanonggong", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.217422, -8.544489 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Bahari", "NAMA": "Pantai Dede", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.887285, -8.744889 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Puncak Waringin,pulau Seraya Kecil,pulau Bidadari", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.076469, -8.405064 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Bahari", "NAMA": "Capi Wate", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.808256, -8.538267 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Bahari", "NAMA": "Kamp. Todo", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.508504, -8.693244 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Bahari", "NAMA": "Kampung Ruteng", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.640196, -8.528241 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Alam", "NAMA": "Pulau Permaan", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.483961, -8.469224 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Alam", "NAMA": "Pulau Besar", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.388534, -8.452048 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Alam", "NAMA": "Pulau Penama", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.329038, -8.322629 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Teluk Maliung", "TIPE": "objek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.671609, -8.206437 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kampung Monbang", "TIPE": "objek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.489312, -8.180339 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Kanaring", "TIPE": "objek wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.400910, -8.383071 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Alam", "NAMA": "Taman Rekreasi Umum", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.048475, -8.351477 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1665", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Mummi", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 139.438749, -3.977137 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Lembah Baliem", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 138.982605, -3.933273 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Wisata Bawah Laut", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 136.470689, -1.118121 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Nasional Lorentz", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 137.298035, -3.872285 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Museum Cendrawasih", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 135.960000, -0.874361 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Monumen Lepas Landas", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 135.856846, -3.368210 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Museum Asmat", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 138.107958, -5.391515 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Telaga Biru Sorendiwari", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 135.619945, -0.822761 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Danau Sentani", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 140.391573, -2.427776 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Taman Wisata Teluk Yapen", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 140.656560, -2.418029 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "Pantai Lampu Satu", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 133.179647, -2.236454 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "Pantai Kokas", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 132.485062, -2.731780 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "Wisata laut Raja Ampat", "TIPE": "Obyek Wisata Bahari", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 130.225234, -0.302189 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "monumen jepang", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 133.762412, -0.989862 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "pantai pasir putih, Manokwari", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 134.103216, -1.075951 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Pujasera, Pasarpj, Pasar Wadai Bulan Ramadhan, Event Wisata Gema Muharam", "TIPE": "Wisata Belanja, Wisata Religius", "CATATAN": "Jl. Kapten Mukhtar Tembilahan, Jl Sudirman, Jla Gajah Mada, Jl Hangtuah Dan Jl Kapten Mukhtar Tembilahan, Temmbilahan Kota" }, "geometry": { "type": "Point", "coordinates": [ 102.993202, -0.544513 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Komplek Makam Raja Indragiri Rengat, Masjid Ar_rahman", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.475254, -0.462681 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Danau Tajiwid,desa Langgam,hutan Rawa Sungai Mokoh,makam Sultan Mahmud Syah 1,meriam Kerajaan  Masjid Tua,pusat Budaya,tugu Equator", "TIPE": "Wisata Alam, Sejarah, Sejarah,sejarah, Budaya, Minat Khusus", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.795449, 0.227292 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pacu Jalur,danau Masjid Kari, Danau Buayo Kari,sungai Sirih,batu Ujung,rumah Adat Sentajo,pantai Pasir Pualau Baru Sentajo", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.409479, -0.584206 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Istana Sultan Siak", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.948169, 0.832871 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Masjid Raya Pekan Baru", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.336962, 0.676553 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Taman Rekreasi Stanum", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.923266, 0.192660 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Air Terjun Aek Matua", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.127597, 0.839491 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Budaya", "NAMA": "Rumah Adat Melayu", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 102.021806, 1.564232 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Dumai", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.283799, 1.814120 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Alam", "NAMA": "Pantai Rupat Utara", "TIPE": "", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.655077, 2.137574 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Air Terjun Sumarorong", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.239922, -3.121682 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Anjoro Pitu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 118.976155, -2.728532 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Baleno", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.030088, -3.536789 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Sappoang", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.349837, -3.474483 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Taman Wisata Alamo Riso", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.386390, -3.242639 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Tenun Ikat Sekomandi", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.530575, -2.507920 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Baturoro", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 118.862795, -3.094619 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Danau Tempe", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.918147, -4.221461 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Tanjung Palpete", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.395192, -4.658737 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Istana Kerajaan Luwu", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.133353, -3.119019 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Makam Sultan Hasanudin", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.675209, -5.182943 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Cagar Alam Karoenta", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.740068, -5.063897 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kawasan Wisata Malino", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.864850, -5.242752 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Mandala Ria, Pantai Bira", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.467997, -5.587216 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Pasir Putih", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.386704, -5.573320 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kawasan Bantimurung", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.675489, -4.985745 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Air Terjun Karawa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.585457, -3.339988 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kuburan Dinding Batu Tontonan", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.832487, -3.494872 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Lokkoe (makam Raja2 Luwu)", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.078694, -2.940865 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Goa Liong Siteba", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.947870, -2.766890 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Rambu Solo (upacara Adat Kematian)", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.787937, -3.036271 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Taman Laut Takabonerate", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.915725, -7.326316 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Pasir Lemo-Lemo", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.457620, -5.626578 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Phinisi Nusantara (Pembuatan Perahu Tradisional)", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.370522, -5.536936 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Datu Di Tiro", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.419263, -5.458527 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Samboang", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.436216, -5.436699 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Adat Ammatoa Kajang", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.291900, -5.342184 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Pantai Pasir Putih Korong Batu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.084189, -5.591345 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Pantai Seruni", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.964423, -5.557284 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Makam raja-raja La Tanri Ruwa & Balla Lompoa", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.970879, -5.543523 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Bissapu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.962979, -5.519740 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Gunung Loka & Resort outbonb", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.941235, -5.414075 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Eremerasa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.978438, -5.439727 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Tanjung Mallasaro", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.582805, -5.660431 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kumpulan Raja-raja Binamu", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.780461, -5.664044 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Bungung Salapang", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.827856, -5.604110 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Air Terjun Bolo", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.858036, -5.467026 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Pantai Topejawa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.431682, -5.532521 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pesta Budaya Maudu Lompoa", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.493806, -5.550699 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Cendiramata", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.457802, -5.430686 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Perburuan Rusa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.460450, -5.371032 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Air Terjun Takapala", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.890502, -5.248535 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Somba Opu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.503707, -5.223818 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Waduk\/Dam Bilibili", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.575689, -5.276063 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Komplek Istana Museum Balla Lompoa", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.452623, -5.194097 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Batu Pake Gojeng", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.248354, -5.197586 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Tondong", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.232146, -5.155994 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Tongke Tongke", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.266397, -5.166545 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Balangnipa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.249883, -5.118378 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Karampuang", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.081529, -5.111650 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Gua Kattunuang", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.713464, -5.006501 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Air Terjun Bontosomba", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.651489, -4.944357 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Gua Taman Purbakala Bukit Karst Simpang Bita", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.643036, -4.884632 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pemandian Alam Mahampa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.633870, -4.806956 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pemandian Alam Barutunga", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.585141, -4.830114 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Desa Wisata Arrong Appaka", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.537378, -4.871606 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Wisata Pantai Pulau Cengkeh", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.493475, -4.807197 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Pantai Kupa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.609545, -4.122705 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Pantai Ujung Batu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.597009, -4.459890 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Pulau Puteanging", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.570330, -4.484319 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Tau Balo", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.713690, -4.779075 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Gua Mamdu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.228079, -4.290315 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Tanjung Pallete", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.453436, -4.641816 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pemandian Alam Leija", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.756257, -4.229491 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pemandian Alam Ompo", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.921708, -4.303151 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Villa Yuliana, Makam Raja Soppeng-Peninggalan Jerol", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.895417, -4.340094 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kawasan Wisata Bula Dua", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.803626, -4.518464 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pemandian Alam Citta", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.033671, -4.433925 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Bahari", "NAMA": "Pulau Kamerang", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.605641, -4.003147 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Air Terjun Kali Jodoh", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.609257, -3.581567 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Air Terjun Karawa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.546879, -3.473384 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Kappe", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.441710, -3.683722 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Gua Pussalo", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.850404, -3.630557 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pemandian Alam Lemaja", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.822699, -3.578379 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Buttu Kabobong", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.798457, -3.423923 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kuburan Dinding Batu Tontonan", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.791992, -3.393217 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Buntu Matabing", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.387028, -3.572110 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Bone Pute", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.392129, -3.537793 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Istana Kerajaan Luwu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.206165, -3.020249 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Gua Liang Siteba", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.970581, -2.735043 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Lokkoe (Makam Raja Luwu)", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.104604, -2.898283 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Makula Sangala", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.939533, -3.084384 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Hotel Putra Toraja (3), Novotel (4)", "TIPE": "Hotel", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.848514, -3.111632 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Rambu Solo (Upacara Adat Kematian)", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.829515, -3.031839 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Londa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.875225, -3.011445 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Ke 'te Kesu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.911371, -2.952374 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Marante", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.885633, -2.938450 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Palawa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.910246, -2.930996 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Danau Towuti", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.478062, -2.916646 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Danau Mahalona", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.528855, -2.588903 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Objek Wisata Andalan", "NAMA": "Danau Matana", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.410161, -2.465398 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek wisata andalan", "NAMA": "Suaka Margasatwa P. Dolongan dan tanjung Masap", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.900138, 1.380972 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek wisata andalan", "NAMA": "Cagar alam Gunung Doka", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.740661, 0.886095 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek wisata andalan", "NAMA": "P. Maputi, P. Pagalaseang, Tanjung Manimbaya", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.881609, 0.543296 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek wisata andalan", "NAMA": "Taman purbakala Woyunonju, Camping Ground Paneki", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 119.597225, -0.955263 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek wisata andalan", "NAMA": "Danau Lindu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.039061, -1.365609 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek wisata andalan", "NAMA": "Taman Nasional Lore Lindu", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.332342, -1.488002 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek wisata andalan", "NAMA": "Danau Poso", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 120.654674, -1.821084 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek wisata andalan", "NAMA": "Cagar Alam Tanjung api", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.700488, -0.803444 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek wisata andalan", "NAMA": "Air terjun Hanga - hanga", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.429760, -1.085697 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Taman Nasional Laut Wakatobi", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 123.839173, -5.582411 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pesta Adat Pokande Kondea", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.713111, -5.668252 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Nirwana", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.590790, -5.647020 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Tradisi Pasuo", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.796623, -5.521467 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kompleks Keraton Buton", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.731203, -5.446358 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Air Terjum Moramo", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.645690, -4.192034 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Museum Sultra", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.446843, -4.150631 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Dekranosda (souvenir)", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.436962, -4.070747 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Perkampungan Gembol", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.507462, -4.060532 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Tarian Malulo", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.011912, -4.109238 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Tradisi Kalosara", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.192205, -3.899858 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Taman Nasional Rawa Aopa Watumohai", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 121.944781, -4.448163 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Taipa", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.218922, -3.579274 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Batu Bong", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.401442, -3.749319 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pulau Bokori", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.573705, -3.887056 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Teluk Kendari", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.676137, -3.948145 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Atraksi Adu Kuda", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.379795, -5.000581 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Goa Liangkobori", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.514188, -4.927660 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Danau Napabale", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 122.629386, -4.943131 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Danau Mooat", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.481293, 0.719523 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kota Makanan Kecil", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.524195, 1.192377 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Danau Warna\/gardenia Resort", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.666214, 1.259853 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Bukit Kasih Kanongan", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.795685, 1.204274 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Danau Tondano Dan Wisata Agro", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.924011, 1.203780 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Bentenan", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.960794, 1.077533 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pantai Korakora", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.048882, 1.141901 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Temboan Rurukan (pemandangan Alam)", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.777770, 1.347932 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Benteng Moraya (berdarah)", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.897962, 1.327712 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Monumen Jepang", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.048167, 1.342151 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Air Terjun", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.822409, 1.396830 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Waruga", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.004122, 1.414230 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Mini 200", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.076782, 1.390606 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Monumen Trikora", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.180392, 1.415732 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Waturirir (p Pasirputih)", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.239415, 1.443766 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Kungkungan B Resort", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.191417, 1.508611 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Cagar Alam Flora Tangkoko", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.199803, 1.524548 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Under Waterfoot (t Lembek)", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.040858, 1.566436 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Karapan Roda Sapi", "TIPE": "Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.083928, 1.534233 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Pemandian 9 Bidadari", "TIPE": "Alam]", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 125.046932, 1.500879 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Objek Wisata Andalan", "NAMA": "Bunaken", "TIPE": "Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 124.738390, 1.620301 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "taman nasional kerinci seblat", "TIPE": "wisata alam selancar", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 101.120731, -1.971105 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "taman nasional rimbo panti", "TIPE": "wisata alam selancar", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 99.986680, 0.439201 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "pulau libuan dan pulau silau", "TIPE": "wisata alam selancar", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.157132, -3.091914 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "pulau pirogogat dan teluk simailupa", "TIPE": "wisata alam selancar", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 99.609478, -2.338618 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "tanjung karimun", "TIPE": "wisata alam selancar", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 99.970469, -2.850053 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "pulau sagulubeng", "TIPE": "wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 99.181865, -1.493526 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "suaka margasatwa tai-tai batti", "TIPE": "wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.996511, -1.613554 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "jam gadang", "TIPE": "wisata budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.295274, -0.329668 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "cagar alam batang palupuh raflesia", "TIPE": "wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.309176, -0.148802 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "jembatan akar", "TIPE": "wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.674613, -1.311152 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "danau diatas dan danau dibawah", "TIPE": "wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.727632, -1.023759 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "taman wisata singkarak", "TIPE": "wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.496379, -0.652498 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "museum imam bonjol dan tugu ekuator", "TIPE": "wisata budaya dan wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.163345, 0.169872 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "taman nasional siberut", "TIPE": "wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.920597, -1.474278 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "objek wisata andalan", "NAMA": "pelabuhan teluk bayur", "TIPE": "wisata alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 100.364329, -1.031705 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "Bukit Tunjuk, Pelatihan Gajah Serelo", "TIPE": "Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.421586, -3.550171 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "Air Terjun Curup Tenang", "TIPE": "Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.861719, -3.742038 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "Danau Ranau", "TIPE": "Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 103.863022, -4.767963 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "Teluk Gelam", "TIPE": "Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.794780, -3.590533 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "Jembatan Ampera", "TIPE": "Wisata Alam Dan Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.741377, -3.015593 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "", "UNSUR": "Obyek Wisata Andalan Provinsi", "NAMA": "Ambang Luar Sungai Musi", "TIPE": "Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 104.906802, -2.273243 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Budaya Tomok", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.831637, 2.695836 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pusat Rehabilitasi Orang Hutan", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.095624, 3.435104 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Pandan", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.638137, 1.789582 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Candi Partibi", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 99.224877, 1.644400 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Parapat", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 99.008411, 2.654614 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Makam Si Singamangaraja Xii", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.936721, 2.242490 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Museum Sumut", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.609644, 3.631732 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Air Terjun Sikulikap", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.179720, 3.112109 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Barus", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.361260, 2.081428 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Hilisimaetano", "TIPE": "Obyek Wisata Budaya", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 97.760403, 0.686575 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Sorake Lagundri", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 97.472983, 1.418162 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Air Terjun Unong Sisapa", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 99.818050, 2.234106 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Pantai Natal", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 99.152409, 0.390517 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Bukit Lawang", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.320541, 3.326877 ] } }
+,
+{ "type": "Feature", "properties": { "KODE": "1655", "UNSUR": "Obyek Wisata Andalan", "NAMA": "Cagar Alam Sibolangit", "TIPE": "Obyek Wisata Alam", "CATATAN": "" }, "geometry": { "type": "Point", "coordinates": [ 98.154999, 2.440700 ] } }
+
+]
+}

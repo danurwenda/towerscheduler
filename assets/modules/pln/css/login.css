@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* login page */
+
+body{ background:#0c3058; font-family:Tahoma, Arial, Helvetica, sans-serif;}
+.main-login{ background:url(../img/login/login-bg.png) no-repeat; width:605px; height:383px; margin:0 auto; margin-top:50px;}
+input{ background:url(../img/login/input-large.png) no-repeat;
+       border:none;
+       outline:none;
+       width:480px; height:33px; margin-bottom:7px; margin-top:5px; padding-left:10px;padding-right: 10px}
+label{width:200px; display:block; float:left;}
+.konten{ width:500px; height:auto; margin:150px 0px 0px 40px; float:left;}
+.error-message{float:left; display:block; color:#FF0000; margin-top:-30px; font-weight:bold; background:#c5bebe; width:490px; height:auto; padding:5px 0px 5px 10px;}
+.submit-button{ background:url(../img/login/submit-button.png) no-repeat; width:126px; height:40px; border:none; color:#FFFFFF; font-size:1.5em; text-align:center;}

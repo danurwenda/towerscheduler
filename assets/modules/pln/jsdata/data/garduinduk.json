@@ -1,0 +1,141 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Serang", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.145473, -6.103952 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Cikande Serang", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.671773, -6.054130 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Teluknaga", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.537706, -6.076776 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Garu Induk Sepasar", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.504190, -6.156491 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Pasar Kemis", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.467050, -6.050507 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Balaraja", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.367406, -6.192725 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Krakatau Steel", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.217035, -6.333132 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Cibadak", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 105.834765, -6.353967 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Labun", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.004160, -5.950863 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "150 kV", "LOKASI": "Jembrana" }, "geometry": { "type": "Point", "coordinates": [ 114.490551, -8.203700 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "150 KV", "LOKASI": "Buleleng" }, "geometry": { "type": "Point", "coordinates": [ 115.112111, -8.106857 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "150 kV", "LOKASI": "Tabanan" }, "geometry": { "type": "Point", "coordinates": [ 115.142925, -8.593716 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "150 kV", "LOKASI": "Badung" }, "geometry": { "type": "Point", "coordinates": [ 115.142044, -8.807652 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "150 KV", "LOKASI": "Gianyar" }, "geometry": { "type": "Point", "coordinates": [ 115.329569, -8.585792 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "150 KV", "LOKASI": "Karangasem" }, "geometry": { "type": "Point", "coordinates": [ 115.591927, -8.445809 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.791615, -6.127749 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.791242, -6.149424 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.820204, -6.245092 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.800211, -6.130738 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.725283, -6.171286 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.947077, -6.110185 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.813290, -6.226781 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.830668, -6.125693 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.816467, -6.158206 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.898869, -6.116911 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.861312, -6.263404 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 106.737615, -6.223791 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Trenggalek" }, "geometry": { "type": "Point", "coordinates": [ 111.741712, -8.032115 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Manisrejo" }, "geometry": { "type": "Point", "coordinates": [ 111.549445, -7.654769 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Ponorogo" }, "geometry": { "type": "Point", "coordinates": [ 111.488351, -7.859614 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Pacitan" }, "geometry": { "type": "Point", "coordinates": [ 111.179287, -8.154303 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Magetan" }, "geometry": { "type": "Point", "coordinates": [ 111.358975, -7.665551 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Ngawi" }, "geometry": { "type": "Point", "coordinates": [ 111.439835, -7.457112 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Nganjuk" }, "geometry": { "type": "Point", "coordinates": [ 111.869290, -7.622425 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Dwima" }, "geometry": { "type": "Point", "coordinates": [ 111.689602, -6.797656 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Kerek" }, "geometry": { "type": "Point", "coordinates": [ 111.844134, -6.867734 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Tuban" }, "geometry": { "type": "Point", "coordinates": [ 112.066948, -6.948594 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Kertosono" }, "geometry": { "type": "Point", "coordinates": [ 112.262808, -7.582894 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Sillo" }, "geometry": { "type": "Point", "coordinates": [ 112.701247, -7.440940 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Lamongan" }, "geometry": { "type": "Point", "coordinates": [ 112.426324, -7.144454 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Ploso" }, "geometry": { "type": "Point", "coordinates": [ 112.083120, -7.626019 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Blitar" }, "geometry": { "type": "Point", "coordinates": [ 112.122651, -8.112975 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Probolinggo" }, "geometry": { "type": "Point", "coordinates": [ 113.146875, -7.728442 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Bondowoso" }, "geometry": { "type": "Point", "coordinates": [ 113.800940, -7.947661 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Sumenep" }, "geometry": { "type": "Point", "coordinates": [ 113.835081, -7.015079 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Sampang" }, "geometry": { "type": "Point", "coordinates": [ 113.213359, -7.203752 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Gilitimur" }, "geometry": { "type": "Point", "coordinates": [ 112.717419, -7.038438 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Mamuju" }, "geometry": { "type": "Point", "coordinates": [ 118.834066, -2.704447 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Majene" }, "geometry": { "type": "Point", "coordinates": [ 118.886219, -3.392870 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Polewali Mandar" }, "geometry": { "type": "Point", "coordinates": [ 119.281094, -3.343697 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Likupang" }, "geometry": { "type": "Point", "coordinates": [ 125.107625, 1.638716 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Ranomut" }, "geometry": { "type": "Point", "coordinates": [ 124.800290, 1.418807 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Bitung" }, "geometry": { "type": "Point", "coordinates": [ 125.249523, 1.465210 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Sawangan" }, "geometry": { "type": "Point", "coordinates": [ 124.947569, 1.257406 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Tonsea Lama" }, "geometry": { "type": "Point", "coordinates": [ 125.023562, 1.361644 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Kawangkoan" }, "geometry": { "type": "Point", "coordinates": [ 124.815758, 1.235214 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Lopana" }, "geometry": { "type": "Point", "coordinates": [ 124.627457, 1.200916 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "", "LOKASI": "Tomohon" }, "geometry": { "type": "Point", "coordinates": [ 124.806343, 1.296411 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Batu Raja", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 104.164529, -4.100607 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Batu Asam", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 103.763569, -3.894344 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Pagar Alam", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 103.379958, -4.027354 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Lubuk Linggau", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 102.797795, -3.238928 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Lahat", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 103.593932, -3.801814 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Prabumulih", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 104.245492, -3.472179 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Maryana", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 105.045484, -2.897727 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Keramasan", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 104.889341, -3.007605 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Talang Kelapa", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 104.511513, -2.934353 ] } }
+,
+{ "type": "Feature", "properties": { "KETERANGAN": "Gardu Induk Betung", "LOKASI": "" }, "geometry": { "type": "Point", "coordinates": [ 104.291756, -2.890016 ] } }
+
+]
+}

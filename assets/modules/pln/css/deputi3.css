@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 25, 2015, 6:27:20 PM
+    Author     : Dimas Y. Danurwenda
+*/
+
+/* global style on main-content */
+#main-content
+{
+    text-align: center;
+    width:100%;
+}
+
+/* list icon on main page and level 1 page*/
+ul.main > li {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+/*------------------------------topmenu---------------------------------*/
+
+.ace-nav > li.logout a{
+    background: url("../img/menu_icon/logout.png") 2px 2px no-repeat;
+}
+.ace-nav > li.logout a:hover{
+    background: url("../img/menu_icon/logout-hover.png") 2px 2px no-repeat;
+}
+.ace-nav > li.live a{
+    background: url("../img/menu_icon/live.png") 2px 2px no-repeat;
+}
+.ace-nav > li.live a:hover{
+    background: url("../img/menu_icon/live-hover.png") 2px 2px no-repeat;
+}
+/*---------------------------LVL 0 ICONS--------------------------------*/
+.small-icon{
+    list-style-type:none; font-size:12px;
+}
+.small-icon img{
+    border:none;
+    text-align:center;
+    margin-top:20px;
+}
+.small-icon > a{
+    list-style-type:none;
+    background:url(../img/neutral-icon-bg.png) 0px 300px ;
+    display:block;
+    height:150px;
+    width:150px;
+    text-decoration:none;
+    font-weight:bold;
+}
+.small-icon >a:hover{
+    background:url(../img/neutral-icon-bg.png) 0px 150px;
+    color:#3399FF;
+    outline:none;
+}
+.small-icon.blue >a{
+    background:url(../img/blue-icon-bg.png) 0px 300px;
+}
+.small-icon.blue> a:hover{
+    background:url(../img/blue-icon-bg.png) 0px 150px;
+}
+.small-icon.red >a{
+    background:url(../img/red-alert.gif) 0px 150px;
+}
+.small-icon.yellow >a{
+    background:url(../img/red-alert.gif) 0px 150px;
+}
+.small-icon-text{
+    text-align:center; width:150px; margin-top:10px; float:left;font-size:18px;
+}
+.small-icon-textdiv{
+    margin-top:20px;
+}
+
+.small-icon .warning > li{
+    list-style-type: none;
+}
+
+/* ALERT */
+ul.warning{
+    float:left;
+    position: absolute;
+    margin-left:-20px;
+    margin-top: 2px;
+}
+
+/* BREADCRUMB */
+.breadcrumb > li + li:before{
+    content: none;
+}
+/*-----------------------------BREADCRUMB----------------------------------*/
+.breadcrumbs{padding-top: 2px;}
+.breadcrumb-konten{ width:auto; height:37px; float:left;margin-top:3px;}
+.breadcrumb{padding:0px; margin:0px;}
+.breadcrumb-left{ background:url(../img/breadcrumb/left-home.png) no-repeat; float:left; width:43px; height:37px; border:none; outline:none;}
+.breadcrumb-mid{ background:url(../img/breadcrumb/mid-home.png) repeat-x; float:left; width:auto; height:37px;}
+.breadcrumb-mid li{
+    color:#fff;
+    list-style-type:none; 
+    display:block;
+    float:left; 
+    background:url(../img/breadcrumb/batas-home.png) no-repeat left; 
+    padding: 7px 10px 0px 20px; 
+    width:auto;
+    height:37px; 
+}
+.breadcrumb > li > a{
+    color: #fff;
+}
+.breadcrumb-right{ background:url(../img/breadcrumb/right-home.png) no-repeat; float:left; width:7px; height:37px;}
+.home li a { width:16px; height:37px; display:block; padding-left:-20px; }
+
+/*--------------4 PANEL----------------------------*/
+.chart-col .chart{
+    height: 40vh;
+}
+
+.chart-col .chart.fullscreen{
+    height: 80vh;
+    width: 96vw;
+}
+
+/*-------------------uu view-----------------------*/
+#mynetwork{height: 60vh;}
+
+/*--------replace dimmed black of ace's style--------------*/
+body{
+    color:black;
+}
+
+/* nyontek google color scheme for finance */
+.gred{
+    color:#d14836;
+    font-weight: bold;
+}
+.gyellow{
+    color:#FD9200;
+}
+
+/* ambil infobox buat jadi module icon */
+li.infobox{
+    width:auto;
+    background-color: transparent;
+    border-top:none;
+    border-right:none;
+    border-bottom: none;
+    margin:0;
+}
+li.infobox a{
+    padding:1px 4px 8px;
+}
+
+/* fix select2 yang jebol kalo kepanjangan */
+.form-group .select2-container {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  display: table;
+  table-layout: fixed;
+}
+
+textarea{  
+  display:block;
+  box-sizing: padding-box;
+  overflow:hidden;
+
+  /*padding:10px;*/
+  /*width:250px;*/
+  font-size:14px;
+  /*margin:50px auto;*/
+  /*border-radius:8px;*/
+  /*border:6px solid #556677;*/
+}
+/*merging panel*/
+.modal-body .row{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .merge-1{
+        background-color: #9cffb0;
+    }
+    .merge-2{
+        background-color: #8a817f;
+    }
+    @media (min-width: 1280px)
+    {  .modal-lg {
+           width: 1200px;
+       }
+    }

@@ -1,0 +1,35 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 10, "kode": "k2-1a", "lokus": "Banten", "keu": "Makanan Minuman", "pelaku": "swasta", "infrastruk": "Jalan, Power, Energi, Bandara, Pelabuhan, Rel kereta", "investasi": 5.120000, "persentase": 20.000000, "idkota_1": 10 }, "geometry": { "type": "Point", "coordinates": [ 105.997003, -6.232906 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 11, "kode": "k2-1b", "lokus": "Banten", "keu": "Peralatan Transportasi", "pelaku": "swasta", "infrastruk": "Jalan, Power, Energi, Bandara, Pelabuhan, Rel kereta", "investasi": 2.460000, "persentase": 8.000000, "idkota_1": 11 }, "geometry": { "type": "Point", "coordinates": [ 106.239708, -6.304290 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 20, "kode": "k2-2", "lokus": "Jabodetabek", "keu": "Jabodetabek Area", "pelaku": "Swasta, BUMN, Pemerintah", "infrastruk": "Bandara, Rel Kereta, Pelabuhan, Jalan", "investasi": 351.890000, "persentase": 100.000000, "idkota_1": 20 }, "geometry": { "type": "Point", "coordinates": [ 106.420919, -6.605947 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 30, "kode": "k2-3", "lokus": "Bogor", "keu": "Peralatan Transportasi", "pelaku": "Swasta", "infrastruk": "Jalan, Power, Energi, Infrastruktur", "investasi": 1.270000, "persentase": 4.000000, "idkota_1": 30 }, "geometry": { "type": "Point", "coordinates": [ 106.725118, -6.789700 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 40, "kode": "k2-4a", "lokus": "Bekasi & Sekitar", "keu": "Peralatan Transportasi", "pelaku": "swasta", "infrastruk": "Jalan, Pelabuhan, Rel Kerta, Power, Infstruktur", "investasi": 22.570000, "persentase": 69.000000, "idkota_1": 40 }, "geometry": { "type": "Point", "coordinates": [ 107.053483, -6.256701 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 41, "kode": "k2-4b", "lokus": "Bekasi & Sekitar", "keu": "Makanan Minuman", "pelaku": "swasta", "infrastruk": "Jalan, Pelabuhan, Rel Kerta, Power, Infstruktur", "investasi": 6.080000, "persentase": 24.000000, "idkota_1": 41 }, "geometry": { "type": "Point", "coordinates": [ 107.386608, -6.442299 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 50, "kode": "k2-5a", "lokus": "Bandung & Sekitar", "keu": "Alutsista", "pelaku": "BUMN, Swasta", "infrastruk": "Bandara, Rel Kereta, Pelabuhan, Jalan", "investasi": 1.580000, "persentase": 100.000000, "idkota_1": 50 }, "geometry": { "type": "Point", "coordinates": [ 107.615036, -7.108548 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 51, "kode": "k2-5b", "lokus": "Bandung & Sekitar", "keu": "Tekstil", "pelaku": "BUMN, Swasta", "infrastruk": "Jalan, Pelabuhan, Rel Kerta, Power, Infstruktur", "investasi": 0.380000, "persentase": 4.000000, "idkota_1": 51 }, "geometry": { "type": "Point", "coordinates": [ 107.729250, -7.003852 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 60, "kode": "k2-6a", "lokus": "Selatan Jateng", "keu": "Makanan Minuman", "pelaku": "swasta", "infrastruk": "Jalan, Pelabuhan, Rel Kerta, Power, Infstruktur", "investasi": 3.460000, "persentase": 14.000000, "idkota_1": 60 }, "geometry": { "type": "Point", "coordinates": [ 109.156927, -7.444052 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 61, "kode": "k2-6b", "lokus": "Selatan Jateng", "keu": "Tekstil", "pelaku": "swasta", "infrastruk": "Jalan, Pelabuhan, Rel Kerta, Power, Infstruktur", "investasi": 0.910000, "persentase": 10.000000, "idkota_1": 61 }, "geometry": { "type": "Point", "coordinates": [ 109.616163, -7.582061 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 70, "kode": "k2-7a", "lokus": "Metropolitan GerbangKertosusilo", "keu": "Makanan Minuman", "pelaku": "swasta, BUMN", "infrastruk": "Jalan, Pelabuhan, Rel Kerta, Power, Infstruktur", "investasi": 4.440000, "persentase": 17.000000, "idkota_1": 70 }, "geometry": { "type": "Point", "coordinates": [ 112.416788, -7.320320 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 71, "kode": "k2-7b", "lokus": "Metropolitan GerbangKertosusilo", "keu": "Tekstil", "pelaku": "swasta, BUMN", "infrastruk": "Pelabuhan, Power, Energi", "investasi": 9.000000, "persentase": 56.000000, "idkota_1": 71 }, "geometry": { "type": "Point", "coordinates": [ 112.378717, -7.072856 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 80, "kode": "k2-8", "lokus": "Pasuruan-Malang", "keu": "Makanan Minuman", "pelaku": "swasta", "infrastruk": "Jalan, Rel Kerta, Power energi, Infrastruktur", "investasi": 2.060000, "persentase": 8.000000, "idkota_1": 80 }, "geometry": { "type": "Point", "coordinates": [ 112.597627, -7.777177 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 90, "kode": "k2-9", "lokus": "Trans Jawa", "keu": "Lintas Sektor", "pelaku": "Pemerintah", "infrastruk": "", "investasi": 51.640000, "persentase": 3.000000, "idkota_1": 90 }, "geometry": { "type": "Point", "coordinates": [ 109.556676, -6.939606 ] } }
+,
+{ "type": "Feature", "properties": { "Id": 0, "idkota": 100, "kode": "k2-10", "lokus": "Jalur KA Cepat", "keu": "Lintas Sektor", "pelaku": "Swasta, BUMN, Pemerintah", "infrastruk": "", "investasi": 204.540000, "persentase": 11.000000, "idkota_1": 100 }, "geometry": { "type": "Point", "coordinates": [ 108.652481, -6.687383 ] } }
+
+]
+}

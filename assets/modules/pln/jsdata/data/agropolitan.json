@@ -1,0 +1,261 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Simpang Rimba", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 105.947341, -2.632974 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Simpangairgegas", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.363421, -2.671330 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Toboali", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.484448, -3.010131 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Selatnasik", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.333282, -2.984103 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Badau", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.767732, -2.901073 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Tanjungpandan", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.640988, -2.808978 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Sijuk", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.745227, -2.689286 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Dendang", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.856950, -3.148600 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Gantung", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.900778, -2.997348 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Sungaiselan", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 105.946691, -2.436897 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Simpang Katis", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 105.983412, -2.323503 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kawasan Pangkal Baru", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.105851, -2.248665 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 115.194417, -8.313585 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 115.229210, -8.486719 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 115.335244, -8.237372 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 105.922633, -6.412847 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.016842, -6.757977 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.565788, -6.122975 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.713442, -6.265193 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.022277, -6.095799 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kab. Lebong, kawasan Lebong Tengah", "JENIS": "Palawija, Kemiri", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 102.276827, -3.150272 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kab. Kepahlang, Kec. Ujam Mas", "JENIS": "Jagung, Padi", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 102.570519, -3.581013 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kab. Bengkulu Selatan, Kec. Seginim", "JENIS": "Palawija, Kemiri", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 103.020029, -4.414776 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kab. Rejang Lebong, Kec. Selupu Rejang", "JENIS": "Cabe Merah, Kubis, Tomat", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 102.732872, -3.421048 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kab. Bengkulu Utara, Kec. Padang Jaya", "JENIS": "Palawija", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 102.227668, -3.468709 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kab. Kulon Progo, Kec. K. Bwng", "JENIS": "", "KOMODITAS": "Biofarmaka, Padi, Rambutan, Kakao" }, "geometry": { "type": "Point", "coordinates": [ 110.258178, -7.674276 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kab. Sleman, Kec. Turi", "JENIS": "", "KOMODITAS": "Padi Sawah, Kelapa, Cabe, Domba" }, "geometry": { "type": "Point", "coordinates": [ 110.377586, -7.645058 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kab. Gunung Kidul, Kec. Karang", "JENIS": "", "KOMODITAS": "Jagung, Cabe, Kelapa, Kambing" }, "geometry": { "type": "Point", "coordinates": [ 110.694598, -7.951127 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Lemito", "JENIS": "Tanaman Jagung", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 121.780677, 0.527759 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Limboto", "JENIS": "Tanaman Jagung", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 123.037081, 0.641569 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kawasan Randangan", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 121.847052, 0.491271 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kawasan Bongonol", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.523120, 0.591176 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kawasan Pulubala", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.746195, 0.691081 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kawasan Kwandang", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.959690, 0.770457 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kawasan Kabila", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 123.175922, 0.589807 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kec. Bojong & Kec. Wanayasa Kab. Purwakarta", "JENIS": "Padi", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.556950, -6.687855 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kec.pacet,kab.cianjur", "JENIS": "Padi Sawah, Cabe, Wortel,Terong dan Brokoli", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.030226, -6.767159 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kec.cigugur,kab.kuningan", "JENIS": "Sapi, Padi", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 108.431908, -6.940332 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kab.indramayu, Kec. Jatinyuat Desa Dadap & Kec. Karangsong", "JENIS": "Padi", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 108.412779, -6.435357 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kec. Pengalengan, Kab.bandung", "JENIS": "Padi (Th. 2006)", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.540545, -7.233541 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kec. Cisurupan, Kab. Garut", "JENIS": "Kentang", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.846026, -7.372064 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kec. Pamarican, Kab. Ciamis", "JENIS": "Kedelai, Sayuran", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 108.475227, -7.429127 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Desa Karacak, Kab. Bogor", "JENIS": "Sayuran, Padi", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.606602, -6.578316 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Desa Suban", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 103.378717, -0.882753 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kab.sarolangun:desa Ma Talang", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 102.305668, -2.552474 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kab.kerinci:desa Pondok", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 101.318776, -1.711504 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kab.bungo : Desa Rantau Ikil", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 101.744336, -1.307826 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kab.tanjung Jabung Barat : Kec.desa Suban", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 103.431341, -1.033230 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kab.muara Jambi : Kec.sekerna,kws Desa Pulau Kayu Aro", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 103.909703, -1.480789 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kab. Tanjung Jabung Timur : Kec. Rantau Rasau \/muara Sabak", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.167418, -1.258204 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kec. Sumowono, Kab. Semarang", "JENIS": "Asam Jawa", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 110.290553, -7.214668 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kec. Sukoharjo, Kab. Wonosobo", "JENIS": "Kentang, Kemukus", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 109.786436, -7.325508 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Batang", "JENIS": "Ubi jalar, kelapa hibrida, kencur, kunyit, laos", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 109.766626, -7.022812 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Karanganyar, Kws. Suthomadansih", "JENIS": "Wortel", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 111.129078, -7.562736 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Brebes, Kws. Larangan", "JENIS": "Bawang Merah", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 108.935174, -7.045123 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Boyolali, Kws. Ampel", "JENIS": "Sapi potong, Sapi", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 110.504373, -7.458618 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Purbalingga, Kws. Bunga Kondang", "JENIS": "Waortel, Padi, Ayam ras, Lada, Jeruk", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 109.290661, -7.257820 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Pemalang, Kec. Moga Randudongkal", "JENIS": "Padi, Jagung, Kubis, Jahe, Tomat, nanas", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 109.232653, -7.174526 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Magelang, Kws. Merapi Merbabu", "JENIS": "Bawang Putih, Kubis, Tomat", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 110.120626, -7.409534 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kab. Banyuwangi, Kec. Bangorejo\/Kab", "JENIS": "", "KOMODITAS": "Jeruk" }, "geometry": { "type": "Point", "coordinates": [ 114.258122, -8.551473 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kab. Mojokerto, Kawasan Pecet", "JENIS": "", "KOMODITAS": "Padi sawah, kopi, telur" }, "geometry": { "type": "Point", "coordinates": [ 112.558069, -7.605039 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kab. Ngawi, Kws. Dawu", "JENIS": "", "KOMODITAS": "Padi, Ladang Jagung" }, "geometry": { "type": "Point", "coordinates": [ 111.319261, -7.339130 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kab. Lumajang, Kws. Senduro", "JENIS": "", "KOMODITAS": "Pisang" }, "geometry": { "type": "Point", "coordinates": [ 113.102489, -8.053682 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kota Batu", "JENIS": "", "KOMODITAS": "Tanaman hias" }, "geometry": { "type": "Point", "coordinates": [ 112.545466, -7.805416 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kab. Tulung Agung, Kws. Sendang", "JENIS": "", "KOMODITAS": "Padi, Jagung, Kelapa, Sapi Potong" }, "geometry": { "type": "Point", "coordinates": [ 111.804450, -8.067544 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kab. Madiun", "JENIS": "", "KOMODITAS": "Padi, Kedelai" }, "geometry": { "type": "Point", "coordinates": [ 111.578869, -7.719720 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kab. Blitar", "JENIS": "", "KOMODITAS": "Kelapa, Ayam padaging, Kapas" }, "geometry": { "type": "Point", "coordinates": [ 112.076660, -8.204909 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kab. Bangkalan, Kws. Sorbubang", "JENIS": "", "KOMODITAS": "Padi" }, "geometry": { "type": "Point", "coordinates": [ 112.823978, -7.100946 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kec. Sanggau Ledo", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 109.700973, 1.222937 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kec. Sungai Kakap", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 109.242254, -0.267385 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan agropolitan", "LOKASI": "Ds. Muara Kintap, Kec. Kintap, Kab. Tanah Laut", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 115.045898, -3.857483 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Pelaihari", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 114.671362, -3.894699 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Ds. Rampa, Kec. Pulau Laut Utara, Kab. Kota Baru", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 116.096475, -3.454069 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Terantang", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 114.677216, -3.240256 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Barabai", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 115.607875, -2.607924 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "Kec. Bassarang - Kab. Kapuas", "JENIS": "-", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 114.377395, -2.875321 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Argopolitan", "LOKASI": "Kota Batam", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.091566, 1.083555 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Argopolitan", "LOKASI": "Kundur Utara", "JENIS": "Karet, Kelapa, Palawija, Durian, Nanas, Sayuran, Gambir, Lada", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 103.476141, 0.774852 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Argopolitan", "LOKASI": "Toapaya", "JENIS": "Pembibitan Salak Uji Multilokasi, Sayur, Pisang, Nanas, Manggis, Buah Naga, Palawija, Tanaman Hias, Biofarmaka", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.520330, 0.984471 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kab. Lampung Tengah, Kec. Terb", "JENIS": "", "KOMODITAS": "Sapi potong, Ubi Kayu, Jagung," }, "geometry": { "type": "Point", "coordinates": [ 105.332234, -4.944032 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kab. Tetanggamus, Kec. Gisting", "JENIS": "", "KOMODITAS": "Padi Sawah, Sayur-sayuran" }, "geometry": { "type": "Point", "coordinates": [ 104.579228, -5.471538 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kab. Lampung Timur, Kec. Sriba", "JENIS": "", "KOMODITAS": "Kakau" }, "geometry": { "type": "Point", "coordinates": [ 105.761756, -5.318521 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "kota tani", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 127.728070, 1.404475 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kec. Manggelewa", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 118.382061, -8.428399 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kec. Sikur", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 116.510239, -8.573424 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kawasan Aik Meneng", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 116.332129, -8.613751 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "Kawasan Alas Utan", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 117.148745, -8.418839 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.521417, -8.767815 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 124.955388, -9.403019 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 123.879278, -9.988403 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.446687, -9.749267 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Nabire", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 134.906981, -3.300347 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Paniai", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 136.462756, -4.132751 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Mimika", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 137.416413, -4.886171 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Puncak Jaya", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 137.739267, -3.616171 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Merauke", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 140.627816, -8.680008 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Jayawijaya", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 138.585666, -4.487105 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Kec. Nimboran", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 140.324720, -2.728254 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Biak Numfor", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 135.796794, -0.956933 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Aimas - Salawati", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 131.271965, -1.144169 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Prafi - Masni", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 133.955268, -0.998394 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Teluk Patipi", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 133.604248, -2.176158 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Argopolitan", "LOKASI": "Siak Sri Indrapura", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 101.923911, 0.721360 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Bontomanai", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.475082, -6.073875 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Gantarang", "JENIS": "Jagung", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.038527, -5.374916 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Barru, Desa Tuwun", "JENIS": "Sapi, Padi Sawa", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 119.656248, -4.442437 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Pasaka,tahun 2008", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.162407, -5.019526 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Lajoa, Kec. Mario", "JENIS": "Padi,Palawija,C", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.003300, -4.457723 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Allakuang,tahun 2", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 119.811966, -3.947886 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Maiwa, Desa Bangk", "JENIS": "Salak, Nanas, K", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 119.867479, -3.762414 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Rindingallo, tahu", "JENIS": "Kopi Arabica", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 119.810809, -2.879379 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.364072, -1.255049 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 121.139614, -1.854061 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Agropolitan", "LOKASI": "", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.155158, -1.397860 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kec. Bondoala", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.427552, -3.857690 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Desa Lantari, Kec. Rarowatu", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.017762, -4.612251 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Muna, Kec. Kabangka", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.450896, -5.002394 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kec. Lasalimu Selatan", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.961414, -5.260340 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Modoinding", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 124.458082, 0.795155 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Pakakaan (kakas, Tompaso, Kawangkoan, Langowan)", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 124.919386, 1.126650 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Air Madidi", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 125.017985, 1.443822 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kawasan Rurukan", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 124.861984, 1.341963 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Ogan Komering Ulu, Kecamatan Martapura", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.339925, -4.365690 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. OKU Selatan, Kec. Pulau Beringin", "JENIS": "Sayur-sayuran", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 103.701639, -4.377538 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. OKU, Kec. Lengkiti", "JENIS": "Palawija, Sayuran", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.049762, -4.024218 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. OKI, Kec. Lempuing", "JENIS": "Sayur2an, padi, kacang panjang", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.889762, -3.781744 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kawasan Agropolitan", "LOKASI": "Kab. Mura, Kec. Tugu Mulyo", "JENIS": "Kedelai, Sayuran", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 102.917062, -3.222321 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Kota Tani", "LOKASI": "Merek", "JENIS": "", "KOMODITAS": "" }, "geometry": { "type": "Point", "coordinates": [ 98.426302, 2.956667 ] } }
+
+]
+}

@@ -1,0 +1,243 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Ngurah Rai", "RUNWAY": "3000 x 45 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 115.165993, -8.734856 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bandara Pusat Penyebaran", "NAMA": "Bandar Udara Soekarno Hat", "RUNWAY": "3.600 x 60 m, 3.060 x 60", "CATATAN": "(b-747)", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.662542, -6.091758 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebran Sekunder", "NAMA": "Bandara Budiarto (curug)", "RUNWAY": "1.800 x 30 m, 1600 x 45 m", "CATATAN": "(f-27), luas 469,09 ha", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.537061, -6.288945 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Fatmawati Soekarno", "RUNWAY": "2000 x 30 m", "CATATAN": "", "KETERANGAN": "B-737", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 102.329724, -3.812135 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Muko-muko", "RUNWAY": "1000 x 30 m", "CATATAN": "", "KETERANGAN": "C-212", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 101.186576, -2.620113 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Gading", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 110.561180, -7.918434 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Adisucipto", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 110.434683, -7.790115 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Halim Perdana Kusuma", "RUNWAY": "3000 x 45 m", "CATATAN": "Kota Jakarta Timur", "KETERANGAN": "B-737", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.890042, -6.267311 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn pst penyebaran", "NAMA": "Djalaluddin", "RUNWAY": "2.250x30 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.845020, 0.616332 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bukan pusat penyebaran", "NAMA": "Husein Sastranegara, Bandung", "RUNWAY": "2250 x 45 m (b-737)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.615492, -6.828882 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bukan pusat penyebaran", "NAMA": "Penggung\/Cakrabuana, Cirebon", "RUNWAY": "1270 x 30 m (C-212", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 108.535363, -6.766044 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bukan pusat penyebaran", "NAMA": "Nusa Wiru, Pangandaran", "RUNWAY": "1400 x 30 m (F-27\/CN-235)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 108.648548, -7.638630 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Sekunder", "NAMA": "Bandara Sutan Thaha", "RUNWAY": "1.900 x 30 m ( f - 28 )", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 103.647721, -1.637508 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Sekunder", "NAMA": "Bandara Pasir Mayang", "RUNWAY": "1.100 x 30 m (C-212)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 102.402468, -1.536944 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Sekunder", "NAMA": "Bandara Depati Parbo", "RUNWAY": "1.000 x 23 m (C-212)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 101.346385, -1.986771 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Bandara Achmad Yani", "RUNWAY": "1.850 x 45 m (b-737)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 110.361177, -6.963226 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Bandara Adisumarmo", "RUNWAY": "2.600 x 45 m (md-11)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 110.799751, -7.532020 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Juanda (int)", "RUNWAY": "3.000 x 45 m", "CATATAN": "B-747", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 112.794157, -7.340817 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Pacitan", "RUNWAY": "800 x 30 m", "CATATAN": "Twin Otter\/C-21", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 111.025627, -8.208690 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Abdul Rahman Saleh (Malan", "RUNWAY": "1.980 x 40 m", "CATATAN": "B-737", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 112.695434, -8.024696 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Noo Hadinegoro (Jember)", "RUNWAY": "1.200 x 30 m", "CATATAN": "C-212", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 113.711181, -8.267921 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Blimbing Sari (Banyuwangi", "RUNWAY": "1.000 x 30 m", "CATATAN": "C-212", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 114.246779, -8.254059 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Sekunder", "NAMA": "Bandara Supadio", "RUNWAY": "2.250 x 30 m", "CATATAN": "Pusat Penyebaran", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 109.422895, -0.182102 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat penyebaran tertier", "NAMA": "Samsudin Noor (int)", "RUNWAY": "2.500 x 45 m (dc-9)", "CATATAN": "Airbus A-300", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 114.784763, -3.419397 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bukan Pusat Penyebaran", "NAMA": "Bandara Kuala Kurun", "RUNWAY": "750 x 23 m", "CATATAN": "C-212", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 113.990270, -1.113667 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bukan Pusat Penyebaran", "NAMA": "Bandara H. Asan", "RUNWAY": "1200 x 20", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 112.757934, -2.666589 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bukan Pusat Penyebaran", "NAMA": "bandara Sanggu Buntok", "RUNWAY": "750 x 23 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 114.748933, -1.621991 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "pusat penyebaran sekunder", "NAMA": "Bandara Tjilik Riwut", "RUNWAY": "2600 x 45 M (B - 737 - 200)", "CATATAN": "-", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 113.878429, -2.310854 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Bandara Sepinggan", "RUNWAY": "2.500 x 45 m (DC-10,A-300)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 116.934165, -1.199113 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Hang Nadim", "RUNWAY": "4.025 x 45 M (B-747)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.120337, 1.114065 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Sei Bati", "RUNWAY": "900 x 23 M (C-212)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 103.386895, 1.054282 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Kijang", "RUNWAY": "1.850 x 30 M ( F-27)", "CATATAN": "B-737, PT. AP II", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.514651, 0.921437 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Dabo", "RUNWAY": "1.175 x 30 M (F-27)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.427933, -0.526898 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Ranai", "RUNWAY": "2.500 x 40 M (F-28)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 108.284609, 3.841219 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "pusat penyebaran tersier", "NAMA": "Patimura", "RUNWAY": "2.500 x 45 m", "CATATAN": "Air Bus A-300", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 128.086966, -3.691044 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "pusat penyebaran tersier", "NAMA": "bandanaera", "RUNWAY": "700 x 23 m (C-212)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 129.002188, -3.292266 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "pusat penyebaran tertier", "NAMA": "patani", "RUNWAY": "900 x 23 (C-212)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 128.499043, 0.490948 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "pusat penyebaran tersier", "NAMA": "Iskandar Muda", "RUNWAY": "2500 x 45 m", "CATATAN": "(b-737)", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 95.595983, 5.575445 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Teuku Cut Ali", "RUNWAY": "900 x 23 m", "CATATAN": "(twin Otter\/C-212)", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 97.321781, 3.196949 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Lasikin", "RUNWAY": "900 x 23 m", "CATATAN": "(twin Otter\/C-212)", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 96.380117, 2.441436 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Cut Nyak Dhien", "RUNWAY": "1.400 x 23 m", "CATATAN": "(F-27\/CN-235)", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 96.188635, 4.206459 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Maimun Saleh", "RUNWAY": "1.850 x 30 m", "CATATAN": "(F-28)", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 95.260183, 5.834945 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Bandara Selaparang", "RUNWAY": "2.100 x 40 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 116.137475, -8.473846 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Tertier", "NAMA": "Lekumik", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 123.146518, -10.725040 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Tertier", "NAMA": "Tardamu", "RUNWAY": "900 x 23 m", "CATATAN": "c-212", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 121.927912, -10.487235 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Tertier", "NAMA": "Tambulaka", "RUNWAY": "1.650 x 30 m", "CATATAN": "dhc-6\/c-212", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 119.358380, -9.624000 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Tertier", "NAMA": "Haliwen", "RUNWAY": "900 x 23 m", "CATATAN": "(c-212)", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 124.925589, -9.208706 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Penyebaran Tertier", "NAMA": "Wonopito", "RUNWAY": "900 x 23m ( c-212 )", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 123.483372, -8.402084 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Penyebaran Tertier", "NAMA": "Bandara Wai Oti", "RUNWAY": "1.850 x 30 m ( f - 28 )", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.342840, -8.687423 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Bandara Eltari ( Int)", "RUNWAY": "2.500 x 45 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 123.744450, -10.250975 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Penyebaran Tertier", "NAMA": "Mauhau", "RUNWAY": "1.650 x 30 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.092966, -9.627209 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Sentani", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "Runway : 1280 m x 45 m (B-737)", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 140.533605, -2.451804 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Mozes Kilangin", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "Runway : 2390 m x 45 m (B-737)", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 137.144878, -4.604600 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Tanah Merah", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "Runway : 1050 m x 20 m (C-212)", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 140.340346, -5.966762 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Enarotali", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "Runway : 900 m x 18 m (C-212)", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 136.600960, -3.898510 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Mopah", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "Runway : 1850 m x 30 m (B-737)", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 140.591586, -8.510668 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Nabire", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "Runway : 1650 m x 30 m (ATR-42", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 135.647035, -3.501579 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Frans Kaisiepo", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "Runway : 3570 m x 45 m (B-747-", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 136.233052, -1.101017 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Wamena", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "Runway : 1650 m x 30 m (F-27)", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 138.805709, -4.117429 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas II" }, "geometry": { "type": "Point", "coordinates": [ 131.284148, -0.841964 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas III" }, "geometry": { "type": "Point", "coordinates": [ 134.023370, -0.855052 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas III" }, "geometry": { "type": "Point", "coordinates": [ 132.227954, -2.889131 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas IV" }, "geometry": { "type": "Point", "coordinates": [ 133.894114, -3.418529 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas V" }, "geometry": { "type": "Point", "coordinates": [ 133.050205, -0.572242 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas V" }, "geometry": { "type": "Point", "coordinates": [ 133.228051, -1.575480 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas V" }, "geometry": { "type": "Point", "coordinates": [ 133.421702, -2.565284 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas V" }, "geometry": { "type": "Point", "coordinates": [ 132.017296, -1.494660 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas V" }, "geometry": { "type": "Point", "coordinates": [ 132.552875, -1.136911 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas V" }, "geometry": { "type": "Point", "coordinates": [ 132.877759, -3.235569 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Satker" }, "geometry": { "type": "Point", "coordinates": [ 132.132554, -0.498330 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas V" }, "geometry": { "type": "Point", "coordinates": [ 133.659762, -2.110870 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Kelas V" }, "geometry": { "type": "Point", "coordinates": [ 132.980781, -0.828403 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Satker" }, "geometry": { "type": "Point", "coordinates": [ 133.503328, -1.018913 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Satker" }, "geometry": { "type": "Point", "coordinates": [ 133.909268, -1.279061 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 134.062758, -3.722164 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 134.555838, -2.704793 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Khusus" }, "geometry": { "type": "Point", "coordinates": [ 133.327713, -1.224192 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Khusus" }, "geometry": { "type": "Point", "coordinates": [ 133.759794, -1.353418 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Bkn Pusat Penyebaran" }, "geometry": { "type": "Point", "coordinates": [ 134.175355, -1.530827 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Bkn Pusat Penyebaran" }, "geometry": { "type": "Point", "coordinates": [ 132.259458, -2.150982 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Khusus" }, "geometry": { "type": "Point", "coordinates": [ 132.045239, -1.235110 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Bkn Pusat Penyebaran" }, "geometry": { "type": "Point", "coordinates": [ 132.157504, -1.324463 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Bkn Pusat Penyebaran" }, "geometry": { "type": "Point", "coordinates": [ 131.266526, -1.113211 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Bkn Pusat Penyebaran" }, "geometry": { "type": "Point", "coordinates": [ 129.894058, -0.412751 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Bkn Pusat Penyebaran" }, "geometry": { "type": "Point", "coordinates": [ 130.943046, -0.119912 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Bkn Pusat Penyebaran" }, "geometry": { "type": "Point", "coordinates": [ 129.845404, -1.854384 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "Bkn Pusat Penyebaran" }, "geometry": { "type": "Point", "coordinates": [ 130.449854, -0.235322 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Sekunder", "NAMA": "Sultan Syarif 2 Pekanbaru", "RUNWAY": "", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 101.351314, 0.448643 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn Pst Penyebaran", "NAMA": "Tampa Padang", "RUNWAY": "1400 x 30 m (MA 60) ATR-7", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 119.035540, -2.537962 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn Pusat Penyebaran", "NAMA": "Malili", "RUNWAY": "850x20 m", "CATATAN": "DHC-6 Twin Oter", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 121.335793, -2.538417 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn Pusat Penyebaran", "NAMA": "Soroako", "RUNWAY": "1100x23 m", "CATATAN": "Cassa 212 Elevasi 423 M", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 121.098639, -2.644846 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Tersier", "NAMA": "Sekoseko", "RUNWAY": "700x18 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.155821, -2.461322 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Sekunder", "NAMA": "Andi Jemma Masamba", "RUNWAY": "900x23", "CATATAN": "Cassa 212", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.027076, -2.618311 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Sekunder", "NAMA": "Pongtiku Tana Toraja", "RUNWAY": "900x23", "CATATAN": "Cassa 212, 825 M", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 119.830639, -2.957655 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn Pusat Penyebaran", "NAMA": "H Eroeppala Selayar", "RUNWAY": "900x23 m", "CATATAN": "Cassa 212", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.477236, -5.833960 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Primer", "NAMA": "Hasanudin", "RUNWAY": "2500x65", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 119.553846, -5.076311 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn Pusat Penyebaran", "NAMA": "Bua", "RUNWAY": "1400x23 m", "CATATAN": "C-212", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.207093, -3.097231 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn Pusat Penyebaran", "NAMA": "Andi Jemma", "RUNWAY": "900x23 m", "CATATAN": "C-212", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 120.307833, -2.582546 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bukan pusat penyebaran", "NAMA": "Mutiara", "RUNWAY": "2.067 x 30 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 119.930181, -0.914602 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum Pusat Penyebaran", "NAMA": "Wolter Mongonsidi", "RUNWAY": "2100x30 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.426754, -4.110839 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Tersier", "NAMA": "Tomia", "RUNWAY": "1500x30 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 123.934241, -5.759351 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn Pusat Penyebaran", "NAMA": "Pomalaa", "RUNWAY": "1050x30 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 121.628160, -4.217821 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn Pusat Penyebaran", "NAMA": "Betoambari", "RUNWAY": "1050x23 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 122.626910, -5.551625 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Umum bkn Pst Penyebaran", "NAMA": "Sam Ratulangi", "RUNWAY": "2650 x 45 m (airbus 300)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 124.900326, 1.566377 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bandara Internasional", "NAMA": "Minangkabau", "RUNWAY": "2750 x 45 m", "CATATAN": "A-330", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 100.441907, -0.981580 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Tabing", "RUNWAY": "2150 x 45 m", "CATATAN": "B-737", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 100.218647, -0.588682 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Siberut", "RUNWAY": "600 x 23 m", "CATATAN": "BN-2A", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 99.048783, -1.473609 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "Rokot", "RUNWAY": "760 x 23 m", "CATATAN": "BN-2A", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 99.623290, -2.059699 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "pusat penyebaran primer", "NAMA": "Polonia", "RUNWAY": "2.900 x 45 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 98.583914, 3.566013 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bukan pusat penyebaran", "NAMA": "Sibisa", "RUNWAY": "700 x 23 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 99.035770, 2.690428 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bukan pusat penyebaran", "NAMA": "Pinang Sori", "RUNWAY": "1.400 x 30 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 98.856002, 1.680504 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bukan pusat penyebaran", "NAMA": "Binaka", "RUNWAY": "1.350 x 30 m (C-212)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 97.523672, 1.328111 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bukan Pusat penyebaran", "NAMA": "Aek Godang", "RUNWAY": "1.400 x 23 m", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 99.241190, 1.303118 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bukan Pusat penyebaran", "NAMA": "Pulau-pulau Batu", "RUNWAY": "850 x 23 m (C-212)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 98.782407, 0.142334 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bukan Pusat penyebaran", "NAMA": "Silangit", "RUNWAY": "1.850 x 30 m (F-27\/F-28)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 99.085730, 2.253987 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Tersier", "NAMA": "B. Depati Amir", "RUNWAY": "1.800 x 30 m (B-737)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 106.078032, -2.083919 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "", "NAMA": "B. Buluh Tumbang", "RUNWAY": "1.850 x 30 m (F-28)", "CATATAN": "", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 107.677418, -2.806478 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Pusat Penyebaran Tersier", "NAMA": "Raden Inten", "RUNWAY": "1.850 x 30 m", "CATATAN": "F 28", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 105.258497, -5.250258 ] } }
+,
+{ "type": "Feature", "properties": { "UNSUR": "Bandara Pusat Penyebaran Sekunder", "NAMA": "Bandara Sultan Mahmud Badaruddin Ii (int)", "RUNWAY": "2.500 x 45 m (11 - 29)", "CATATAN": "Kemampuan B-737, A-319", "KETERANGAN": "", "JENIS": "" }, "geometry": { "type": "Point", "coordinates": [ 104.724714, -2.892306 ] } }
+
+]
+}

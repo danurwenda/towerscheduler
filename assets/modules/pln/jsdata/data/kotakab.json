@@ -1,0 +1,885 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "ID": "1107", "NAMA": "ACEH BARAT", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 96.205397, 4.424104 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1112", "NAMA": "ACEH BARAT DAYA", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 96.856232, 3.828139 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1108", "NAMA": "ACEH BESAR", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 95.425587, 5.407123 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1116", "NAMA": "ACEH JAYA", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 95.649738, 4.827438 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1103", "NAMA": "ACEH SELATAN", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 97.412175, 3.067488 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1102", "NAMA": "ACEH SINGKIL", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 97.924175, 2.546953 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1114", "NAMA": "ACEH TAMIANG", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 98.003498, 4.190672 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1106", "NAMA": "ACEH TENGAH", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 96.814659, 4.566932 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1104", "NAMA": "ACEH TENGGARA", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 97.624304, 3.341445 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1105", "NAMA": "ACEH TIMUR", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 97.639107, 4.702348 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1111", "NAMA": "ACEH UTARA", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 97.145389, 4.999668 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3101", "NAMA": "ADM. KEPULAUAN SERIBU", "PROPINSI": "DKI JAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 106.289956, -5.816382 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1307", "NAMA": "AGAM", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.148964, -0.266132 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5307", "NAMA": "ALOR", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 124.471288, -8.333478 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1208", "NAMA": "ASAHAN", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.535360, 2.987596 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9415", "NAMA": "ASMAT", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 138.727691, -5.440924 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5103", "NAMA": "BADUNG", "PROPINSI": "BALI" }, "geometry": { "type": "Point", "coordinates": [ 115.167557, -8.545613 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6311", "NAMA": "BALANGAN", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 115.573981, -2.282965 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3204", "NAMA": "BANDUNG", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.543644, -7.016213 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7202", "NAMA": "BANGGAI", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 122.621193, -1.070299 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7201", "NAMA": "BANGGAI KEPULAUAN", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 123.172017, -1.398864 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1901", "NAMA": "BANGKA", "PROPINSI": "KEP. BANGKA BELITUNG" }, "geometry": { "type": "Point", "coordinates": [ 105.871778, -1.937367 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1903", "NAMA": "BANGKA BARAT", "PROPINSI": "KEP. BANGKA BELITUNG" }, "geometry": { "type": "Point", "coordinates": [ 105.451099, -1.840409 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1905", "NAMA": "BANGKA SELATAN", "PROPINSI": "KEP. BANGKA BELITUNG" }, "geometry": { "type": "Point", "coordinates": [ 106.510719, -2.802197 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1904", "NAMA": "BANGKA TENGAH", "PROPINSI": "KEP. BANGKA BELITUNG" }, "geometry": { "type": "Point", "coordinates": [ 106.300049, -2.427317 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3526", "NAMA": "BANGKALAN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.910103, -7.046421 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5106", "NAMA": "BANGLI", "PROPINSI": "BALI" }, "geometry": { "type": "Point", "coordinates": [ 115.345698, -8.333987 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6303", "NAMA": "BANJAR", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 115.050073, -3.279211 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3304", "NAMA": "BANJARNEGARA", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.703545, -7.400866 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7303", "NAMA": "BANTAENG", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.982029, -5.476345 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3402", "NAMA": "BANTUL", "PROPINSI": "DI YOGYAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 110.363084, -7.905608 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1607", "NAMA": "BANYUASIN", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 104.782425, -2.410363 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3302", "NAMA": "BANYUMAS", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.285798, -7.528740 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3510", "NAMA": "BANYUWANGI", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 114.369531, -8.222174 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6304", "NAMA": "BARITO KUALA", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 114.604216, -3.015524 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6204", "NAMA": "BARITO SELATAN", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 114.697420, -1.936400 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6212", "NAMA": "BARITO TIMUR", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 115.117048, -1.930133 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6205", "NAMA": "BARITO UTARA", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 115.127038, -0.758889 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7310", "NAMA": "BARRU", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.692676, -4.432875 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3325", "NAMA": "BATANG", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.756453, -6.931673 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1504", "NAMA": "BATANG HARI", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 103.014904, -1.857289 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3216", "NAMA": "BEKASI", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.132741, -6.200024 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1902", "NAMA": "BELITUNG", "PROPINSI": "KEP. BANGKA BELITUNG" }, "geometry": { "type": "Point", "coordinates": [ 107.660649, -2.895192 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1906", "NAMA": "BELITUNG TIMUR", "PROPINSI": "KEP. BANGKA BELITUNG" }, "geometry": { "type": "Point", "coordinates": [ 108.095913, -2.898316 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5306", "NAMA": "BELU", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 124.915836, -9.373978 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1117", "NAMA": "BENER MERIAH", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 96.990139, 4.769232 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1408", "NAMA": "BENGKALIS", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 102.022190, 1.404850 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6102", "NAMA": "BENGKAYANG", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 109.488152, 1.034545 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1701", "NAMA": "BENGKULU SELATAN", "PROPINSI": "BENGKULU" }, "geometry": { "type": "Point", "coordinates": [ 103.029597, -4.312024 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1703", "NAMA": "BENGKULU UTARA", "PROPINSI": "BENGKULU" }, "geometry": { "type": "Point", "coordinates": [ 102.086754, -3.294392 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6405", "NAMA": "BERAU", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 117.600586, 1.809834 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9409", "NAMA": "BIAK NUMFOR", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 136.051673, -0.943230 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5206", "NAMA": "BIMA", "PROPINSI": "NUSA TENGGARA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 118.535155, -8.483210 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1110", "NAMA": "BIREUEN", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 96.597397, 5.082603 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3505", "NAMA": "BLITAR", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.216347, -8.131332 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3316", "NAMA": "BLORA", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 111.420434, -6.968049 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7502", "NAMA": "BOALEMO", "PROPINSI": "GORONTALO" }, "geometry": { "type": "Point", "coordinates": [ 122.367216, 0.644297 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3522", "NAMA": "BOJONEGORO", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.882060, -7.164208 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7101", "NAMA": "BOLAANG MENGONDOW", "PROPINSI": "SULAWESI UTARA" }, "geometry": { "type": "Point", "coordinates": [ 123.910273, 0.653042 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7406", "NAMA": "BOMBANA", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 121.818914, -4.630523 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3511", "NAMA": "BONDOWOSO", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 113.825813, -7.920623 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7311", "NAMA": "BONE", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 120.125014, -4.702929 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7504", "NAMA": "BONEBOLANGO", "PROPINSI": "GORONTALO" }, "geometry": { "type": "Point", "coordinates": [ 123.302631, 0.557612 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9413", "NAMA": "BOVENDIGOEL", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 140.377854, -6.187087 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3309", "NAMA": "BOYOLALI", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.704953, -7.380700 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3329", "NAMA": "BREBES", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.011084, -6.864042 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5108", "NAMA": "BULELENG", "PROPINSI": "BALI" }, "geometry": { "type": "Point", "coordinates": [ 114.944653, -8.222434 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6407", "NAMA": "BULONGAN", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 117.039367, 2.970419 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7302", "NAMA": "BULUKUMBA", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 120.204199, -5.488132 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1509", "NAMA": "BUNGO", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 101.932522, -1.509429 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7207", "NAMA": "BUOL", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 121.557645, 0.997507 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8104", "NAMA": "BURU", "PROPINSI": "MALUKU" }, "geometry": { "type": "Point", "coordinates": [ 126.668514, -3.543798 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7401", "NAMA": "BUTON", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 122.898457, -5.388568 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3207", "NAMA": "CIAMIS", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 108.488161, -7.434819 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3203", "NAMA": "CIANJUR", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.131292, -6.812541 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3301", "NAMA": "CILACAP", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.035987, -7.682708 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3209", "NAMA": "CIREBON", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 108.577133, -6.754366 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1210", "NAMA": "DAIRI", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.250302, 2.888431 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1212", "NAMA": "DELI SERDANG", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.702089, 3.475363 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3321", "NAMA": "DEMAK", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.641242, -6.888309 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1311", "NAMA": "DHARMAS RAYA", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 101.515488, -1.244649 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5205", "NAMA": "DOMPU", "PROPINSI": "NUSA TENGGARA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 118.330464, -8.516478 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7205", "NAMA": "DONGGALA", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 119.811371, -0.650812 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5311", "NAMA": "ENDE", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 121.710348, -8.599535 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7316", "NAMA": "ENREKANG", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.891071, -3.535011 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9101", "NAMA": "FAK-FAK", "PROPINSI": "IRIAN JAYA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 132.838646, -3.202493 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5309", "NAMA": "FLORES TIMUR", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 122.834770, -8.350240 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3205", "NAMA": "GARUT", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.901677, -7.229170 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1113", "NAMA": "GAYO LUES", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 97.322332, 3.977708 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5104", "NAMA": "GIANYAR", "PROPINSI": "BALI" }, "geometry": { "type": "Point", "coordinates": [ 115.299303, -8.481345 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7501", "NAMA": "GORONTALO", "PROPINSI": "GORONTALO" }, "geometry": { "type": "Point", "coordinates": [ 122.625427, 0.752696 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7306", "NAMA": "GOWA", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.686680, -5.354005 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3525", "NAMA": "GRESIK", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.637816, -7.164651 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3315", "NAMA": "GROBOGAN", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.935425, -7.064583 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3403", "NAMA": "GUNUNG KIDUL", "PROPINSI": "DI YOGYAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 110.576729, -7.993165 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6211", "NAMA": "GUNUNG MAS", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 113.491226, -0.895315 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8201", "NAMA": "HALMAHERA BARAT", "PROPINSI": "MALUKU UTARA" }, "geometry": { "type": "Point", "coordinates": [ 127.566265, 1.232706 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8204", "NAMA": "HALMAHERA SELATAN", "PROPINSI": "MALUKU UTARA" }, "geometry": { "type": "Point", "coordinates": [ 128.060127, -0.455026 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8202", "NAMA": "HALMAHERA TENGAH", "PROPINSI": "MALUKU UTARA" }, "geometry": { "type": "Point", "coordinates": [ 128.274800, 1.021163 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8206", "NAMA": "HALMAHERA TIMUR", "PROPINSI": "MALUKU UTARA" }, "geometry": { "type": "Point", "coordinates": [ 128.585726, 0.352122 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8205", "NAMA": "HALMAHERA UTARA", "PROPINSI": "MALUKU UTARA" }, "geometry": { "type": "Point", "coordinates": [ 127.807297, 1.534888 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6306", "NAMA": "HULU SUNGAI SELATAN", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 115.233404, -2.718327 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6307", "NAMA": "HULU SUNGAI TENGAH", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 115.437679, -2.616962 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6308", "NAMA": "HULU SUNGAI UTARA", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 115.128537, -2.425586 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1215", "NAMA": "HUMBANG HASUNDUTAN", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.576280, 2.240714 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1403", "NAMA": "INDRAGIRI HILIR", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 103.185604, -0.290943 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1402", "NAMA": "INDRAGIRI HULU", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 102.241718, -0.522689 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3212", "NAMA": "INDRAMAYU", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 108.319201, -6.375156 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9403", "NAMA": "JAYAPURA", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 140.033233, -3.050372 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9402", "NAMA": "JAYAWIJAYA", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 138.700294, -4.048940 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3509", "NAMA": "JEMBER", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 113.653866, -8.263193 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5101", "NAMA": "JEMBRANA", "PROPINSI": "BALI" }, "geometry": { "type": "Point", "coordinates": [ 114.684132, -8.313869 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7304", "NAMA": "JENEPONTO", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.697824, -5.570901 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3320", "NAMA": "JEPARA", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.671392, -6.589959 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3517", "NAMA": "JOMBANG", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.229025, -7.540714 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9102", "NAMA": "KAIMANA", "PROPINSI": "IRIAN JAYA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 134.034301, -3.548337 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1406", "NAMA": "KAMPAR", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 101.089321, 0.271160 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6203", "NAMA": "KAPUAS", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 114.254357, -1.942150 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6108", "NAMA": "KAPUAS HULU", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 112.923984, 0.832692 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5107", "NAMA": "KARANG ASEM", "PROPINSI": "BALI" }, "geometry": { "type": "Point", "coordinates": [ 115.551216, -8.358600 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3313", "NAMA": "KARANGANYAR", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.951424, -7.616808 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3215", "NAMA": "KARAWANG", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.317665, -6.318500 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "2001", "NAMA": "KARIMUN", "PROPINSI": "KEPULAUAN RIAU" }, "geometry": { "type": "Point", "coordinates": [ 103.427879, 0.765779 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1211", "NAMA": "KARO", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.250598, 3.093536 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6209", "NAMA": "KATINGAN", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 113.319223, -1.862507 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1704", "NAMA": "KAUR", "PROPINSI": "BENGKULU" }, "geometry": { "type": "Point", "coordinates": [ 103.426861, -4.589834 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3305", "NAMA": "KEBUMEN", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.685001, -7.682849 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3506", "NAMA": "KEDIRI", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.109970, -7.805683 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9420", "NAMA": "KEEROM", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 140.545433, -3.243332 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3324", "NAMA": "KENDAL", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.193310, -6.925157 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7403", "NAMA": "KENDARI", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 122.009933, -3.613597 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1708", "NAMA": "KEPAHIANG", "PROPINSI": "BENGKULU" }, "geometry": { "type": "Point", "coordinates": [ 102.663349, -3.647609 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8105", "NAMA": "KEPULAUAN ARU", "PROPINSI": "MALUKU" }, "geometry": { "type": "Point", "coordinates": [ 134.479812, -6.217543 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1301", "NAMA": "KEPULAUAN MENTAWAI", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 98.944206, -1.361497 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "2002", "NAMA": "KEPULAUAN RIAU", "PROPINSI": "KEPULAUAN RIAU" }, "geometry": { "type": "Point", "coordinates": [ 104.721512, 1.020513 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8203", "NAMA": "KEPULAUAN SULA", "PROPINSI": "MALUKU UTARA" }, "geometry": { "type": "Point", "coordinates": [ 124.833794, -1.832721 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7104", "NAMA": "KEPULAUAN TALAUD", "PROPINSI": "SULAWESI UTARA" }, "geometry": { "type": "Point", "coordinates": [ 126.883268, 4.274540 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1501", "NAMA": "KERINCI", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 101.478157, -2.060117 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6106", "NAMA": "KETAPANG", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 110.370247, -1.673760 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3310", "NAMA": "KLATEN", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.625538, -7.676872 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5105", "NAMA": "KLUNGKUNG", "PROPINSI": "BALI" }, "geometry": { "type": "Point", "coordinates": [ 115.537638, -8.745566 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7404", "NAMA": "KOLAKA", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 121.545367, -3.845337 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7408", "NAMA": "KOLAKA UTARA", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 121.130842, -3.252417 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7405", "NAMA": "KONAWE SELATAN", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 122.453986, -4.305510 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8171", "NAMA": "KOTA AMBON", "PROPINSI": "MALUKU" }, "geometry": { "type": "Point", "coordinates": [ 128.233787, -3.672654 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6471", "NAMA": "KOTA BALIKPAPAN", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 116.882529, -1.153938 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1171", "NAMA": "KOTA BANDA ACEH", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 95.342983, 5.547330 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1871", "NAMA": "KOTA BANDAR LAMPUNG", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 105.251129, -5.423313 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3273", "NAMA": "KOTA BANDUNG", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.641823, -6.903310 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3279", "NAMA": "KOTA BANJAR", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 108.566930, -7.380377 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6372", "NAMA": "KOTA BANJAR BARU", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 114.789837, -3.470840 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6371", "NAMA": "KOTA BANJARMASIN", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 114.583148, -3.326582 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6302", "NAMA": "KOTA BARU", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 116.025211, -2.797258 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "2071", "NAMA": "KOTA BATAM", "PROPINSI": "KEPULAUAN RIAU" }, "geometry": { "type": "Point", "coordinates": [ 104.019349, 1.089663 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3579", "NAMA": "KOTA BATU", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.534339, -7.831654 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7472", "NAMA": "KOTA BAU-BAU", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 122.684005, -5.428135 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3275", "NAMA": "KOTA BEKASI", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 106.973718, -6.279254 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1771", "NAMA": "KOTA BENGKULU", "PROPINSI": "BENGKULU" }, "geometry": { "type": "Point", "coordinates": [ 102.308407, -3.856604 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5272", "NAMA": "KOTA BIMA", "PROPINSI": "NUSA TENGGARA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 118.796959, -8.447049 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1276", "NAMA": "KOTA BINJAI", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.484604, 3.619036 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7172", "NAMA": "KOTA BITUNG", "PROPINSI": "SULAWESI UTARA" }, "geometry": { "type": "Point", "coordinates": [ 125.155331, 1.478117 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3572", "NAMA": "KOTA BLITAR", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.165123, -8.086938 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3271", "NAMA": "KOTA BOGOR", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 106.791545, -6.594182 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6474", "NAMA": "KOTA BONTANG", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 117.461752, 0.121109 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1375", "NAMA": "KOTA BUKITTINGGI", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.371849, -0.271348 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3672", "NAMA": "KOTA CILEGON", "PROPINSI": "BANTEN" }, "geometry": { "type": "Point", "coordinates": [ 106.057942, -6.016332 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3277", "NAMA": "KOTA CIMAHI", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.543285, -6.882198 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3274", "NAMA": "KOTA CIREBON", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 108.554046, -6.750990 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5171", "NAMA": "KOTA DENPASAR", "PROPINSI": "BALI" }, "geometry": { "type": "Point", "coordinates": [ 115.224288, -8.669218 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3276", "NAMA": "KOTA DEPOK", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 106.816727, -6.386979 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1473", "NAMA": "KOTA DUMAI", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 101.275275, 1.730381 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7571", "NAMA": "KOTA GORONTALO", "PROPINSI": "GORONTALO" }, "geometry": { "type": "Point", "coordinates": [ 123.097569, 0.535670 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3174", "NAMA": "KOTA JAKARTA BARAT", "PROPINSI": "DKI JAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 106.754658, -6.159522 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3173", "NAMA": "KOTA JAKARTA PUSAT", "PROPINSI": "DKI JAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 106.836701, -6.183281 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3171", "NAMA": "KOTA JAKARTA SELATAN", "PROPINSI": "DKI JAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 106.794296, -6.284892 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3172", "NAMA": "KOTA JAKARTA TIMUR", "PROPINSI": "DKI JAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 106.884382, -6.259761 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3175", "NAMA": "KOTA JAKARTA UTARA", "PROPINSI": "DKI JAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 106.841321, -6.135408 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1571", "NAMA": "KOTA JAMBI", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 103.640946, -1.622246 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9471", "NAMA": "KOTA JAYAPURA", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 140.771850, -2.652895 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3571", "NAMA": "KOTA KEDIRI", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.017449, -7.821395 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7471", "NAMA": "KOTA KENDARI", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 122.552480, -4.003157 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5371", "NAMA": "KOTA KUPANG", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 123.597805, -10.223091 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1173", "NAMA": "KOTA LANGSA", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 97.969734, 4.484714 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1174", "NAMA": "KOTA LHOKSEUMAWE", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 97.065441, 5.129052 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1674", "NAMA": "KOTA LUBUK LINGGAU", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 102.794460, -3.238107 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3577", "NAMA": "KOTA MADIUN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.530170, -7.632041 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3371", "NAMA": "KOTA MAGELANG", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.226214, -7.491309 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3573", "NAMA": "KOTA MALANG", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.623268, -7.971985 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7171", "NAMA": "KOTA MANADO", "PROPINSI": "SULAWESI UTARA" }, "geometry": { "type": "Point", "coordinates": [ 124.852360, 1.496505 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5271", "NAMA": "KOTA MATARAM", "PROPINSI": "NUSA TENGGARA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 116.116906, -8.587810 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1275", "NAMA": "KOTA MEDAN", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.681000, 3.652923 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1872", "NAMA": "KOTA METRO", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 105.309474, -5.111655 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3576", "NAMA": "KOTA MOJOKERTO", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.437221, -7.471154 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1371", "NAMA": "KOTA PADANG", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.428280, -1.002512 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1374", "NAMA": "KOTA PADANG PANJANG", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.423408, -0.453912 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1277", "NAMA": "KOTA PADANG SIDEMPUAN", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.331299, 1.333862 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1673", "NAMA": "KOTA PAGAR ALAM", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 103.339802, -4.149464 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6271", "NAMA": "KOTA PALANGKARAYA", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 113.808659, -1.779778 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1671", "NAMA": "KOTA PALEMBANG", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 104.728321, -3.003336 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7373", "NAMA": "KOTA PALOPO", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 120.146564, -2.998745 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7271", "NAMA": "KOTA PALU", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 119.900227, -0.820163 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1971", "NAMA": "KOTA PANGKAL PINANG", "PROPINSI": "KEP. BANGKA BELITUNG" }, "geometry": { "type": "Point", "coordinates": [ 106.130400, -2.226634 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7372", "NAMA": "KOTA PARE-PARE", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.663895, -4.016516 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1377", "NAMA": "KOTA PARIAMAN", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.136940, -0.625190 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3575", "NAMA": "KOTA PASURUAN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.910154, -7.655659 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1376", "NAMA": "KOTA PAYAKUMBUH", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.641053, -0.239505 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3375", "NAMA": "KOTA PEKALONGAN", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.687980, -6.901955 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1471", "NAMA": "KOTA PEKANBARU", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 101.462342, 0.557758 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1273", "NAMA": "KOTA PEMATANG SIANTAR", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.051315, 2.969183 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6171", "NAMA": "KOTA PONTIANAK", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 109.351444, -0.089017 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1672", "NAMA": "KOTA PRABUMULIH", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 104.253815, -3.495059 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3574", "NAMA": "KOTA PROBOLINGGO", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 113.205074, -7.776045 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1172", "NAMA": "KOTA SABANG", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 95.294938, 5.839345 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3373", "NAMA": "KOTA SALATIGA", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.500130, -7.343737 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6472", "NAMA": "KOTA SAMARINDA", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 117.174680, -0.455000 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1373", "NAMA": "KOTA SAWAH LUNTO", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.787778, -0.677574 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3374", "NAMA": "KOTA SEMARANG", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.389568, -7.023110 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1271", "NAMA": "KOTA SIBOLGA", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.798284, 1.727353 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6172", "NAMA": "KOTA SINGKAWANG", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 109.021572, 0.879058 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1372", "NAMA": "KOTA SOLOK", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.598801, -0.759189 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9171", "NAMA": "KOTA SORONG", "PROPINSI": "IRIAN JAYA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 131.346252, -0.927203 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3272", "NAMA": "KOTA SUKABUMI", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 106.915891, -6.936191 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3578", "NAMA": "KOTA SURABAYA", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.719485, -7.271507 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3372", "NAMA": "KOTA SURAKARTA", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.828514, -7.560995 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3671", "NAMA": "KOTA TANGERANG", "PROPINSI": "BANTEN" }, "geometry": { "type": "Point", "coordinates": [ 106.651771, -6.175583 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1272", "NAMA": "KOTA TANJUNG BALAI", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.793656, 2.945594 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "2072", "NAMA": "KOTA TANJUNG PINANG", "PROPINSI": "KEPULAUAN RIAU" }, "geometry": { "type": "Point", "coordinates": [ 104.522131, 0.927292 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6473", "NAMA": "KOTA TARAKAN", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 117.593204, 3.337088 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3278", "NAMA": "KOTA TASIKMALAYA", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 108.179336, -7.345586 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1274", "NAMA": "KOTA TEBING TINGGI", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.168700, 3.327908 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3376", "NAMA": "KOTA TEGAL", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.116318, -6.870026 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8271", "NAMA": "KOTA TERNATE", "PROPINSI": "MALUKU UTARA" }, "geometry": { "type": "Point", "coordinates": [ 127.339009, 0.809597 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8272", "NAMA": "KOTA TIDORE KEPULAUAN", "PROPINSI": "MALUKU UTARA" }, "geometry": { "type": "Point", "coordinates": [ 127.660118, 0.405938 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7173", "NAMA": "KOTA TOMOHON", "PROPINSI": "SULAWESI UTARA" }, "geometry": { "type": "Point", "coordinates": [ 124.815335, 1.314029 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7371", "NAMA": "KOTA UJUNG PANDANG", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.453741, -5.153512 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3471", "NAMA": "KOTA YOGYAKARTA", "PROPINSI": "DI YOGYAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 110.377220, -7.802984 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6201", "NAMA": "KOTAWARINGIN BARAT", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 111.711518, -2.456936 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6202", "NAMA": "KOTAWARINGIN TIMUR", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 112.648170, -2.244347 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1401", "NAMA": "KUANTAN SINGINGI", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 101.458977, -0.491978 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3319", "NAMA": "KUDUS", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.840326, -6.805078 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3401", "NAMA": "KULON PROGO", "PROPINSI": "DI YOGYAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 110.153656, -7.813959 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3208", "NAMA": "KUNINGAN", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 108.492482, -6.972345 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5303", "NAMA": "KUPANG", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 123.841506, -9.853029 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6403", "NAMA": "KUTAI", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 116.157393, 0.257597 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6402", "NAMA": "KUTAI BARAT", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 115.151211, 0.191987 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6404", "NAMA": "KUTAI TIMUR", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 117.528916, 0.908427 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1207", "NAMA": "LABUHANBATU", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.918014, 2.164528 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1604", "NAMA": "LAHAT", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 103.196190, -3.888695 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6207", "NAMA": "LAMANDAU", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 111.236572, -1.691803 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3524", "NAMA": "LAMONGAN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.411754, -7.116234 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1801", "NAMA": "LAMPUNG BARAT", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 104.125206, -5.367010 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1803", "NAMA": "LAMPUNG SELATAN", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 105.385567, -5.547617 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1805", "NAMA": "LAMPUNG TENGAH", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 105.175567, -4.866718 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1804", "NAMA": "LAMPUNG TIMUR", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 105.586032, -5.116248 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1806", "NAMA": "LAMPUNG UTARA", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 104.813537, -4.831682 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6103", "NAMA": "LANDAK", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 109.697224, 0.574865 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1213", "NAMA": "LANGKAT", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.231763, 3.760648 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3602", "NAMA": "LEBAK", "PROPINSI": "BANTEN" }, "geometry": { "type": "Point", "coordinates": [ 106.196596, -6.653404 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1707", "NAMA": "LEBONG", "PROPINSI": "BENGKULU" }, "geometry": { "type": "Point", "coordinates": [ 102.218840, -3.051773 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5308", "NAMA": "LEMBATA", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 123.564929, -8.378198 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1308", "NAMA": "LIMA PULUH KOTO", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.562687, -0.000848 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "2004", "NAMA": "LINGGA", "PROPINSI": "KEPULAUAN RIAU" }, "geometry": { "type": "Point", "coordinates": [ 104.511035, -0.380512 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5201", "NAMA": "LOMBOK BARAT", "PROPINSI": "NUSA TENGGARA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 116.157615, -8.558515 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5202", "NAMA": "LOMBOK TENGAH", "PROPINSI": "NUSA TENGGARA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 116.269069, -8.682431 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5203", "NAMA": "LOMBOK TIMUR", "PROPINSI": "NUSA TENGGARA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 116.565606, -8.583789 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3508", "NAMA": "LUMAJANG", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 113.230917, -8.132020 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7317", "NAMA": "LUWU", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 120.155231, -3.182798 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7325", "NAMA": "LUWU TIMUR", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 121.150273, -2.594746 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7322", "NAMA": "LUWU UTARA", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 120.130993, -2.396922 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3519", "NAMA": "MADIUN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.647656, -7.611575 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3308", "NAMA": "MAGELANG", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.245781, -7.510259 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3520", "NAMA": "MAGETAN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.347721, -7.653633 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3210", "NAMA": "MAJALENGKA", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 108.212987, -6.832381 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7601", "NAMA": "MAJENE", "PROPINSI": "SULAWESI BARAT" }, "geometry": { "type": "Point", "coordinates": [ 118.872370, -3.214539 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3507", "NAMA": "MALANG", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.623113, -8.113098 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6406", "NAMA": "MALINAU", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 115.697860, 2.594527 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8103", "NAMA": "MALUKU TENGAH", "PROPINSI": "MALUKU" }, "geometry": { "type": "Point", "coordinates": [ 129.318261, -3.115492 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8102", "NAMA": "MALUKU TENGGARA", "PROPINSI": "MALUKU" }, "geometry": { "type": "Point", "coordinates": [ 133.019822, -5.634753 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8101", "NAMA": "MALUKU TENGGARA BARAT", "PROPINSI": "MALUKU" }, "geometry": { "type": "Point", "coordinates": [ 131.413139, -7.568589 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7603", "NAMA": "MAMASA", "PROPINSI": "SULAWESI BARAT" }, "geometry": { "type": "Point", "coordinates": [ 119.343582, -2.992955 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7604", "NAMA": "MAMUJU", "PROPINSI": "SULAWESI BARAT" }, "geometry": { "type": "Point", "coordinates": [ 119.330411, -2.353967 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7605", "NAMA": "MAMUJU UTARA", "PROPINSI": "SULAWESI BARAT" }, "geometry": { "type": "Point", "coordinates": [ 119.376212, -1.342481 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1202", "NAMA": "MANDAILING", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.417740, 0.720965 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5313", "NAMA": "MANGGARAI", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 120.588932, -8.578367 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5315", "NAMA": "MANGGARAI BARAT", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 119.831870, -8.574037 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9105", "NAMA": "MANOKWARI", "PROPINSI": "IRIAN JAYA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 133.382896, -1.219255 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9414", "NAMA": "MAPPI", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 139.263779, -6.313819 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7308", "NAMA": "MAROS", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.718667, -4.970080 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6110", "NAMA": "MELAWI", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 111.660558, -0.725618 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1502", "NAMA": "MERANGIN", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 102.056069, -2.203809 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9401", "NAMA": "MERAUKE", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 139.325065, -7.986799 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9412", "NAMA": "MIMIKA", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 136.341202, -4.483320 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7102", "NAMA": "MINAHASA", "PROPINSI": "SULAWESI UTARA" }, "geometry": { "type": "Point", "coordinates": [ 124.787585, 1.230034 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7105", "NAMA": "MINAHASA SELATAN", "PROPINSI": "SULAWESI UTARA" }, "geometry": { "type": "Point", "coordinates": [ 124.626554, 1.072383 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7106", "NAMA": "MINAHASA UTARA", "PROPINSI": "SULAWESI UTARA" }, "geometry": { "type": "Point", "coordinates": [ 124.954334, 1.502973 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3516", "NAMA": "MOJOKERTO", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.500889, -7.541073 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7203", "NAMA": "MOROWALI", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 121.644540, -2.280400 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1603", "NAMA": "MUARA ENIM", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 104.044190, -3.710693 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1505", "NAMA": "MUARO JAMBI", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 103.746052, -1.645493 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1706", "NAMA": "MUKOMUKO", "PROPINSI": "BENGKULU" }, "geometry": { "type": "Point", "coordinates": [ 101.447025, -2.703352 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7402", "NAMA": "MUNA", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 122.737717, -4.797161 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6213", "NAMA": "MURUNG RAYA", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 114.203716, -0.063320 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1606", "NAMA": "MUSI BANYUASIN", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 103.841866, -2.500072 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1605", "NAMA": "MUSI RAWAS", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 102.860150, -2.958525 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9404", "NAMA": "NABIRE", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 135.301819, -3.440814 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1115", "NAMA": "NAGAN RAYA", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 96.520099, 4.153612 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "2003", "NAMA": "NATUNA", "PROPINSI": "KEPULAUAN RIAU" }, "geometry": { "type": "Point", "coordinates": [ 108.198893, 3.930269 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5312", "NAMA": "NGADA", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 121.172044, -8.649880 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3518", "NAMA": "NGANJUK", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.947189, -7.615220 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3521", "NAMA": "NGAWI", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.393482, -7.433620 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1201", "NAMA": "NIAS", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 97.490094, 1.197418 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1214", "NAMA": "NIAS SELATAN", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 97.716625, 0.786682 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6408", "NAMA": "NUNUKAN", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 116.748253, 3.874397 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1610", "NAMA": "OGAN ILIR", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 104.574638, -3.429666 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1602", "NAMA": "OGAN KOMERING ILIR", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 105.365261, -3.326206 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1601", "NAMA": "OGAN KOMERING ULU", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 104.146073, -4.188570 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1608", "NAMA": "OGAN KOMERING ULU SELATAN", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 103.970352, -4.565730 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1609", "NAMA": "OGAN KOMERING ULU TIMUR", "PROPINSI": "SUMATERA SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 104.623214, -3.968221 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3501", "NAMA": "PACITAN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.162578, -8.102215 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1306", "NAMA": "PADANG PARIAMAN", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.257976, -0.593024 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1216", "NAMA": "PAKPAK BHARAT", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.315721, 2.552217 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3528", "NAMA": "PAMEKASAN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 113.503097, -7.071782 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3601", "NAMA": "PANDEGLANG", "PROPINSI": "BANTEN" }, "geometry": { "type": "Point", "coordinates": [ 106.095635, -6.326388 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7309", "NAMA": "PANGKAJENE KEPULAUAN", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.641258, -4.755406 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9410", "NAMA": "PANIAI", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 136.598976, -3.597007 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7208", "NAMA": "PARIGI MOUTONG", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 119.969376, -0.238455 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1309", "NAMA": "PASAMAN", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.092672, 0.398815 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1312", "NAMA": "PASAMAN BARAT", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 99.597967, 0.186321 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6401", "NAMA": "PASIR", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 116.125102, -1.621877 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3514", "NAMA": "PASURUAN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.834621, -7.750177 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3318", "NAMA": "PATI", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 111.043230, -6.750861 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9417", "NAMA": "PEGUNUNGAN BINTANG", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 140.526452, -4.547530 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3326", "NAMA": "PEKALONGAN", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.657066, -7.040714 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1404", "NAMA": "PELALAWAN", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 102.425653, 0.150579 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3327", "NAMA": "PEMALANG", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.418189, -6.894834 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6409", "NAMA": "PENAJAM PASER UTARA", "PROPINSI": "KALIMANTAN TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 116.639705, -1.201132 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1302", "NAMA": "PESISIR SELATAN", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.817349, -1.747081 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1109", "NAMA": "PIDIE", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 96.098225, 5.114928 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7315", "NAMA": "PINRANG", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.611240, -3.645950 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7503", "NAMA": "POHUWATO", "PROPINSI": "GORONTALO" }, "geometry": { "type": "Point", "coordinates": [ 121.652256, 0.696819 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7602", "NAMA": "POLEWALI MAMASA", "PROPINSI": "SULAWESI BARAT" }, "geometry": { "type": "Point", "coordinates": [ 119.195332, -3.296196 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3502", "NAMA": "PONOROGO", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.530033, -7.971082 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6104", "NAMA": "PONTIANAK", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 109.437874, -0.147205 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7204", "NAMA": "POSO", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 120.480049, -1.669637 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3513", "NAMA": "PROBOLINGGO", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 113.283920, -7.850873 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6210", "NAMA": "PULANG PISAU", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 113.980469, -2.347711 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9411", "NAMA": "PUNCAK JAYA", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 137.672554, -3.563074 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3303", "NAMA": "PURBALINGGA", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.359908, -7.384944 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3214", "NAMA": "PURWAKARTA", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.445267, -6.549417 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3306", "NAMA": "PURWOREJO", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.016226, -7.714070 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9108", "NAMA": "RAJA AMPAT", "PROPINSI": "IRIAN JAYA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 131.037351, -0.229671 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1702", "NAMA": "REJANG LEBONG", "PROPINSI": "BENGKULU" }, "geometry": { "type": "Point", "coordinates": [ 102.687019, -3.440667 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3317", "NAMA": "REMBANG", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 111.352232, -6.711013 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1409", "NAMA": "ROKAN HILIR", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 100.833814, 1.902959 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1407", "NAMA": "ROKAN HULU", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 100.520295, 0.834367 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5314", "NAMA": "ROTENDAU", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 123.115542, -10.686982 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6101", "NAMA": "SAMBAS", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 109.329657, 1.477712 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1217", "NAMA": "SAMOSIR", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.616436, 2.544066 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3527", "NAMA": "SAMPANG", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 113.261839, -7.101778 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6105", "NAMA": "SANGGAU", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 110.459686, 0.352225 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7103", "NAMA": "SANGIHE TALAUD", "PROPINSI": "SULAWESI UTARA" }, "geometry": { "type": "Point", "coordinates": [ 125.536712, 3.552459 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9419", "NAMA": "SARMI", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 138.964646, -2.492360 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1503", "NAMA": "SAROLANGUN", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 102.649342, -2.336766 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1304", "NAMA": "SAWAHLUNTO\/SIJUNJUNG", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 101.146663, -0.650065 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6109", "NAMA": "SEKADAU", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 110.953412, 0.055962 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7301", "NAMA": "SELAYAR", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 120.497238, -6.132905 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1705", "NAMA": "SELUMA", "PROPINSI": "BENGKULU" }, "geometry": { "type": "Point", "coordinates": [ 102.719288, -4.069942 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3322", "NAMA": "SEMARANG", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.456421, -7.287928 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8106", "NAMA": "SERAM BAGIAN BARAT", "PROPINSI": "MALUKU" }, "geometry": { "type": "Point", "coordinates": [ 128.206872, -3.195653 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "8107", "NAMA": "SERAM BAGIAN TIMUR", "PROPINSI": "MALUKU" }, "geometry": { "type": "Point", "coordinates": [ 130.830849, -3.873495 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3604", "NAMA": "SERANG", "PROPINSI": "BANTEN" }, "geometry": { "type": "Point", "coordinates": [ 106.154428, -6.108777 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1218", "NAMA": "SERDANG BEDAGAI", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.025576, 3.349035 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6208", "NAMA": "SERUYAN", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 112.165806, -2.167515 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1405", "NAMA": "SIAK", "PROPINSI": "RIAU" }, "geometry": { "type": "Point", "coordinates": [ 101.853825, 0.759963 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7314", "NAMA": "SIDENRENG RAPPANG", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.994393, -3.807891 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3515", "NAMA": "SIDOARJO", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.690546, -7.444599 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5310", "NAMA": "SIKKA", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 122.089379, -8.594330 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1209", "NAMA": "SIMALUNGUN", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.787451, 2.950633 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1101", "NAMA": "SIMEULUE", "PROPINSI": "NANGGROE ACEH DARUSSALAM" }, "geometry": { "type": "Point", "coordinates": [ 96.184433, 2.491751 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7307", "NAMA": "SINJAI", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 120.198340, -5.203947 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6107", "NAMA": "SINTANG", "PROPINSI": "KALIMANTAN BARAT" }, "geometry": { "type": "Point", "coordinates": [ 111.663837, 0.178071 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3512", "NAMA": "SITUBONDO", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 114.012713, -7.701254 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3404", "NAMA": "SLEMAN", "PROPINSI": "DI YOGYAKARTA" }, "geometry": { "type": "Point", "coordinates": [ 110.356037, -7.701155 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1303", "NAMA": "SOLOK", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.829644, -0.933584 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1310", "NAMA": "SOLOK SELATAN", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 101.275559, -1.358926 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7312", "NAMA": "SOPPENG", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.899521, -4.319015 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9107", "NAMA": "SORONG", "PROPINSI": "IRIAN JAYA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 131.677796, -1.027016 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9106", "NAMA": "SORONG SELATAN", "PROPINSI": "IRIAN JAYA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 132.196647, -1.664728 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3314", "NAMA": "SRAGEN", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.961880, -7.392421 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3213", "NAMA": "SUBANG", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.750019, -6.565466 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3202", "NAMA": "SUKABUMI", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 106.720011, -7.076368 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6206", "NAMA": "SUKAMARA", "PROPINSI": "KALIMANTAN TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 111.239288, -2.536100 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3311", "NAMA": "SUKOHARJO", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.830669, -7.683167 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5301", "NAMA": "SUMBA BARAT", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 119.426675, -9.593802 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5302", "NAMA": "SUMBA TIMUR", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 120.260903, -9.805338 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5204", "NAMA": "SUMBAWA", "PROPINSI": "NUSA TENGGARA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 117.586442, -8.616855 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5207", "NAMA": "SUMBAWA BARAT", "PROPINSI": "NUSA TENGGARA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 116.901143, -8.800352 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3211", "NAMA": "SUMEDANG", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.979902, -6.809228 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3529", "NAMA": "SUMENEP", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 113.852165, -6.998985 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9427", "NAMA": "SUPIORI", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 135.505790, -0.687193 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6309", "NAMA": "TABALONG", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 115.444568, -1.835055 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5102", "NAMA": "TABANAN", "PROPINSI": "BALI" }, "geometry": { "type": "Point", "coordinates": [ 115.066301, -8.440276 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7305", "NAMA": "TAKALAR", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.487612, -5.411979 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7318", "NAMA": "TANA TORAJA", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 119.733536, -2.991521 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6310", "NAMA": "TANAH BUMBU", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 115.672392, -3.435613 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1305", "NAMA": "TANAH DATAR", "PROPINSI": "SUMATERA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 100.582313, -0.470031 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6301", "NAMA": "TANAH LAUT", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 114.942468, -3.845290 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3603", "NAMA": "TANGERANG", "PROPINSI": "BANTEN" }, "geometry": { "type": "Point", "coordinates": [ 106.468604, -6.186483 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1802", "NAMA": "TANGGAMUS", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 104.760391, -5.518012 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1507", "NAMA": "TANJUNG JABUNG BARAT", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 103.141390, -1.120618 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1506", "NAMA": "TANJUNG JABUNG TIMUR", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 103.971606, -1.264007 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1203", "NAMA": "TAPANULI SELATAN", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.564499, 1.424158 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1204", "NAMA": "TAPANULI TENGAH", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 98.595516, 1.869209 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1205", "NAMA": "TAPANULI UTARA", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.056562, 1.978757 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "6305", "NAMA": "TAPIN", "PROPINSI": "KALIMANTAN SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 115.156131, -2.867755 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3206", "NAMA": "TASIKMALAYA", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 108.164231, -7.428408 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1508", "NAMA": "TEBO", "PROPINSI": "JAMBI" }, "geometry": { "type": "Point", "coordinates": [ 102.316600, -1.393861 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3328", "NAMA": "TEGAL", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.156891, -7.047543 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9104", "NAMA": "TELUK BINTUNI", "PROPINSI": "IRIAN JAYA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 133.322403, -2.097704 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9103", "NAMA": "TELUK WONDAMA", "PROPINSI": "IRIAN JAYA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 134.199357, -2.587878 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3323", "NAMA": "TEMANGGUNG", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 110.181468, -7.309768 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5304", "NAMA": "TIMUR TENGAH SELATAN", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 124.444308, -9.822515 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "5305", "NAMA": "TIMUR TENGAH UTARA", "PROPINSI": "NUSA TENGGARA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 124.473681, -9.340592 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1206", "NAMA": "TOBA SAMOSIR", "PROPINSI": "SUMATERA UTARA" }, "geometry": { "type": "Point", "coordinates": [ 99.245147, 2.379837 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7209", "NAMA": "TOJO UNA-UNA", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 121.607867, -0.918220 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7206", "NAMA": "TOLI-TOLI", "PROPINSI": "SULAWESI TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 120.872038, 0.967757 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9418", "NAMA": "TOLIKARA", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 138.631142, -3.312892 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3503", "NAMA": "TRENGGALEK", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.619544, -8.136060 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3523", "NAMA": "TUBAN", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 112.057794, -6.898380 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1808", "NAMA": "TULANG BAWANG", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 105.423630, -4.274979 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3504", "NAMA": "TULUNGAGUNG", "PROPINSI": "JAWA TIMUR" }, "geometry": { "type": "Point", "coordinates": [ 111.916801, -8.073015 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7313", "NAMA": "WAJO", "PROPINSI": "SULAWESI SELATAN" }, "geometry": { "type": "Point", "coordinates": [ 120.162944, -3.978108 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "7407", "NAMA": "WAKATOBI", "PROPINSI": "SULAWESI TENGGARA" }, "geometry": { "type": "Point", "coordinates": [ 124.029976, -5.959325 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9426", "NAMA": "WAROPEN", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 137.223587, -2.318043 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "1807", "NAMA": "WAY KANAN", "PROPINSI": "LAMPUNG" }, "geometry": { "type": "Point", "coordinates": [ 104.647587, -4.575541 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3312", "NAMA": "WONOGIRI", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 111.036739, -7.960294 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3307", "NAMA": "WONOSOBO", "PROPINSI": "JAWA TENGAH" }, "geometry": { "type": "Point", "coordinates": [ 109.907650, -7.373586 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9416", "NAMA": "YAHUKIMO", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 139.463325, -4.404211 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "9408", "NAMA": "YAPEN WAROPEN", "PROPINSI": "PAPUA" }, "geometry": { "type": "Point", "coordinates": [ 136.077530, -1.720827 ] } }
+,
+{ "type": "Feature", "properties": { "ID": "3201", "NAMA": "BOGOR", "PROPINSI": "JAWA BARAT" }, "geometry": { "type": "Point", "coordinates": [ 107.002146, -6.545363 ] } }
+
+]
+}
