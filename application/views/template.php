@@ -61,7 +61,7 @@
                 <!-- /section:basics/sidebar.mobile.toggle -->
                 <div class="navbar-header pull-left">
                     <!-- #section:basics/navbar.layout.brand -->
-                    <a href="#" class="navbar-brand">
+                    <a href="<?php echo base_url();?>" class="navbar-brand">
                         <small>
                             <i class="fa fa-bolt"></i>
                             Tower Scheduler
@@ -213,7 +213,7 @@
                                 Dashboard
                                 <small>
                                     <i class="ace-icon fa fa-angle-double-right"></i>
-                                    input data
+                                    <?php echo $title?>
                                 </small>
                             </h1>
                         </div><!-- /.page-header -->
