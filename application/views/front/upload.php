@@ -1,7 +1,7 @@
 <!-- #section:elements.tab -->
 
 <div id="upload">
-    <a href="templates/tower_template.xlsx">Download template</a>
+    <a href="templates/input/tower_template.xlsx">Download template</a>
     <?php echo form_open_multipart('converter/do_upload');?>
         <div class="row">
             <?php echo isset($error) ? $error : ''; ?>
@@ -35,10 +35,9 @@
 
 <script>
     jQuery(function ($) {
-//        $('form .btn-info').click(function(e){
-//            alert('dor')
-//            $('form').submit();
-//        })
+        $('.form-actions .btn-info').click(function(e){
+            $('form').submit();
+        })
         $('#id-input-file-3').ace_file_input({
             allowExt: 'xlsx',
             style: 'well',

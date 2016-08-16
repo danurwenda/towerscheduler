@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Converter extends CI_Controller {
+class Converter extends Member_Controller {
 
     public function __construct() {
         parent::__construct();
@@ -25,9 +25,13 @@ class Converter extends CI_Controller {
      * map to /index.php/welcome/<method_name>
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
-    public function index() {
+    public function upload() {
         $data['title'] = 'Upload File';
         $this->template->display('upload', $data);
+    }
+
+    public function index() {
+        redirect('converter/upload');
     }
 
     public function do_upload() {
@@ -51,7 +55,7 @@ class Converter extends CI_Controller {
 
         $files = array();
         foreach (scandir($dir) as $file) {
-            if (is_file($dir.'/'.$file)) {
+            if (is_file($dir . '/' . $file)) {
                 if (in_array($file, $ignored))
                     continue;
                 $files[$file] = filemtime($dir . '/' . $file);
@@ -70,6 +74,37 @@ class Converter extends CI_Controller {
 
         $data['files'] = $this->scan_dir('./uploads');
         $this->template->display('preview', $data);
+    }
+
+    public function load_file($file) {
+        $this->load->library('excel');
+        $inputFileName = 'uploads/' . $file;
+        $this->load->model('xtemplate_model');
+        $ret = $this->xtemplate_model->readInput($inputFileName);
+        
+        echo json_encode($ret);
+    }
+
+
+    /**
+     * Template 1 : Tower Schedule
+     */
+    public function tower_sch() {
+        //file input
+        $file = 'uploads/' . $this->input->post('file');
+        //kirim ke model
+        $this->load->model('xtemplate_model');
+        $this->xtemplate_model->generate_tower_schedule(['file'=>$file]);
+    }
+    /**
+     * Template 2 : Material Schedule
+     */
+    public function mat_sch() {
+        //file input
+        $file = 'uploads/' . $this->input->post('file');
+        //kirim ke model
+        $this->load->model('xtemplate_model');
+        $this->xtemplate_model->generate_material_schedule(['file'=>$file]);
     }
 
 }

@@ -62,17 +62,21 @@
                 <div class="navbar-header pull-left">
                     <!-- #section:basics/navbar.layout.brand -->
                     <a href="<?php echo base_url();?>" class="navbar-brand">
-                        <small>
-                            <i class="fa fa-bolt"></i>
-                            Tower Scheduler
-                        </small>
+                            <?php echo image_asset('PLN.jpg','pln',['width'=>100]);?>
+                        
                     </a>
+                    
 
                     <!-- /section:basics/navbar.layout.brand -->
 
                     <!-- #section:basics/navbar.toggle -->
 
                     <!-- /section:basics/navbar.toggle -->
+                </div>
+                <div class="center">
+                    <div style="font-size:36px;padding-top:50px;">
+                            Transmission Lines Analyzer
+                        </div>
                 </div>
 
              
@@ -102,16 +106,32 @@
                 </div><!-- /.sidebar-shortcuts -->
 
                 <ul class="nav nav-list">
-                    <li class="active">
-                        <a href="index.html">
-                            <i class="menu-icon fa fa-tachometer"></i>
-                            <span class="menu-text"> Hal1 </span>
+                    <li>
+                        <a data-url="converter/upload" href="<?php echo site_url('converter');?>">
+                            <i class="menu-icon fa fa-upload"></i>
+                            <span class="menu-text"> Upload </span>
+                        </a>
+
+                        <b class="arrow"></b>
+                    </li>
+                    <li>
+                        <a data-url="converter/preview" href="<?php echo site_url('converter/preview');?>">
+                            <i class="menu-icon fa fa-eye"></i>
+                            <span class="menu-text"> Preview </span>
+                        </a>
+
+                        <b class="arrow"></b>
+                    </li>
+                    <li>
+                        <a data-url="auth/logout" href="<?php echo site_url('auth/logout');?>">
+                            <i class="menu-icon fa fa-sign-out"></i>
+                            <span class="menu-text"> Logout </span>
                         </a>
 
                         <b class="arrow"></b>
                     </li>
 
-                    <li class="">
+<!--                    <li class="">
                         <a href="#" class="dropdown-toggle">
                             <i class="menu-icon fa fa-desktop"></i>
                             <span class="menu-text">
@@ -164,8 +184,8 @@
                                 <b class="arrow"></b>
                             </li>
                         </ul>
-                    </li>
-                </ul><!-- /.nav-list -->
+                    </li>-->
+                </ul> 
 
                 <!-- #section:basics/sidebar.layout.minimize -->
                 <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
@@ -270,7 +290,17 @@ window.jQuery || document.write("<script src='../assets/js/jquery1x.js'>"+"<"+"/
         <?php echo js_asset('bootstrap.js', 'ace'); ?>
 
         <!-- page specific plugin scripts -->
-
+        <script>
+            //kasih .active di sidebar
+            jQuery(function($){
+                console.log(window.location.href)
+              $('.sidebar .nav-list a').each(function(i){
+                  if(window.location.href.endsWith($(this).data('url'))){
+                      $(this).closest('li').addClass('active')}else{
+                      $(this).closest('li').removeClass('active')}
+              })  
+            })            
+        </script>
         <!--[if lte IE 8]>
           <?php echo js_asset('excanvas.js', 'ace'); ?>
         <![endif]-->
