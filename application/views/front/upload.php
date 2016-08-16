@@ -2,41 +2,49 @@
 
 <div id="upload">
     <a href="templates/input/tower_template.xlsx">Download template</a>
-    <?php echo form_open_multipart('converter/do_upload');?>
-        <div class="row">
-            <?php echo isset($error) ? $error : ''; ?>
-            <div class="form-group">
-                <div class="col-xs-12">
-                    <input type="file" name="userfile" id="id-input-file-3" />
+    <?php echo form_open_multipart('converter/do_upload',[],['savename'=>null]); ?>
+    <div class="row">
+        <?php echo isset($error) ? $error : ''; ?>
+        <div class="form-group">
+            <div class="col-xs-12">
+                <input type="file" name="userfile" id="id-input-file-3" />
 
-                    <!-- /section:custom/file-input -->
-                </div>
-            </div>
-        </div> </form>
-        <div class="clearfix form-actions">
-            <div class="col-md-offset-3 col-md-9">
-                <button class="btn btn-info" type="button">
-                    <i class="ace-icon fa fa-check bigger-110"></i>
-                    Next
-                </button>
-
-                &nbsp; &nbsp; &nbsp;
-                <a href="converter/preview">
-                    <button class="btn btn-skip">
-                        <i class="ace-icon fa fa-arrow-right bigger-110"></i>
-                        Skip
-                    </button>
-                </a>
+                <!-- /section:custom/file-input -->
             </div>
         </div>
-   
+    </div> </form>
+<div class="clearfix form-actions">
+    <div class="col-md-offset-3 col-md-9">
+        <button class="btn btn-info" type="button">
+            <i class="ace-icon fa fa-check bigger-110"></i>
+            Next
+        </button>
+
+        &nbsp; &nbsp; &nbsp;
+        <a href="converter/preview">
+            <button class="btn btn-skip">
+                <i class="ace-icon fa fa-arrow-right bigger-110"></i>
+                Skip
+            </button>
+        </a>
+    </div>
+</div>
+
 </div>
 
 
 <script>
     jQuery(function ($) {
-        $('.form-actions .btn-info').click(function(e){
-            $('form').submit();
+        $('.form-actions .btn-info').click(function (e) {
+            var f2s=$('#id-input-file-3').data('ace_input_files')
+            //cek ada file apa engga
+            //kalau ada minta nama file
+            if (f2s.length==1) {
+                var uname = prompt('Masukkan nama file penyimpanan', 'Project ABC')
+                if (uname != null)
+                    $('form').find('input:hidden[name=savename]').val(uname);
+                $('form').submit();
+            }
         })
         $('#id-input-file-3').ace_file_input({
             allowExt: 'xlsx',

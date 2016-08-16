@@ -37,6 +37,8 @@ class Converter extends Member_Controller {
     public function do_upload() {
         $config['upload_path'] = './uploads/';
         $config['allowed_types'] = 'xlsx';
+        if ($save = $this->input->post('savename'))
+            $config['file_name'] = $save;
         $this->load->library('upload', $config);
 
         if (!$this->upload->do_upload('userfile')) {
@@ -81,10 +83,9 @@ class Converter extends Member_Controller {
         $inputFileName = 'uploads/' . $file;
         $this->load->model('xtemplate_model');
         $ret = $this->xtemplate_model->readInput($inputFileName);
-        
+
         echo json_encode($ret);
     }
-
 
     /**
      * Template 1 : Tower Schedule
@@ -94,8 +95,9 @@ class Converter extends Member_Controller {
         $file = 'uploads/' . $this->input->post('file');
         //kirim ke model
         $this->load->model('xtemplate_model');
-        $this->xtemplate_model->generate_tower_schedule(['file'=>$file]);
+        $this->xtemplate_model->generate_tower_schedule(['file' => $file]);
     }
+
     /**
      * Template 2 : Material Schedule
      */
@@ -104,7 +106,7 @@ class Converter extends Member_Controller {
         $file = 'uploads/' . $this->input->post('file');
         //kirim ke model
         $this->load->model('xtemplate_model');
-        $this->xtemplate_model->generate_material_schedule(['file'=>$file]);
+        $this->xtemplate_model->generate_material_schedule(['file' => $file]);
     }
 
 }
