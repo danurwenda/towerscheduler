@@ -49,17 +49,6 @@
             </div>
 
             <div class="form-group">
-                <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> Fasa </label>
-
-                <div class="col-sm-9">
-                    <select class="col-xs-10 col-sm-5" id="fasa-select" name ="fasa">
-                        <option value="2">2</option>
-                        <option value="3" selected>3</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="form-group">
                 <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Sagging Coef.</label>
 
                 <div class="col-sm-9">

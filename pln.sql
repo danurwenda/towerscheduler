@@ -19,9 +19,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `pln`
 --
-DROP DATABASE `pln`;
-CREATE DATABASE IF NOT EXISTS `pln` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `pln`;
+--DROP DATABASE `pln`;
+--CREATE DATABASE IF NOT EXISTS `pln` DEFAULT CHARACTER SET latin1 COLLATE --latin1_swedish_ci;
+USE `k1520840_pln`;
 
 -- --------------------------------------------------------
 
