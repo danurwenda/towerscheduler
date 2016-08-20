@@ -222,7 +222,7 @@
         //assign row number for the first time
         renumber()
         
-        //generate reports button
+        //generate reports button : TOWER SCHEDULE
         $('#tower-sch').click(function(e){
             //create form tipu2
             var form = $('<form method="POST" action="' + base_url+'converter/tower_sch' + '">');
@@ -234,10 +234,22 @@
             $('body').append(form);
             form.submit();
         })
-        //generate reports button
+        //generate reports button : MATERIAL SCHEDULE
         $('#mat-sch').click(function(e){
             //create form tipu2
             var form = $('<form method="POST" action="' + base_url+'converter/mat_sch' + '">');
+            //add params
+            $.each($('#input-form').serializeArray(), function(k, v) {
+                form.append($('<input type="hidden" name="' + v.name +
+                        '" value="' + v.value + '">'));
+            });
+            $('body').append(form);
+            form.submit();
+        })
+        //generate reports button : SAGGING SCHEDULE
+        $('#sag-sch').click(function(e){
+            //create form tipu2
+            var form = $('<form method="POST" action="' + base_url+'converter/sag_sch' + '">');
             //add params
             $.each($('#input-form').serializeArray(), function(k, v) {
                 form.append($('<input type="hidden" name="' + v.name +

@@ -45,7 +45,7 @@ class Xtemplate_model extends CI_Model {
     }
 
     //FILE INPUT
-    private $input_span_start = 17;
+    private $input_span_start = 18;
     private $input_tower_num_column = 'D';
     private $input_tower_type_column = 'E';
     private $input_tower_type2_column = 'F';
@@ -60,7 +60,8 @@ class Xtemplate_model extends CI_Model {
         $circuit = $objWorksheet->getCell('F4')->getValue();
         $sc = $objWorksheet->getCell('F5')->getValue();
         $w = $objWorksheet->getCell('F6')->getValue();
-        $tarikan = $objWorksheet->getCell('F7')->getValue();
+        $tension = $objWorksheet->getCell('F7')->getValue();
+        $tarikan = $objWorksheet->getCell('F8')->getValue();
         $project = $objWorksheet->getCell('J3')->getValue();
         $conductorT = $objWorksheet->getCell('J4')->getValue();
         $ew1 = $objWorksheet->getCell('J5')->getValue();
@@ -120,6 +121,7 @@ class Xtemplate_model extends CI_Model {
             'w' => $w,
             'project' => $project,
             'tarikan' => $tarikan,
+            'tension' => $tension,
             'spans' => $spans,
             'towers' => $towers,
             'conductorT' => $conductorT,
@@ -138,7 +140,7 @@ class Xtemplate_model extends CI_Model {
     private $template1_tower_ord_column = 'B';
     private $template1_tower_num_column = 'C';
     private $template1_tower_type_column = 'D';
-    private $template1_tower_type2_column = 'E';
+    private $template1_tower_ext_column = 'E';
     private $template1_act_span_column = 'F';
     private $template1_cum_span_column = 'G';
     private $template1_tension_span_column = 'H';
@@ -196,7 +198,7 @@ class Xtemplate_model extends CI_Model {
                 $objSheet->setCellValue($this->template1_tower_type_column . $towerRow, $v);
             }
             foreach ($tower[$this->tower_type2] as $k => $v) {
-                $objSheet->setCellValue($this->template1_tower_type2_column . $towerRow, $v);
+                $objSheet->setCellValue($this->template1_tower_ext_column . $towerRow, $v);
             }
             foreach ($tower[$this->weight_span] as $k => $v) {
                 $objSheet->setCellValue($this->template1_weight_span_column . $towerRow, $v);
@@ -256,7 +258,7 @@ class Xtemplate_model extends CI_Model {
     private $template2_tower_ord_column = 'B';
     private $template2_tower_num_column = 'C';
     private $template2_tower_type_column = 'D';
-    private $template2_tower_type2_column = 'E';
+    private $template2_tower_ext_column = 'E';
     private $template2_act_span_column = 'F';
     private $template2_cum_span_column = 'G';
     private $template2_crossing_rem_column = 'H';
@@ -264,7 +266,7 @@ class Xtemplate_model extends CI_Model {
     private $template2_single_ten_column = 'K';
     private $template2_double_sus_column = 'J';
     private $template2_double_ten_column = 'L';
-    private $template2_double_inv_column = 'M';
+    private $template2_double_inv_column = 'M'; //not used
     private $template2_jumper_ins_column = 'N';
     private $template2_ten_gsw_column = 'O';
     private $template2_ten_opgw_column = 'P';
@@ -328,7 +330,7 @@ class Xtemplate_model extends CI_Model {
                 $objSheet->setCellValue($this->template2_tower_type_column . $towerRow, $v);
             }
             foreach ($tower[$this->tower_type2] as $k => $v) {
-                $objSheet->setCellValue($this->template2_tower_type2_column . $towerRow, $v);
+                $objSheet->setCellValue($this->template2_tower_ext_column . $towerRow, $v);
             }
 
             //advancing row (merge on span cols if necessary), see condition below
@@ -343,8 +345,7 @@ class Xtemplate_model extends CI_Model {
                 //tower order
                 $objSheet->setCellValue($this->template2_tower_ord_column . ($spanRow + 1), $i + 2);
                 //span jumper line
-                $objSheet->setCellValue($this->template2_spacer_line_column.$spanRow,
-                        '=IF($A$9=2,ROUND('.$this->template2_act_span_column . $spanRow.'/50,0)*$A$8*3,"")');
+                $objSheet->setCellValue($this->template2_spacer_line_column . $spanRow, '=IF($A$9=2,ROUND(' . $this->template2_act_span_column . $spanRow . '/50,0)*$A$8*3,"")');
             } else {
                 //langsung isi span terakhir
                 $i++;
@@ -360,96 +361,79 @@ class Xtemplate_model extends CI_Model {
             //cumulative span
             $objSheet->setCellValue($this->template2_cum_span_column . $spanRow, '=' . $this->template1_cum_span_column . ($spanRow - 2) . '+' . $this->template1_act_span_column . $spanRow);
             //single suspension
-            $objSheet->setCellValue($this->template2_single_sus_column . $towerRow, '=IF(LEFT(' . $this->template2_tower_type_column .$towerRow . ',1)="a",IF(AND(COUNTIF(doublecross,'.$this->template2_crossing_rem_column.$spanRow.')=0,COUNTIF(doublecross,'.$this->template2_crossing_rem_column.($spanRow-2).')=0),3*$A$8,""),"")');
+            $objSheet->setCellValue($this->template2_single_sus_column . $towerRow, '=IF(LEFT(' . $this->template2_tower_type_column . $towerRow . ',1)="a",IF(AND(COUNTIF(doublecross,' . $this->template2_crossing_rem_column . $spanRow . ')=0,COUNTIF(doublecross,' . $this->template2_crossing_rem_column . ($spanRow - 2) . ')=0),3*$A$8,""),"")');
             //double suspension
-            $objSheet->setCellValue($this->template2_double_sus_column.$towerRow,
-                    '=IF(AND(LEFT(' 
-                    . $this->template2_tower_type_column .$towerRow . 
+            $objSheet->setCellValue($this->template2_double_sus_column . $towerRow, '=IF(AND(LEFT('
+                    . $this->template2_tower_type_column . $towerRow .
                     ',1)="a",OR(COUNTIF(doublecross,'
-                    .$this->template2_crossing_rem_column.$spanRow.
+                    . $this->template2_crossing_rem_column . $spanRow .
                     ')>0,COUNTIF(doublecross,'
-                    .$this->template2_crossing_rem_column.($spanRow-2).
+                    . $this->template2_crossing_rem_column . ($spanRow - 2) .
                     ')>0)),3*$A$8,"")');
             //single tension
-            $objSheet->setCellValue($this->template2_single_ten_column . $towerRow,
-                    '=IF(AND(LEFT('
-                    . $this->template2_tower_type_column .$towerRow . 
+            $objSheet->setCellValue($this->template2_single_ten_column . $towerRow, '=IF(AND(LEFT('
+                    . $this->template2_tower_type_column . $towerRow .
                     ',1)<>"a",LEFT('
-                    . $this->template2_tower_type_column .$towerRow . 
+                    . $this->template2_tower_type_column . $towerRow .
                     ',3)<>"ddr",COUNTIF(doublecross,'
-                    .$this->template2_crossing_rem_column.$spanRow.
+                    . $this->template2_crossing_rem_column . $spanRow .
                     ')=0,COUNTIF(doublecross,'
-                    .$this->template2_crossing_rem_column.($spanRow-2).
+                    . $this->template2_crossing_rem_column . ($spanRow - 2) .
                     ')=0),6*$A$8,"")');
             //double tension
-            $objSheet->setCellValue($this->template2_single_ten_column . $towerRow, 
-                    '=IF(LEFT('
-                    . $this->template2_tower_type_column .$towerRow . 
+            $objSheet->setCellValue($this->template2_double_ten_column . $towerRow, '=IF(LEFT('
+                    . $this->template2_tower_type_column . $towerRow .
                     ',1)<>"a",(IF(LEFT('
-                    . $this->template2_tower_type_column .$towerRow . 
+                    . $this->template2_tower_type_column . $towerRow .
                     ',3)="ddr",3*$A$8,IF(OR(COUNTIF(doublecross,'
-                    .$this->template2_crossing_rem_column.$spanRow.
+                    . $this->template2_crossing_rem_column . $spanRow .
                     ')>0,COUNTIF(doublecross,'
-                    .$this->template2_crossing_rem_column.($spanRow-2).
+                    . $this->template2_crossing_rem_column . ($spanRow - 2) .
                     ')>0),6*$A$8,""))),"")');
             //jumper insulator
-            $objSheet->setCellValue($this->template2_jumper_ins_column . $towerRow, 
-                    '=IF(LEFT('
-                    . $this->template2_tower_type_column .$towerRow . 
+            $objSheet->setCellValue($this->template2_jumper_ins_column . $towerRow, '=IF(LEFT('
+                    . $this->template2_tower_type_column . $towerRow .
                     ',2)="cc",3,IF(OR(LEFT('
-                    . $this->template2_tower_type_column .$towerRow . 
+                    . $this->template2_tower_type_column . $towerRow .
                     ',2)="ee",LEFT('
-                    . $this->template2_tower_type_column .$towerRow . 
+                    . $this->template2_tower_type_column . $towerRow .
                     ',2)="dd"),6,""))');
             //tension gsw
-            $objSheet->setCellValue($this->template2_ten_gsw_column . $towerRow, 
-                    '=IF(LEFT('. $this->template2_tower_type_column .$towerRow . ',1)<>"a", 2,"")');
+            $objSheet->setCellValue($this->template2_ten_gsw_column . $towerRow, '=IF(LEFT(' . $this->template2_tower_type_column . $towerRow . ',1)<>"a", 2,"")');
             //tension opgw
-            $objSheet->setCellValue($this->template2_ten_opgw_column . $towerRow, 
-                    '='.$this->template2_ten_gsw_column.$towerRow);
+            $objSheet->setCellValue($this->template2_ten_opgw_column . $towerRow, '=' . $this->template2_ten_gsw_column . $towerRow);
             //suspension gsw
-            $objSheet->setCellValue($this->template2_sus_gsw_column . $towerRow, 
-                    '=IF(LEFT('. $this->template2_tower_type_column .$towerRow . ',1)="a", 1,"")');
+            $objSheet->setCellValue($this->template2_sus_gsw_column . $towerRow, '=IF(LEFT(' . $this->template2_tower_type_column . $towerRow . ',1)="a", 1,"")');
             //suspension opgw
-            $objSheet->setCellValue($this->template2_sus_opgw_column . $towerRow, 
-                    '='.$this->template2_sus_gsw_column . $towerRow);
+            $objSheet->setCellValue($this->template2_sus_opgw_column . $towerRow, '=' . $this->template2_sus_gsw_column . $towerRow);
             //damping acsr
-            $objSheet->setCellValue($this->template2_damping_acsr_column. $towerRow, 
-                    '=IF(OR('
-                    .$this->template2_act_span_column.$spanRow.
+            $objSheet->setCellValue($this->template2_damping_acsr_column . $towerRow, '=IF(OR('
+                    . $this->template2_act_span_column . $spanRow .
                     '>450,'
-                    .$this->template2_act_span_column.($spanRow-2).
+                    . $this->template2_act_span_column . ($spanRow - 2) .
                     '>450),9*$A$8*$A$9,6*$A$8*$A$9)');
             //damping gsw
-            $objSheet->setCellValue($this->template2_damping_gsw_column. $towerRow, 
-                    '=IF(OR('
-                     .$this->template2_act_span_column.$spanRow.
+            $objSheet->setCellValue($this->template2_damping_gsw_column . $towerRow, '=IF(OR('
+                    . $this->template2_act_span_column . $spanRow .
                     '>450,'
-                    .$this->template2_act_span_column.($spanRow-2).
+                    . $this->template2_act_span_column . ($spanRow - 2) .
                     '>450),3,2)');
             //damping osgw
-            $objSheet->setCellValue($this->template2_damping_opgw_column. $towerRow, 
-                    '='.$this->template2_damping_gsw_column.$towerRow);
+            $objSheet->setCellValue($this->template2_damping_opgw_column . $towerRow, '=' . $this->template2_damping_gsw_column . $towerRow);
             //armour rod acsr
-            $objSheet->setCellValue($this->template2_rod_acsr_column . $towerRow, 
-                    '=IF(LEFT('
-                    . $this->template2_tower_type_column .$towerRow .
+            $objSheet->setCellValue($this->template2_rod_acsr_column . $towerRow, '=IF(LEFT('
+                    . $this->template2_tower_type_column . $towerRow .
                     ',1)="a", 3*$A$8*$A$9,"")');
             //armour rod gsw
-            $objSheet->setCellValue($this->template2_rod_gsw_column . $towerRow, 
-                    '=IF(LEFT('
-                     . $this->template2_tower_type_column .$towerRow .
+            $objSheet->setCellValue($this->template2_rod_gsw_column . $towerRow, '=IF(LEFT('
+                    . $this->template2_tower_type_column . $towerRow .
                     ',1)="a", 1,"")');
             //armour rod opgw
-            $objSheet->setCellValue($this->template2_rod_opgw_column . $towerRow, 
-                   '='.$this->template2_rod_gsw_column.$towerRow);            
+            $objSheet->setCellValue($this->template2_rod_opgw_column . $towerRow, '=' . $this->template2_rod_gsw_column . $towerRow);
             //jumper 200mm
-            $objSheet->setCellValue($this->template2_spacer_jumper_column . $towerRow, 
-                    '=IF(LEFT('
-                    . $this->template2_tower_type_column .$towerRow .
+            $objSheet->setCellValue($this->template2_spacer_jumper_column . $towerRow, '=IF(LEFT('
+                    . $this->template2_tower_type_column . $towerRow .
                     ',1)<>"a", $A$8*3*2,"")');
-            
-            
         }
 
         //written date
@@ -461,6 +445,156 @@ class Xtemplate_model extends CI_Model {
 
         // It will be called material_schedule.xlsx
         header('Content-Disposition: attachment; filename="material_schedule.xlsx"');
+
+        // Write file to the browser
+        $objWriter->save('php://output');
+    }
+
+    /**
+     * Template 3 : Sagging schedule
+     */
+    private $template3_span_start = 13;
+    private $template3_date = 'Q7';
+    //span columns
+    private $template3_act_span_column = 'E';
+    private $template3_cum_span_column = 'F';
+    private $template3_wire_weight_column = 'G';
+    private $template3_wire_tension_column = 'H';
+    private $template3_t_column = 'I';
+    private $template3_coef_column = 'J';
+    private $template3_wl2_column = 'K';
+    private $template3_8t_column = 'L';
+    private $template3_sagging_column = 'M';
+    private $template3_wire_ext_column = 'N';
+    private $template3_wire_total_column = 'O';
+    private $template3_span_columns = ['E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O'];
+    //tower column
+    private $template3_tower_num_column = 'B';
+    private $template3_tower_type_column = 'C';
+    private $template3_tower_ext_column = 'D';
+    private $template3_weight_span_column = 'P';
+    private $template3_wind_span_column = 'Q';
+    private $template3_wtwd_span_column = 'R';
+    private $template3_tower_columns = ['B', 'C', 'D', 'P', 'Q', 'R'];
+
+    public function generate_sagging_schedule($post) {
+        $inputFileName = $post['file'];
+        //baca file input
+        $data = $this->readInput($inputFileName);
+        //write data to output
+        $templateFileName = 'templates/output/template3.xlsx';
+        $objPHPExcel = PHPExcel_IOFactory::load($templateFileName);
+        //get first sheet
+        $objSheet = $objPHPExcel->getSheet(0);
+        //informational
+        $objSheet->setCellValue('M2', $data['project']);
+        $objSheet->setCellValue('M4', $data['conductorT']);
+        $objSheet->setCellValue('M5', $data['ew1']);
+        $objSheet->setCellValue('N5', $data['ew2']);
+        $spans = $data['spans'];
+        $towers = $data['towers'];
+        $tension = $data['tension'];
+        $sagging_coef = $data['sc'];
+        $w = $data['w'];
+        $spanRow = $this->template3_span_start;
+
+        //making space
+        $objSheet->insertNewRowBefore($spanRow + 2, 2 * (count($towers) - 1));
+        //unmerge tower_columns
+        $this->unmerge($objSheet, $spanRow + 1, 2 * (count($towers)) + $spanRow, $this->template3_tower_columns);
+
+        //start writing span
+        //the cell for first span is already available
+        //as well as the cell for first tower and last span
+        for ($i = 0; $i < count($spans); $i++) {
+            set_time_limit(5);
+            //SPAN
+            $span = $spans[$i];
+            foreach ($span[$this->act_span] as $k => $v) {
+                $objSheet->setCellValue("$this->template3_act_span_column$spanRow", $v);
+            }
+            //TOWER
+            $towerRow = $spanRow + 1;
+            $tower = $towers[$i];
+            foreach ($tower[$this->tower_num] as $k => $v) {
+                $objSheet->setCellValue($this->template3_tower_num_column . $towerRow, $v);
+            }
+            foreach ($tower[$this->tower_type] as $k => $v) {
+                $objSheet->setCellValue($this->template3_tower_type_column . $towerRow, $v);
+            }
+            foreach ($tower[$this->tower_type2] as $k => $v) {
+                $objSheet->setCellValue($this->template3_tower_ext_column . $towerRow, $v);
+            }
+            foreach ($tower[$this->weight_span] as $k => $v) {
+                $objSheet->setCellValue($this->template3_weight_span_column . $towerRow, $v);
+            }
+
+            //advancing row (merge on span cols if necessary), see condition below
+            $spanRow+=2;
+            //always merge on tower cols
+            $this->merge2($objSheet, $spanRow - 1, $this->template3_tower_columns);
+            //checking last tower
+            if ($i < (count($towers) - 1)) {
+                //merge on span cols
+                $this->merge2($objSheet, $spanRow, $this->template3_span_columns);
+                //fill formulas
+                //span jumper line
+                //$objSheet->setCellValue($this->template2_spacer_line_column . $spanRow, '=IF($A$9=2,ROUND(' . $this->template2_act_span_column . $spanRow . '/50,0)*$A$8*3,"")');
+            } else {
+                //langsung isi span terakhir
+                $i++;
+                $span = $spans[$i];
+                foreach ($span[$this->act_span] as $k => $v) {
+                    $objSheet->setCellValue($this->template3_act_span_column . $spanRow, $v);
+                }
+                //berat kawat
+                $objSheet->setCellValue($this->template3_wire_weight_column . $spanRow, $w);
+                //tension kawat
+                $objSheet->setCellValue($this->template3_wire_tension_column . $spanRow, $tension);
+                //koef kawat
+                $objSheet->setCellValue($this->template3_coef_column . $spanRow, $sagging_coef);
+            }
+            //wind span
+            $objSheet->setCellValue($this->template3_wind_span_column . $towerRow, '=(' . $this->template3_act_span_column . ($spanRow - 2) . '+' . $this->template3_act_span_column . $spanRow . ')/2');
+            //weight/wind ratio
+            $objSheet->setCellValue($this->template3_wtwd_span_column . $towerRow, '=' . $this->template3_weight_span_column . $towerRow . '/' . $this->template3_wind_span_column . $towerRow);
+            //berat kawat
+            $objSheet->setCellValue($this->template3_wire_weight_column . ($spanRow - 2), $w);
+            //tension kawat
+            $objSheet->setCellValue($this->template3_wire_tension_column . ($spanRow - 2), $tension);
+            //tension*0.2 kawat
+            $objSheet->setCellValue($this->template3_t_column . ($spanRow - 2), '=0.2*' . $this->template3_wire_tension_column . ($spanRow - 2));
+            //koef kawat
+            $objSheet->setCellValue($this->template3_coef_column . ($spanRow - 2), $sagging_coef);
+            //WL^2
+            $objSheet->setCellValue($this->template3_wl2_column . ($spanRow - 2), '=' .
+                    $this->template3_act_span_column . ($spanRow - 2) . '*' .
+                    $this->template3_act_span_column . ($spanRow - 2) . '*' .
+                    $this->template3_wire_weight_column . ($spanRow - 2) . '');
+            //8T
+            $objSheet->setCellValue($this->template3_8t_column . ($spanRow - 2), '=8*' . $this->template3_t_column . ($spanRow - 2));
+            //sagging
+            $objSheet->setCellValue($this->template3_sagging_column . ($spanRow - 2), '=' . $this->template3_wl2_column . ($spanRow - 2) . '/' . $this->template3_8t_column . ($spanRow - 2) . '/1000');
+            //sagging ext
+            $objSheet->setCellValue($this->template3_wire_ext_column . ($spanRow - 2), '=8*' . $this->template3_sagging_column . ($spanRow - 2) . '*' . $this->template3_sagging_column . ($spanRow - 2) . '/300');
+            //total wire length
+            $objSheet->setCellValue($this->template3_wire_total_column . ($spanRow - 2), '=' . $this->template3_act_span_column . ($spanRow - 2) . '+' . $this->template3_wire_ext_column . ($spanRow - 2));
+            //cumulative span
+            $objSheet->setCellValue($this->template3_cum_span_column . $spanRow, '=' . $this->template3_cum_span_column . ($spanRow - 2) . '+' . $this->template3_act_span_column . $spanRow);
+//            $objSheet->setCellValue($this->template3_wire_tension_column . $spanRow,$tension);
+        }
+
+
+        //written date
+        $objSheet->setCellValue($this->template3_date, 25569 + (time() / (3600 * 24)));
+
+        //all data written
+        $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, "Excel2007");
+        // We'll be outputting an excel file
+        header('Content-type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+
+        // It will be called tower_schedule.xlsx
+        header('Content-Disposition: attachment; filename="sagging_schedule.xlsx"');
 
         // Write file to the browser
         $objWriter->save('php://output');

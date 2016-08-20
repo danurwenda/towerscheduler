@@ -1,7 +1,7 @@
 <!-- #section:elements.tab -->
 
 <div id="upload">
-    <a href="templates/input/tower_template.xlsx">Download template</a>
+    <?php echo anchor('templates/input/tower_template.xlsx','Download template');?>
     <?php echo form_open_multipart('converter/do_upload',[],['savename'=>null]); ?>
     <div class="row">
         <?php echo isset($error) ? $error : ''; ?>
