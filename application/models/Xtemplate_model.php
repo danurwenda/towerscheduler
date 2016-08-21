@@ -14,7 +14,7 @@ class Xtemplate_model extends CI_Model {
     public $primary_key = 'chart_id';
     private $tower_num = 'tower_num';
     private $tower_type = 'tower_type';
-    private $tower_type2 = 'tower_type2';
+    private $tower_ext = 'tower_type2';
     private $act_span = 'act_span';
     private $weight_span = 'weight_span';
     private $crossing_rem = 'crossing_rem';
@@ -106,7 +106,7 @@ class Xtemplate_model extends CI_Model {
                     $towers[] = [
                         $this->tower_num => [$this->input_tower_num_column . $towerRow => $towerNumValue],
                         $this->tower_type => [$this->input_tower_type_column . $towerRow => $towerTypeValue],
-                        $this->tower_type2 => [$this->input_tower_type2_column . $towerRow => $towerType2Value],
+                        $this->tower_ext => [$this->input_tower_type2_column . $towerRow => $towerType2Value],
                         $this->weight_span => [$this->input_weight_span_column . $towerRow => $weightSpanValue],
                     ];
                     //advancing row
@@ -197,7 +197,7 @@ class Xtemplate_model extends CI_Model {
             foreach ($tower[$this->tower_type] as $k => $v) {
                 $objSheet->setCellValue($this->template1_tower_type_column . $towerRow, $v);
             }
-            foreach ($tower[$this->tower_type2] as $k => $v) {
+            foreach ($tower[$this->tower_ext] as $k => $v) {
                 $objSheet->setCellValue($this->template1_tower_ext_column . $towerRow, $v);
             }
             foreach ($tower[$this->weight_span] as $k => $v) {
@@ -329,7 +329,7 @@ class Xtemplate_model extends CI_Model {
             foreach ($tower[$this->tower_type] as $k => $v) {
                 $objSheet->setCellValue($this->template2_tower_type_column . $towerRow, $v);
             }
-            foreach ($tower[$this->tower_type2] as $k => $v) {
+            foreach ($tower[$this->tower_ext] as $k => $v) {
                 $objSheet->setCellValue($this->template2_tower_ext_column . $towerRow, $v);
             }
 
@@ -522,7 +522,7 @@ class Xtemplate_model extends CI_Model {
             foreach ($tower[$this->tower_type] as $k => $v) {
                 $objSheet->setCellValue($this->template3_tower_type_column . $towerRow, $v);
             }
-            foreach ($tower[$this->tower_type2] as $k => $v) {
+            foreach ($tower[$this->tower_ext] as $k => $v) {
                 $objSheet->setCellValue($this->template3_tower_ext_column . $towerRow, $v);
             }
             foreach ($tower[$this->weight_span] as $k => $v) {
@@ -598,6 +598,216 @@ class Xtemplate_model extends CI_Model {
 
         // Write file to the browser
         $objWriter->save('php://output');
+    }
+
+    /**
+     * Template 4 : Drum Schedule
+     */
+    private $template4_date = 'AC7';
+
+    public function generate_drum_schedule($file) {
+        $inputFileName = $file['file'];
+        //baca file input
+        $data = $this->readInput($inputFileName);
+        //write data to output
+        $templateFileName = 'templates/output/template4.xlsx';
+        $objPHPExcel = PHPExcel_IOFactory::load($templateFileName);
+        $spans = $data['spans'];
+        $towers = $data['towers'];
+
+        //template 4 ini berbeda, sebuah sheet hanya dapat menampung 
+        //maximal 25 tower (termasuk start-finish)
+        //jika ternyata jumlah tower dalam file input lebih dari 25, maka akan
+        //dibuat clone dari sheet 1
+        //dan dilanjutkan mengisinya di sheet tsb
+        $towerNum = count($towers);
+        $towerAll = $towerNum + 2;
+        //towerAll == 1 s.d 25 cukup 1 sheet
+        //towerAll == 26 s.d 49 perlu 2 sheet
+        //towerAll == 50 s.d 73 perlu 3 sheet
+        $i = 1;
+        while ($towerAll > 1 + 24 * $i) {
+            $objClonedWorksheet = clone $objPHPExcel->getSheet(0);
+            $objClonedWorksheet->setTitle('Section ' . ($i + 1));
+            $this->template4_info($objClonedWorksheet, $data);
+            $objPHPExcel->addSheet($objClonedWorksheet);
+            $i++;
+        }
+
+        //dst
+        //get first sheet
+        $objSheet = $objPHPExcel->getSheet(0);
+        $this->template4_info($objSheet, $data);
+        $tower_in_sheet = 2;
+        $sheetcounter = 0;
+        //starting tower udah terisi
+        for ($i = 0; $i < count($spans); $i++) {
+            $span = $spans[$i];
+            $tower = $towers[$i];
+            //write tower to sheet
+            $this->write_tower($objSheet, $tower, $tower_in_sheet, $i + 2);
+            //write span
+            $this->write_span($objSheet, $span, $tower_in_sheet, $data['w'], $data['tension']);
+            if ($tower_in_sheet == 25) {
+                //reset counter
+                $tower_in_sheet = 1;
+                //pindah sheet
+                $objSheet = $objPHPExcel->getSheet( ++$sheetcounter);
+                //write last tower in prev sheet
+                $this->write_tower($objSheet, $tower, $tower_in_sheet, $i + 2);
+                //manual overriding cum span
+                $objSheet->setCellValue('F20', "=F19+'Section " . $sheetcounter . "'!AB38");
+                //manual overriding cum span tolerance
+                $objSheet->setCellValue('F24', "=F23+'Section " . $sheetcounter . "'!AB42");
+            }
+            //increment counter
+            $tower_in_sheet++;
+
+
+            //checking last tower
+            if ($i < (count($towers) - 1)) {
+                
+            } else {
+                //langsung isi span terakhir
+                $i++;
+                $span = $spans[$i];
+            }
+        }
+
+
+        //all data written
+        $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, "Excel2007");
+        // We'll be outputting an excel file
+        header('Content-type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+
+        // It will be called tower_schedule.xlsx
+        header('Content-Disposition: attachment; filename="drum_schedule.xlsx"');
+
+        // Write file to the browser
+        $objWriter->save('php://output');
+    }
+
+    private function write_span(PHPExcel_Worksheet $sheet, $span, $tower_in_sheet, $w, $tension) {
+        if (1 < $tower_in_sheet && $tower_in_sheet <= 13) {
+            //first row
+            //actual span
+            //seek the appr column
+            $col = 'F';
+            $prevcol = 'D';
+            for ($i = 2; $i < $tower_in_sheet; $i++) {
+                ++$col;
+                ++$col;
+                ++$prevcol;
+                ++$prevcol;
+            }
+            //actual span
+            foreach ($span[$this->act_span] as $k => $v) {
+                $sheet->setCellValue($col . '19', $v);
+            }
+            //span tension
+            foreach ($span[$this->act_span] as $k => $v) {
+                $sheet->setCellValue($col . '21', $v);
+            }
+            $sheet->setCellValue($col . '22', '=(8*(' . $w . '*' . $col . '21^2/(8000*0.2*' . $tension . '))^2)/300');
+            $sheet->setCellValue($col . '23', '=' . $col . '22+' . $col . '21');
+            if ($tower_in_sheet > 2) {
+                //cum span
+                $sheet->setCellValue($col . '20', '=' . $col . '19+' . $prevcol . '20');
+                $sheet->setCellValue($col . '24', '=' . $col . '23+' . $prevcol . '24');
+            }
+        } else {
+            //second row
+            $col = 'F';
+            $prevcol = 'D';
+            for ($i = 1; $i < $tower_in_sheet - 13; $i++) {
+                ++$col;
+                ++$col;
+                ++$prevcol;
+                ++$prevcol;
+            }
+            foreach ($span[$this->act_span] as $k => $v) {
+                $sheet->setCellValue($col . '37', $v);
+            }
+            foreach ($span[$this->act_span] as $k => $v) {
+                $sheet->setCellValue($col . '39', $v);
+            }
+            $sheet->setCellValue($col . '40', '=(8*(' . $w . '*' . $col . '39^2/(8000*0.2*' . $tension . '))^2)/300');
+            $sheet->setCellValue($col . '41', '=' . $col . '40+' . $col . '39');
+            if ($tower_in_sheet > 14) {
+                //cum span
+                $sheet->setCellValue($col . '38', '=' . $col . '37+' . $prevcol . '38');
+                $sheet->setCellValue($col . '42', '=' . $col . '41+' . $prevcol . '42');
+            }
+        }
+    }
+
+    private function _write_span() {
+        
+    }
+
+    private function write_tower(PHPExcel_Worksheet $sheet, $tower, $tower_in_sheet, $towercounter) {
+        if ($tower_in_sheet <= 13) {
+            //seek the appr column
+            $col = 'E';
+            for ($i = 1; $i < $tower_in_sheet; $i++) {
+                $col++;
+                $col++;
+            }
+            //write in the first row
+            $this->_write_tower($sheet, $col, 16, $tower, $towercounter);
+        }
+        if ($tower_in_sheet == 13) {
+            $col = 'E';
+            //write tower without prev span (2nd row)
+            $this->_write_tower($sheet, $col, 34, $tower, $towercounter);
+        }
+        if ($tower_in_sheet > 13) {
+            $col = 'E';
+            for ($i = 1; $i < $tower_in_sheet - 12; $i++) {
+                $col++;
+                $col++;
+            }
+            $this->_write_tower($sheet, $col, 34, $tower, $towercounter);
+        }
+    }
+
+    private function _write_tower(PHPExcel_Worksheet $sheet, $col, $row, $tower, $towercounter) {
+        $sheet->setCellValue($col . $row++, $towercounter);
+        foreach ($tower[$this->tower_num] as $k => $v) {
+            $sheet->setCellValue($col . $row++, $v);
+        }
+        foreach ($tower[$this->tower_type] as $k => $v) {
+            $sheet->setCellValue($col . $row, $v);
+        }
+        foreach ($tower[$this->tower_ext] as $k => $v) {
+            $sheet->setCellValue(++$col . $row, $v);
+        }
+    }
+
+    /**
+     * Paling banyak ada 25 element di array $towers
+     * @param PHPExcel_Worksheet $sheet
+     * @param type $towers tower yang akan ditulis di sheet ini
+     */
+    public function create_towers(PHPExcel_Worksheet $sheet, $towers, $isFirst, $isLast, $counter) {
+        if (!$isFirst) {
+            $tower = $towers[0];
+            //first tower
+            $sheet->setCellValue('E16', $counter);
+            $sheet->setCellValue('E17', $tower[$this->tower_num]);
+            $sheet->setCellValue('E16', $counter);
+        }
+    }
+
+    public function template4_info(PHPExcel_Worksheet $objSheet, $data) {
+        //informational
+        $objSheet->setCellValue('W2', $data['project']);
+        $objSheet->setCellValue('W4', $data['conductorT']);
+        $objSheet->setCellValue('W5', $data['ew1']);
+        $objSheet->setCellValue('X5', $data['ew2']);
+
+        //written date
+        $objSheet->setCellValue($this->template4_date, 25569 + (time() / (3600 * 24)));
     }
 
     //helper function

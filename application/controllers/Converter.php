@@ -109,7 +109,7 @@ class Converter extends Member_Controller {
         $this->xtemplate_model->generate_material_schedule(['file' => $file]);
     }
     /**
-     * Template 2 : Sagging Schedule
+     * Template 3 : Sagging Schedule
      */
     public function sag_sch() {
         //file input
@@ -117,6 +117,16 @@ class Converter extends Member_Controller {
         //kirim ke model
         $this->load->model('xtemplate_model');
         $this->xtemplate_model->generate_sagging_schedule(['file' => $file]);
+    }
+    /**
+     * Template 4 : Drum Schedule
+     */
+    public function drum_sch() {
+        //file input
+        $file = 'uploads/' . $this->input->post('file');
+        //kirim ke model
+        $this->load->model('xtemplate_model');
+        $this->xtemplate_model->generate_drum_schedule(['file' => $file]);
     }
 
 }

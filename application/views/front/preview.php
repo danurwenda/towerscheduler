@@ -258,5 +258,17 @@
             $('body').append(form);
             form.submit();
         })
+        //generate reports button : DRUM SCHEDULE
+        $('#drum-sch').click(function(e){
+            //create form tipu2
+            var form = $('<form method="POST" action="' + base_url+'converter/drum_sch' + '">');
+            //add params
+            $.each($('#input-form').serializeArray(), function(k, v) {
+                form.append($('<input type="hidden" name="' + v.name +
+                        '" value="' + v.value + '">'));
+            });
+            $('body').append(form);
+            form.submit();
+        })
     })
 </script>
