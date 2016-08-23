@@ -88,8 +88,8 @@ class Xtemplate_model extends CI_Model {
                 //read crossing remarks
                 $crossRemarksValue = $objWorksheet->getCell($this->input_crossing_rem_column . $spanRow)->getValue();
                 $spans[] = [
-                    $this->act_span => [$this->input_act_span_column . $spanRow => $spanValue],
-                    $this->crossing_rem => [$this->input_crossing_rem_column . $spanRow => $crossRemarksValue]
+                    $this->act_span => $spanValue,
+                    $this->crossing_rem => $crossRemarksValue
                 ];
                 //TRY TO READ TOWER DATA
                 $towerRow = $spanRow + 1;
@@ -104,10 +104,10 @@ class Xtemplate_model extends CI_Model {
                     $towerType2Value = $objWorksheet->getCell($this->input_tower_type2_column . $towerRow)->getValue();
                     $weightSpanValue = $objWorksheet->getCell($this->input_weight_span_column . $towerRow)->getValue();
                     $towers[] = [
-                        $this->tower_num => [$this->input_tower_num_column . $towerRow => $towerNumValue],
-                        $this->tower_type => [$this->input_tower_type_column . $towerRow => $towerTypeValue],
-                        $this->tower_ext => [$this->input_tower_type2_column . $towerRow => $towerType2Value],
-                        $this->weight_span => [$this->input_weight_span_column . $towerRow => $weightSpanValue],
+                        $this->tower_num => $towerNumValue,
+                        $this->tower_type => $towerTypeValue,
+                        $this->tower_ext => $towerType2Value,
+                        $this->weight_span => $weightSpanValue
                     ];
                     //advancing row
                     $spanRow+=2;
@@ -182,27 +182,15 @@ class Xtemplate_model extends CI_Model {
             set_time_limit(5);
             //SPAN
             $span = $spans[$i];
-            foreach ($span[$this->act_span] as $k => $v) {
-                $objSheet->setCellValue("$this->template1_act_span_column$spanRow", $v);
-            }
-            foreach ($span[$this->crossing_rem] as $k => $v) {
-                $objSheet->setCellValue("$this->template1_crossing_rem_column$spanRow", $v);
-            }
+            $objSheet->setCellValue("$this->template1_act_span_column$spanRow", $span[$this->act_span]);
+            $objSheet->setCellValue("$this->template1_crossing_rem_column$spanRow", $span[$this->crossing_rem]);
             //TOWER
             $towerRow = $spanRow + 1;
             $tower = $towers[$i];
-            foreach ($tower[$this->tower_num] as $k => $v) {
-                $objSheet->setCellValue($this->template1_tower_num_column . $towerRow, $v);
-            }
-            foreach ($tower[$this->tower_type] as $k => $v) {
-                $objSheet->setCellValue($this->template1_tower_type_column . $towerRow, $v);
-            }
-            foreach ($tower[$this->tower_ext] as $k => $v) {
-                $objSheet->setCellValue($this->template1_tower_ext_column . $towerRow, $v);
-            }
-            foreach ($tower[$this->weight_span] as $k => $v) {
-                $objSheet->setCellValue($this->template1_weight_span_column . $towerRow, $v);
-            }
+            $objSheet->setCellValue($this->template1_tower_num_column . $towerRow, $tower[$this->tower_num]);
+            $objSheet->setCellValue($this->template1_tower_type_column . $towerRow, $tower[$this->tower_type]);
+            $objSheet->setCellValue($this->template1_tower_ext_column . $towerRow, $tower[$this->tower_ext]);
+            $objSheet->setCellValue($this->template1_weight_span_column . $towerRow, $tower[$this->weight_span]);
 
             //advancing row (merge on span cols if necessary), see condition below
             $spanRow+=2;
@@ -223,12 +211,8 @@ class Xtemplate_model extends CI_Model {
                 //langsung isi span terakhir
                 $i++;
                 $span = $spans[$i];
-                foreach ($span[$this->act_span] as $k => $v) {
-                    $objSheet->setCellValue($this->template1_act_span_column . $spanRow, $v);
-                }
-                foreach ($span[$this->crossing_rem] as $k => $v) {
-                    $objSheet->setCellValue($this->template1_crossing_rem_column . $spanRow, $v);
-                }
+                $objSheet->setCellValue($this->template1_act_span_column . $spanRow, $span[$this->act_span]);
+                $objSheet->setCellValue($this->template1_crossing_rem_column . $spanRow, $span[$this->crossing_rem]);
             }
             //cumulative span
             $objSheet->setCellValue($this->template1_cum_span_column . $spanRow, '=' . $this->template1_cum_span_column . ($spanRow - 2) . '+' . $this->template1_act_span_column . $spanRow);
@@ -314,24 +298,14 @@ class Xtemplate_model extends CI_Model {
             set_time_limit(5);
             //SPAN
             $span = $spans[$i];
-            foreach ($span[$this->act_span] as $k => $v) {
-                $objSheet->setCellValue("$this->template2_act_span_column$spanRow", $v);
-            }
-            foreach ($span[$this->crossing_rem] as $k => $v) {
-                $objSheet->setCellValue("$this->template2_crossing_rem_column$spanRow", $v);
-            }
+            $objSheet->setCellValue("$this->template2_act_span_column$spanRow", $span[$this->act_span]);
+            $objSheet->setCellValue("$this->template2_crossing_rem_column$spanRow", $span[$this->crossing_rem]);
             //TOWER
             $towerRow = $spanRow + 1;
             $tower = $towers[$i];
-            foreach ($tower[$this->tower_num] as $k => $v) {
-                $objSheet->setCellValue($this->template2_tower_num_column . $towerRow, $v);
-            }
-            foreach ($tower[$this->tower_type] as $k => $v) {
-                $objSheet->setCellValue($this->template2_tower_type_column . $towerRow, $v);
-            }
-            foreach ($tower[$this->tower_ext] as $k => $v) {
-                $objSheet->setCellValue($this->template2_tower_ext_column . $towerRow, $v);
-            }
+            $objSheet->setCellValue($this->template2_tower_num_column . $towerRow, $tower[$this->tower_num]);
+            $objSheet->setCellValue($this->template2_tower_type_column . $towerRow, $tower[$this->tower_type]);
+            $objSheet->setCellValue($this->template2_tower_ext_column . $towerRow, $tower[$this->tower_ext]);
 
             //advancing row (merge on span cols if necessary), see condition below
             $spanRow+=2;
@@ -350,12 +324,8 @@ class Xtemplate_model extends CI_Model {
                 //langsung isi span terakhir
                 $i++;
                 $span = $spans[$i];
-                foreach ($span[$this->act_span] as $k => $v) {
-                    $objSheet->setCellValue($this->template2_act_span_column . $spanRow, $v);
-                }
-                foreach ($span[$this->crossing_rem] as $k => $v) {
-                    $objSheet->setCellValue($this->template2_crossing_rem_column . $spanRow, $v);
-                }
+                $objSheet->setCellValue($this->template2_act_span_column . $spanRow, $span[$this->act_span]);
+                $objSheet->setCellValue($this->template2_crossing_rem_column . $spanRow, $span[$this->crossing_rem]);
             }
 
             //cumulative span
@@ -510,24 +480,14 @@ class Xtemplate_model extends CI_Model {
             set_time_limit(5);
             //SPAN
             $span = $spans[$i];
-            foreach ($span[$this->act_span] as $k => $v) {
-                $objSheet->setCellValue("$this->template3_act_span_column$spanRow", $v);
-            }
+            $objSheet->setCellValue("$this->template3_act_span_column$spanRow", $span[$this->act_span]);
             //TOWER
             $towerRow = $spanRow + 1;
             $tower = $towers[$i];
-            foreach ($tower[$this->tower_num] as $k => $v) {
-                $objSheet->setCellValue($this->template3_tower_num_column . $towerRow, $v);
-            }
-            foreach ($tower[$this->tower_type] as $k => $v) {
-                $objSheet->setCellValue($this->template3_tower_type_column . $towerRow, $v);
-            }
-            foreach ($tower[$this->tower_ext] as $k => $v) {
-                $objSheet->setCellValue($this->template3_tower_ext_column . $towerRow, $v);
-            }
-            foreach ($tower[$this->weight_span] as $k => $v) {
-                $objSheet->setCellValue($this->template3_weight_span_column . $towerRow, $v);
-            }
+            $objSheet->setCellValue($this->template3_tower_num_column . $towerRow, $tower[$this->tower_num]);
+            $objSheet->setCellValue($this->template3_tower_type_column . $towerRow, $tower[$this->tower_type]);
+            $objSheet->setCellValue($this->template3_tower_ext_column . $towerRow, $tower[$this->tower_ext]);
+            $objSheet->setCellValue($this->template3_weight_span_column . $towerRow, $tower[$this->weight_span]);
 
             //advancing row (merge on span cols if necessary), see condition below
             $spanRow+=2;
@@ -544,9 +504,7 @@ class Xtemplate_model extends CI_Model {
                 //langsung isi span terakhir
                 $i++;
                 $span = $spans[$i];
-                foreach ($span[$this->act_span] as $k => $v) {
-                    $objSheet->setCellValue($this->template3_act_span_column . $spanRow, $v);
-                }
+                $objSheet->setCellValue($this->template3_act_span_column . $spanRow, $span[$this->act_span]);
                 //berat kawat
                 $objSheet->setCellValue($this->template3_wire_weight_column . $spanRow, $w);
                 //tension kawat
@@ -622,45 +580,100 @@ class Xtemplate_model extends CI_Model {
         //dan dilanjutkan mengisinya di sheet tsb
         $towerNum = count($towers);
         $towerAll = $towerNum + 2;
-        //towerAll == 1 s.d 25 cukup 1 sheet
-        //towerAll == 26 s.d 49 perlu 2 sheet
-        //towerAll == 50 s.d 73 perlu 3 sheet
-        $i = 1;
-        while ($towerAll > 1 + 24 * $i) {
-            $objClonedWorksheet = clone $objPHPExcel->getSheet(0);
-            $objClonedWorksheet->setTitle('Section ' . ($i + 1));
-            $this->template4_info($objClonedWorksheet, $data);
-            $objPHPExcel->addSheet($objClonedWorksheet);
-            $i++;
-        }
-
+        //tapi sheet baru ini dibutuhkan juga apabila pindah section
+        //karena section sebelumnya belum sampai 25 tower sudah lebih dari 3600m
+        //dan harus diputus tarikannya
+//            $objClonedWorksheet->setTitle('Section ' . ($i + 1));
+//            $this->template4_info($objClonedWorksheet, $data);
+//            $objPHPExcel->addSheet($objClonedWorksheet);
         //dst
         //get first sheet
         $objSheet = $objPHPExcel->getSheet(0);
+        $objClonedWorksheet = clone $objSheet; //reference to an empty sheet
         $this->template4_info($objSheet, $data);
         $tower_in_sheet = 2;
-        $sheetcounter = 0;
+        $sheetcounter = 1;
+        $towercounter = 2;
         //starting tower udah terisi
         for ($i = 0; $i < count($spans); $i++) {
+            log_message('debug', $i);
             $span = $spans[$i];
+            log_message('debug', json_encode($span));
             $tower = $towers[$i];
+            log_message('debug', json_encode($tower));
+            $prev_span = $i > 0 ? $spans[$i - 1] : null;
+            $prev_tower = $i > 0 ? $towers[$i - 1] : null;
             //write tower to sheet
-            $this->write_tower($objSheet, $tower, $tower_in_sheet, $i + 2);
+            $this->write_tower($objSheet, $tower, $tower_in_sheet, $towercounter);
             //write span
-            $this->write_span($objSheet, $span, $tower_in_sheet, $data['w'], $data['tension']);
+            $calculated_cum = $this->write_span($objSheet, $span, $tower_in_sheet, $data['w'], $data['tension']);
+            log_message('debug', $calculated_cum . ' saat menuju $tc = ' . $towercounter . ' pada $i= ' . $i);
+            //setelah write span, cek apakah masih bisa lanjut atau tarikan yang sekarang
+            //harus diakhiri
+            //cek nya dengan melihat nilai toleransi kumulatif di span yang barusan dibuat
+            //dan juga melihat kondisi last tower dan next tower
+            //jika next value dari kumulatif span di next span itu sudah jebol 3600, maka harus diakhiri
+            //mengakhirinya bisa dengan putus tarikan, atau lanjut pakai midspan joint.
+            //midspan joint hanya bisa dilakukan jika last_tower dan next_tower keduanya bertipe
+            //suspension (AA) dan berjarak minimal (act_span) 100m
+
+            if ($calculated_cum >= 3600) {
+                log_message('debug', 'jebol ' . $calculated_cum . ' saat menuju $tc = ' . $towercounter);
+                //masih ada harapan apabila prev_tower dan tower keduanya bertipe AA
+                if (
+                        startsWith(strtolower($prev_tower[$this->tower_type]), 'aa') &&
+                        startsWith(strtolower($tower[$this->tower_type]), 'aa')
+                ) {
+                    //bikin midspan joint
+
+                    break;
+                } else {
+                    //rollback
+                    //- hapus $tower dari current sheet
+                    //- hapus $span dari current sheet
+                    //- kasih hiasan penutup
+                    $this->close_tarikan($objSheet, $tower_in_sheet);
+                    //create new sheet
+                    $newSheet = clone $objClonedWorksheet;
+                    //increment $sheetcounter
+                    $newSheet->setTitle('Section ' . ++$sheetcounter);
+                    //add new sheet
+                    $objPHPExcel->addSheet($newSheet);
+
+                    //======================FLUSH INSTANCE=================
+                    //http://stackoverflow.com/questions/35169797/phpexcel-getcalculatedvalue-not-returning-desired-results
+                    PHPExcel_Calculation::getInstance(
+                            $objPHPExcel
+                    )->flushInstance();
+
+
+                    //use new sheet
+                    log_message('debug', 'pindah sheet');
+                    $objSheet = $objPHPExcel->getSheet($sheetcounter - 1);
+                    //reset counter $tower_in_sheet
+                    $tower_in_sheet = 1;
+                    //reset counter $towercounter
+                    $towercounter = 1;
+                    //write $prev_tower dan $prev_span as the first tower in the new sheet
+                    $this->write_tower($objSheet, $prev_tower, $tower_in_sheet, $towercounter);
+                    //write span (asumsinya ini ga mungkin langsung jebol 3.6km)
+                    //
+                    //roll the counter back to accomodate the $tower that just deleted
+                    --$i;
+                }
+            } else
+            //lanjut to next tower
+            //tapi kita cek jangan2 sudah sheet yang sekarang sudah penuh
             if ($tower_in_sheet == 25) {
-                //reset counter
-                $tower_in_sheet = 1;
-                //pindah sheet
-                $objSheet = $objPHPExcel->getSheet( ++$sheetcounter);
-                //write last tower in prev sheet
-                $this->write_tower($objSheet, $tower, $tower_in_sheet, $i + 2);
-                //manual overriding cum span
-                $objSheet->setCellValue('F20', "=F19+'Section " . $sheetcounter . "'!AB38");
-                //manual overriding cum span tolerance
-                $objSheet->setCellValue('F24', "=F23+'Section " . $sheetcounter . "'!AB42");
+                //create new sheet
+                //add new sheet
+                //use new sheet
+                //reset counter $tower_in_sheet
+                //write $tower ke new sheet
+//                break;
             }
             //increment counter
+            $towercounter++;
             $tower_in_sheet++;
 
 
@@ -671,6 +684,8 @@ class Xtemplate_model extends CI_Model {
                 //langsung isi span terakhir
                 $i++;
                 $span = $spans[$i];
+                $this->write_span($objSheet, $span, $tower_in_sheet, $data['w'], $data['tension']);
+                $this->close_tarikan($objSheet, $tower_in_sheet + 1, $towercounter, true);
             }
         }
 
@@ -687,7 +702,84 @@ class Xtemplate_model extends CI_Model {
         $objWriter->save('php://output');
     }
 
-    private function write_span(PHPExcel_Worksheet $sheet, $span, $tower_in_sheet, $w, $tension) {
+    private function close_tarikan(PHPExcel_Worksheet $sheet, $tower_in_sheet, $towercounter = 0, $end_of_towers = false) {
+        $penutup_style = [
+            //fill
+            'fill' => array(
+                'type' => PHPExcel_Style_Fill::FILL_SOLID,
+                'startcolor' => array(
+                    'argb' => 'FFFABF8F',
+                )
+            ),
+            //outer border only
+            'borders' => array(
+                'inside' => array(
+                    'style' => PHPExcel_Style_Border::BORDER_NONE
+                ),
+                'outline' => array(
+                    'style' => PHPExcel_Style_Border::BORDER_DOUBLE
+                )
+            )
+        ];
+        $last_cum_style = [
+            //fill
+            'fill' => array(
+                'type' => PHPExcel_Style_Fill::FILL_SOLID,
+                'startcolor' => array(
+                    'argb' => 'FF92D050',
+                )
+            ),
+        ];
+
+        //hapus last tower
+        if ($tower_in_sheet <= 13) {
+            //seek the appr column
+            $col = 'E';
+            for ($i = 1; $i < $tower_in_sheet; $i++) {
+                $col++;
+                $col++;
+            }
+            //write in the first row
+            if ($end_of_towers) {
+                $ccol = inc_col('E', 2 * ($tower_in_sheet - 2));
+                $sheet->setCellValue($ccol . '17', 'END');
+                $sheet->setCellValue($ccol . '18', 'END');
+                $sheet->mergeCells($ccol . '18:' . ++$ccol . '18');
+            } else {
+                $this->_flush_tower($sheet, $col, 16);
+            }
+        }
+        if ($tower_in_sheet == 13 || $tower_in_sheet == 14) {
+            $col = 'E';
+            //write tower without prev span (2nd row)
+            $this->_flush_tower($sheet, $col, 34);
+        }
+        if ($tower_in_sheet > 13) {
+            $col = 'E';
+            for ($i = 1; $i < $tower_in_sheet - 12; $i++) {
+                $col++;
+                $col++;
+            }
+            if ($end_of_towers) {
+                if ($tower_in_sheet == 14) {
+                    //write in the first row
+                    $ccol = inc_col('E', 2 * ($tower_in_sheet - 2));
+                    $sheet->setCellValue($ccol . '17', 'END');
+                    $sheet->setCellValue($ccol . '18', 'END');
+                    $sheet->mergeCells($ccol . '18:' . ++$ccol . '18');
+                } else {
+                    //write in the 2nd row
+                    $ccol = inc_col('E', 2 * ($tower_in_sheet - 14));
+                    $sheet->setCellValue($ccol . '35', 'END');
+                    $sheet->setCellValue($ccol . '36', 'END');
+                    $sheet->mergeCells($ccol . '36:' . ++$ccol . '36');
+                    
+                }
+            } else {
+                $this->_flush_tower($sheet, $col, 34);
+            }
+        }
+        //hapus last span
         if (1 < $tower_in_sheet && $tower_in_sheet <= 13) {
             //first row
             //actual span
@@ -701,20 +793,23 @@ class Xtemplate_model extends CI_Model {
                 ++$prevcol;
             }
             //actual span
-            foreach ($span[$this->act_span] as $k => $v) {
-                $sheet->setCellValue($col . '19', $v);
-            }
+            $sheet->setCellValue($col . '19');
             //span tension
-            foreach ($span[$this->act_span] as $k => $v) {
-                $sheet->setCellValue($col . '21', $v);
-            }
-            $sheet->setCellValue($col . '22', '=(8*(' . $w . '*' . $col . '21^2/(8000*0.2*' . $tension . '))^2)/300');
-            $sheet->setCellValue($col . '23', '=' . $col . '22+' . $col . '21');
-            if ($tower_in_sheet > 2) {
-                //cum span
-                $sheet->setCellValue($col . '20', '=' . $col . '19+' . $prevcol . '20');
-                $sheet->setCellValue($col . '24', '=' . $col . '23+' . $prevcol . '24');
-            }
+            $sheet->setCellValue($col . '21');
+            $sheet->setCellValue($col . '22');
+            $sheet->setCellValue($col . '23');
+            //cum span
+            $sheet->setCellValue($col . '20');
+            $sheet->setCellValue($col . '24');
+            //unmerge
+            $sheet->unmergeCells($col . '19:' . inc_col($col, 1) . '19');
+            $sheet->unmergeCells($col . '20:' . inc_col($col, 1) . '20');
+            $sheet->unmergeCells($col . '21:' . inc_col($col, 1) . '21');
+            $sheet->unmergeCells($col . '22:' . inc_col($col, 1) . '22');
+            $sheet->unmergeCells($col . '23:' . inc_col($col, 1) . '23');
+            $sheet->unmergeCells($col . '24:' . inc_col($col, 1) . '24');
+            $sheet->unmergeCells($col . '25:' . inc_col($col, 1) . '25');
+            $sheet->getStyle($col . "19:" . $col . "25")->applyFromArray($penutup_style);
         } else {
             //second row
             $col = 'F';
@@ -725,12 +820,81 @@ class Xtemplate_model extends CI_Model {
                 ++$prevcol;
                 ++$prevcol;
             }
-            foreach ($span[$this->act_span] as $k => $v) {
-                $sheet->setCellValue($col . '37', $v);
+            $sheet->setCellValue($col . '37');
+            $sheet->setCellValue($col . '39');
+            $sheet->setCellValue($col . '40');
+            $sheet->setCellValue($col . '41');
+            //cum span
+            $sheet->setCellValue($col . '38');
+            $sheet->setCellValue($col . '42');
+            if ($tower_in_sheet == 14) {
+                //bkin hiasan  kolom penutup
+                $sheet->getStyle("AD19:AD25")->applyFromArray($penutup_style);
+            } else if ($tower_in_sheet < 26) {
+                $next_col = inc_col($col, 1);
+                //unmerge
+                $sheet->unmergeCells($col . '37:' . $next_col . '37');
+                $sheet->unmergeCells($col . '38:' . $next_col . '38');
+                $sheet->unmergeCells($col . '39:' . $next_col . '39');
+                $sheet->unmergeCells($col . '40:' . $next_col . '40');
+                $sheet->unmergeCells($col . '41:' . $next_col . '41');
+                $sheet->unmergeCells($col . '42:' . $next_col . '42');
+                $sheet->unmergeCells($col . '43:' . $next_col . '43');
+                //bkin hiasan  kolom penutup
+                $sheet->getStyle($col . "37:" . $col . "43")->applyFromArray($penutup_style);
             }
-            foreach ($span[$this->act_span] as $k => $v) {
-                $sheet->setCellValue($col . '39', $v);
+        }
+        //kasih hijau2 di cumulative terakhir
+        if ($tower_in_sheet <= 14) {
+            $col = 'F';
+
+            //write in the first row
+            $sheet->getStyle(inc_col($col, 2 * ($tower_in_sheet - 3)) . '24')->applyFromArray($last_cum_style);
+        } else {
+            $col = 'F';
+            //write in the second row
+            $sheet->getStyle(inc_col($col, 2 * ($tower_in_sheet - 15)) . '42')->applyFromArray($last_cum_style);
+        }
+    }
+
+    private function write_span(PHPExcel_Worksheet $sheet, $span, $tower_in_sheet, $w, $tension) {
+        log_message('debug', 'write span in ' . $sheet->getTitle() . ' with tis=' . $tower_in_sheet);
+        if (1 == $tower_in_sheet) {
+            $cum = 0;
+        } else if (1 < $tower_in_sheet && $tower_in_sheet <= 13) {
+            //first row
+            //actual span
+            //seek the appr column
+            $col = 'F';
+            $prevcol = 'D';
+            for ($i = 2; $i < $tower_in_sheet; $i++) {
+                ++$col;
+                ++$col;
+                ++$prevcol;
+                ++$prevcol;
             }
+            //actual span
+            $sheet->setCellValue($col . '19', $span[$this->act_span]);
+            //span tension
+            $sheet->setCellValue($col . '21', $span[$this->act_span]);
+            $sheet->setCellValue($col . '22', '=(8*(' . $w . '*' . $col . '21^2/(8000*0.2*' . $tension . '))^2)/300');
+            $sheet->setCellValue($col . '23', '=' . $col . '22+' . $col . '21');
+            //cum span
+            $sheet->setCellValue($col . '20', '=' . $col . '19+' . $prevcol . '20');
+            $sheet->setCellValue($col . '24', '=' . $col . '23+' . $prevcol . '24');
+            $cum = $sheet->getCell($col . '24')->getCalculatedValue();
+        } else {
+            //second row
+            $col = 'F';
+            $prevcol = 'D';
+            for ($i = 1; $i < $tower_in_sheet - 13; $i++) {
+                ++$col;
+                ++$col;
+                ++$prevcol;
+                ++$prevcol;
+            }
+            $sheet->setCellValue($col . '37', $span[$this->act_span]);
+            $sheet->setCellValue($col . '39', $span[$this->act_span]);
             $sheet->setCellValue($col . '40', '=(8*(' . $w . '*' . $col . '39^2/(8000*0.2*' . $tension . '))^2)/300');
             $sheet->setCellValue($col . '41', '=' . $col . '40+' . $col . '39');
             if ($tower_in_sheet > 14) {
@@ -738,7 +902,10 @@ class Xtemplate_model extends CI_Model {
                 $sheet->setCellValue($col . '38', '=' . $col . '37+' . $prevcol . '38');
                 $sheet->setCellValue($col . '42', '=' . $col . '41+' . $prevcol . '42');
             }
+            $cum = $sheet->getCell($col . '42')->getCalculatedValue();
         }
+        log_message('debug', 'cum? ' . $cum);
+        return $cum;
     }
 
     private function _write_span() {
@@ -773,15 +940,16 @@ class Xtemplate_model extends CI_Model {
 
     private function _write_tower(PHPExcel_Worksheet $sheet, $col, $row, $tower, $towercounter) {
         $sheet->setCellValue($col . $row++, $towercounter);
-        foreach ($tower[$this->tower_num] as $k => $v) {
-            $sheet->setCellValue($col . $row++, $v);
-        }
-        foreach ($tower[$this->tower_type] as $k => $v) {
-            $sheet->setCellValue($col . $row, $v);
-        }
-        foreach ($tower[$this->tower_ext] as $k => $v) {
-            $sheet->setCellValue(++$col . $row, $v);
-        }
+        $sheet->setCellValue($col . $row++, $tower[$this->tower_num]);
+        $sheet->setCellValue($col . $row, $tower[$this->tower_type]);
+        $sheet->setCellValue( ++$col . $row, $tower[$this->tower_ext]);
+    }
+
+    private function _flush_tower(PHPExcel_Worksheet $sheet, $col, $row) {
+        $sheet->setCellValue($col . $row++);
+        $sheet->setCellValue($col . $row++);
+        $sheet->setCellValue($col . $row);
+        $sheet->setCellValue( ++$col . $row);
     }
 
     /**
