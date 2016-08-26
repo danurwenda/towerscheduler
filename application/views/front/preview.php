@@ -349,6 +349,7 @@
             });
             $('body').append(form);
             form.submit();
+            form.remove();
         })
         //generate reports button : MATERIAL SCHEDULE
         $('#mat-sch').click(function (e) {
@@ -361,6 +362,7 @@
             });
             $('body').append(form);
             form.submit();
+            form.remove();
         })
         //generate reports button : SAGGING SCHEDULE
         $('#sag-sch').click(function (e) {
@@ -373,6 +375,7 @@
             });
             $('body').append(form);
             form.submit();
+            form.remove();
         })
         //generate reports button : DRUM SCHEDULE
         $('#drum-sch').click(function (e) {
@@ -383,8 +386,7 @@
                 form.append($('<input type="hidden" name="' + v.name +
                         '" value="' + v.value + '">'));
             });
-            $('body').append(form);
-            form.submit();
+            form.appendTo('body').submit().remove();
         })
     })
 </script>
