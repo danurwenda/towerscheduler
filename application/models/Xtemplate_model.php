@@ -655,6 +655,12 @@ class Xtemplate_model extends CI_Model {
         $objPHPExcel = PHPExcel_IOFactory::load($templateFileName);
         $spans = $data['spans'];
         $towers = $data['towers'];
+        //awal tarikan
+        if($data['tarikan']==='besar'){
+            //reverse
+            $spans = array_reverse($spans);
+            $towers = array_reverse($towers);
+        }
 
         //template 4 ini berbeda, sebuah sheet hanya dapat menampung 
         //maximal 25 tower (termasuk start-finish)
@@ -720,6 +726,7 @@ class Xtemplate_model extends CI_Model {
                     $newSheet = clone $objClonedWorksheet;
                     //increment $sheetcounter
                     $newSheet->setTitle('Section ' . ++$sheetcounter);
+                    $this->template4_info($newSheet, $data);
                     //add new sheet
                     $objPHPExcel->addSheet($newSheet);
 
@@ -980,10 +987,6 @@ class Xtemplate_model extends CI_Model {
         }
         log_message('debug', 'cum? ' . $cum);
         return $cum;
-    }
-
-    private function _write_span() {
-        
     }
 
     private function write_tower(PHPExcel_Worksheet $sheet, $tower, $tower_in_sheet, $towercounter) {
