@@ -87,6 +87,49 @@ class Converter extends Member_Controller {
         echo json_encode($ret);
     }
 
+    public function save_file($filename) {
+        $conductor = $this->input->post('conductor');
+        $project = $this->input->post('project');
+        $circuit = $this->input->post('circuit');
+        $tarikan = $this->input->post('tarikan');
+        $tension = $this->input->post('tension');
+        $sc = $this->input->post('sc');
+        $w = $this->input->post('w');
+        $spans = json_decode($this->input->post('spans'), true);
+        $towers = json_decode($this->input->post('towers'), true);
+
+        //cleanse $filename, jangan sampai ada up folder
+        //cek 1 : jika mengandung slash, cuma ambil setelah slash
+        $slash = strrpos($filename, '/');
+        if ($slash !== false) {
+            $filename = substr($filename, 1 + $slash);
+        }
+        //cek 2 : backslash
+        $bslash = strrpos($filename, '\\');
+        if ($bslash !== false) {
+            $filename = substr($filename, 1 + $bslash);
+        }
+        //extension
+        if (!endsWith($filename, '.xlsx'))
+            $filename = $filename . '.xlsx';
+        $data = [
+            'filename' => 'uploads/' . $filename,
+            'conductor' => $conductor,
+            'project' => $project,
+            'circuit' => $circuit,
+            'tarikan' => $tarikan,
+            'tension' => $tension,
+            'sc' => $sc,
+            'w' => $w,
+            'spans' => $spans,
+            'towers' => $towers
+        ];
+
+        $this->load->model('xtemplate_model');
+        $ret = ['success' => $this->xtemplate_model->save_input($data)];
+        echo json_encode($ret);
+    }
+
     /**
      * Template 1 : Tower Schedule
      */
@@ -108,6 +151,7 @@ class Converter extends Member_Controller {
         $this->load->model('xtemplate_model');
         $this->xtemplate_model->generate_material_schedule(['file' => $file]);
     }
+
     /**
      * Template 3 : Sagging Schedule
      */
@@ -118,6 +162,7 @@ class Converter extends Member_Controller {
         $this->load->model('xtemplate_model');
         $this->xtemplate_model->generate_sagging_schedule(['file' => $file]);
     }
+
     /**
      * Template 4 : Drum Schedule
      */

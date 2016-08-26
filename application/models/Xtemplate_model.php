@@ -14,7 +14,7 @@ class Xtemplate_model extends CI_Model {
     public $primary_key = 'chart_id';
     private $tower_num = 'tower_num';
     private $tower_type = 'tower_type';
-    private $tower_ext = 'tower_type2';
+    private $tower_ext = 'tower_ext';
     private $act_span = 'act_span';
     private $weight_span = 'weight_span';
     private $crossing_rem = 'crossing_rem';
@@ -129,6 +129,89 @@ class Xtemplate_model extends CI_Model {
             'ew2' => $ew2
         ];
         return $ret;
+    }
+
+    /**
+     * Template 0 : File Input
+     */
+    private $template0_span_start = 18;
+    private $template0_tower_ord_column = 'C';
+    private $template0_tower_num_column = 'D';
+    private $template0_tower_type_column = 'E';
+    private $template0_tower_ext_column = 'F';
+    private $template0_act_span_column = 'G';
+    private $template0_weight_span_column = 'H';
+    private $template0_crossing_rem_column = 'I';
+    private $template0_tower_loc_column = 'J';
+    private $template0_kelurahan_column = 'K';
+    private $template0_kecamatan_column = 'L';
+    private $template0_kabupaten_column = 'M';
+    private $template0_span_columns = ['G', 'I', 'J', 'K', 'L', 'M'];
+    private $template0_tower_columns = [ 'C', 'D', 'E', 'F', 'H'];
+
+    public function save_input($data) {
+        $objPHPExcel = PHPExcel_IOFactory::load('templates/input/tower_template.xlsx');
+        //get first sheet
+        $objSheet = $objPHPExcel->getSheet(0);
+        //write data
+        $spans = $data['spans'];
+        $towers = $data['towers'];
+        $objSheet->setCellValue('F3',$data['conductor']);
+        $objSheet->setCellValue('F4',$data['circuit']);
+        $objSheet->setCellValue('F5',$data['sc']);
+        $objSheet->setCellValue('F6',$data['w']);
+        $objSheet->setCellValue('F7',$data['tension']);
+        $objSheet->setCellValue('F8',$data['tarikan']);
+        $objSheet->setCellValue('J3',$data['project']);
+        $spanRow = $this->template0_span_start;
+        
+        //already 2 tower rows and 3 span rows
+        //making space (assuming there're more than 2 towers)
+        $objSheet->insertNewRowBefore($spanRow + 4, 2 * (count($towers) - 2));
+        //unmerge tower_columns
+        $this->unmerge($objSheet, $spanRow + 3, 2 * (count($towers)) + $spanRow, $this->template0_tower_columns);
+        
+        //start writing span
+        //the cell for first span is already available
+        //as well as the cell for first tower and last span
+        for ($i = 0; $i < count($spans); $i++) {
+            set_time_limit(5);
+            //SPAN
+            $span = $spans[$i];
+            $objSheet->setCellValue($this->template0_act_span_column.$spanRow, $span[$this->act_span]);
+            $objSheet->setCellValue($this->template0_crossing_rem_column.$spanRow, $span[$this->crossing_rem]);
+            //TOWER
+            $towerRow = $spanRow + 1;
+            $tower = $towers[$i];
+            $objSheet->setCellValue($this->template0_tower_num_column . $towerRow, $tower[$this->tower_num]);
+            $objSheet->setCellValue($this->template0_tower_type_column . $towerRow, $tower[$this->tower_type]);
+            $objSheet->setCellValue($this->template0_tower_ext_column . $towerRow, $tower[$this->tower_ext]);
+            $objSheet->setCellValue($this->template0_weight_span_column . $towerRow, $tower[$this->weight_span]);
+
+            //advancing row (merge on span cols if necessary), see condition below
+            $spanRow+=2;
+            //always merge on tower cols
+            $this->merge2($objSheet, $spanRow - 1, $this->template0_tower_columns);
+            //checking last tower
+            if ($i < (count($towers) - 1)) {
+                //merge on span cols
+                $this->merge2($objSheet, $spanRow, $this->template0_span_columns);
+                //fill formulas
+                //tower order
+                $objSheet->setCellValue($this->template0_tower_ord_column . ($spanRow + 1), $i + 2);
+            } else {
+                //langsung isi span terakhir
+                $i++;
+                $span = $spans[$i];
+                $objSheet->setCellValue($this->template0_act_span_column . $spanRow, $span[$this->act_span]);
+                $objSheet->setCellValue($this->template0_crossing_rem_column . $spanRow, $span[$this->crossing_rem]);
+            }            
+        }
+        
+        //all data written
+        $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, "Excel2007");
+        $objWriter->save($data['filename']);
+        return true;
     }
 
     /**
@@ -734,11 +817,7 @@ class Xtemplate_model extends CI_Model {
         //hapus last tower
         if ($tower_in_sheet <= 13) {
             //seek the appr column
-            $col = 'E';
-            for ($i = 1; $i < $tower_in_sheet; $i++) {
-                $col++;
-                $col++;
-            }
+            $col = inc_col('E', 2 * ($tower_in_sheet - 1));
             //write in the first row
             if ($end_of_towers) {
                 $ccol = inc_col('E', 2 * ($tower_in_sheet - 2));
@@ -755,11 +834,7 @@ class Xtemplate_model extends CI_Model {
             $this->_flush_tower($sheet, $col, 34);
         }
         if ($tower_in_sheet > 13) {
-            $col = 'E';
-            for ($i = 1; $i < $tower_in_sheet - 12; $i++) {
-                $col++;
-                $col++;
-            }
+            $col = inc_col('E', 2 * ($tower_in_sheet - 13));
             if ($end_of_towers) {
                 if ($tower_in_sheet == 14) {
                     //write in the first row
@@ -773,7 +848,6 @@ class Xtemplate_model extends CI_Model {
                     $sheet->setCellValue($ccol . '35', 'END');
                     $sheet->setCellValue($ccol . '36', 'END');
                     $sheet->mergeCells($ccol . '36:' . ++$ccol . '36');
-                    
                 }
             } else {
                 $this->_flush_tower($sheet, $col, 34);
@@ -915,11 +989,8 @@ class Xtemplate_model extends CI_Model {
     private function write_tower(PHPExcel_Worksheet $sheet, $tower, $tower_in_sheet, $towercounter) {
         if ($tower_in_sheet <= 13) {
             //seek the appr column
-            $col = 'E';
-            for ($i = 1; $i < $tower_in_sheet; $i++) {
-                $col++;
-                $col++;
-            }
+            $col = inc_col('E', 2 * ($tower_in_sheet - 1));
+
             //write in the first row
             $this->_write_tower($sheet, $col, 16, $tower, $towercounter);
         }
@@ -929,11 +1000,8 @@ class Xtemplate_model extends CI_Model {
             $this->_write_tower($sheet, $col, 34, $tower, $towercounter);
         }
         if ($tower_in_sheet > 13) {
-            $col = 'E';
-            for ($i = 1; $i < $tower_in_sheet - 12; $i++) {
-                $col++;
-                $col++;
-            }
+            $col = inc_col('E', 2 * ($tower_in_sheet - 13));
+
             $this->_write_tower($sheet, $col, 34, $tower, $towercounter);
         }
     }
