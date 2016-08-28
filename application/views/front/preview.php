@@ -1,8 +1,7 @@
 
 <div class="row">
-    <div class="col-sm-6">
-        <!-- PAGE CONTENT BEGINS -->
-        <form class="form-horizontal" role="form" id="input-form">
+    <form class="form-horizontal" role="form" id="input-form">
+        <div class="row">
             <!-- #section:elements.form -->
             <div class="form-group">
                 <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Source file </label>
@@ -30,94 +29,134 @@
                     <!--</div>-->
                 </div>
             </div>
-            <div class="form-group">
-                <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Jalur</label>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <!-- PAGE CONTENT BEGINS -->
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Unit Induk</label>
 
-                <div class="col-sm-9">
-                    <input class="input-xxlarge" name="project" type="text" id="project-input">
+                    <div class="col-sm-9">
+                        <input class="input-xxlarge" name="induk" type="text" id="induk-input">
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Conductor </label>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Unit Pelaksana</label>
 
-                <div class="col-sm-9">
-                    <select class="col-xs-10 col-sm-5" id="conductor-select" name ="conductor">
-                        <option value="1">single</option>
-                        <option value="2">double</option>
-                    </select>
+                    <div class="col-sm-9">
+                        <input class="input-xxlarge" name="laksana" type="text" id="laksana-input">
+                    </div>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Pelaksana Pekerjaan</label>
 
-            <div class="form-group">
-                <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Circuit </label>
-
-                <div class="col-sm-9">
-                    <select class="col-xs-10 col-sm-5" id="circuit-select" name ="circuit">
-                        <option value="2">2</option>
-                        <option value="4">4</option>
-                    </select>
+                    <div class="col-sm-9">
+                        <input class="input-xxlarge" name="pelaksana" type="text" id="pelaksana-input">
+                    </div>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Jalur</label>
 
-            <div class="form-group">
-                <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Tension</label>
-
-                <div class="col-sm-9">
-                    <input class="input-sm" name="tension" type="number" id="tension-input">
+                    <div class="col-sm-9">
+                        <input class="input-xxlarge" name="project" type="text" id="project-input">
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Sagging Coef.</label>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Jenis Conductor</label>
 
-                <div class="col-sm-9">
-                    <input class="input-sm" name="sc" type="number" id="sagging-input">
+                    <div class="col-sm-9">
+                        <input class="input-xxlarge" name="conductort" type="text" id="conductort-input">
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Berat kawat kg/m</label>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Conductor </label>
 
-                <div class="col-sm-9">
-                    <input class="input-sm" name="w" type="number" id="mass-input">
+                    <div class="col-sm-9">
+                        <select class="col-xs-10 col-sm-5" id="conductor-select" name ="conductor">
+                            <option value="1">single</option>
+                            <option value="2">double</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
 
-            <div class="form-group">
-                <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> Mulai tarikan </label>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Circuit </label>
 
-                <div class="col-sm-9">
-                    <select class="col-xs-10 col-sm-5" id="tarikan-select" name ="tarikan">
-                        <option value="kecil" selected>Nomor kecil</option>
-                        <option value="besar">Nomor besar</option>
-                    </select>
+                    <div class="col-sm-9">
+                        <select class="col-xs-10 col-sm-5" id="circuit-select" name ="circuit">
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
                 </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Tension</label>
+
+                    <div class="col-sm-9">
+                        <input class="input-sm" name="tension" type="number" id="tension-input">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Sagging Coef.</label>
+
+                    <div class="col-sm-9">
+                        <input class="input-sm" name="sc" type="number" id="sagging-input">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Berat kawat kg/m</label>
+
+                    <div class="col-sm-9">
+                        <input class="input-sm" name="w" type="number" id="mass-input">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> Mulai tarikan </label>
+
+                    <div class="col-sm-9">
+                        <select class="col-xs-10 col-sm-5" id="tarikan-select" name ="tarikan">
+                            <option value="kecil" selected>Nomor kecil</option>
+                            <option value="besar">Nomor besar</option>
+                        </select>
+                    </div>
+                </div> 
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> Panjang Haspel </label>
+
+                    <div class="col-sm-9">
+                        <input class="input-sm" name="haspel" type="number" id="haspel-input">
+                    </div>
+                </div> 
             </div> 
-        </form>
 
-    </div>
-    <div class="col-sm-6">
-        <a href="#" class="btn btn-default btn-block btn-success" id="tower-sch">
-            <i class="ace-icon fa fa-align-center bigger-230"></i>
-            Tower Sch
-        </a>
-        <a href="#" class="btn btn-default btn-block btn-success" id ="mat-sch">
-            <i class="ace-icon fa fa-flask bigger-230"></i>
-            Material Sch
-        </a>
-        <a href="#" class="btn btn-default btn-block btn-success" id = "sag-sch">
-            <i class="ace-icon fa fa-chevron-down bigger-230"></i>
-            Sagging Sch
-        </a>
-        <a href="#" class="btn btn-default btn-block btn-success" id="drum-sch">
-            <i class="ace-icon fa fa-database bigger-230"></i>
-            Drum Sch
-        </a>
-    </div>
+            <div class="col-sm-6">
+                <a href="#" class="btn btn-default btn-block btn-success" id="tower-sch">
+                    <i class="ace-icon fa fa-align-center bigger-230"></i>
+                    Tower Sch
+                </a>
+                <a href="#" class="btn btn-default btn-block btn-success" id ="mat-sch">
+                    <i class="ace-icon fa fa-flask bigger-230"></i>
+                    Material Sch
+                </a>
+                <a href="#" class="btn btn-default btn-block btn-success" id = "sag-sch">
+                    <i class="ace-icon fa fa-chevron-down bigger-230"></i>
+                    Sagging Sch
+                </a>
+                <a href="#" class="btn btn-default btn-block btn-success" id="drum-sch">
+                    <i class="ace-icon fa fa-database bigger-230"></i>
+                    Drum Sch
+                </a>
+            </div>
+        </div>
+    </form>
 </div>
 <!-- Excel-like div -->
 <style>
     #input-table{table-layout: fixed}
-    thead th{width: 10%;}
-    thead th:last-child{width: 40%;}
+    thead th{width: 10%;color:black;}
+    thead th:nth-child(7){width: 20%;}
     thead th:first-child{width: 90px;}
     td.ceditable{overflow-x: hidden}
 </style>
@@ -132,6 +171,10 @@
                 <th class="center">Act span</th>
                 <th class="center">Weight span</th>
                 <th class="center">Crossing remarks</th>
+                <th class="center">Location Condition</th>
+                <th class="center">Kelurahan</th>
+                <th class="center">Kecamatan</th>
+                <th class="center">Kabupaten</th>
             </tr>  
         </thead>
         <tbody>
@@ -140,6 +183,10 @@
                 <td></td>
                 <td rowspan=2></td>
                 <td ></td>  
+                <td rowspan=2></td>
+                <td rowspan=2></td>
+                <td rowspan=2></td>
+                <td rowspan=2></td>
             </tr>
             <tr id="first-span">
                 <td rowspan=2 class="ceditable">60.00</td>
@@ -147,18 +194,22 @@
             </tr>
             <tr class="tower-row tower-template hide">
                 <td rowspan=2 class="action-col action-buttons">
-                    <a title="insert new tower below" class="blue insert" href="#" data-rel="tooltip">
+                    <a title="insert new tower below" class="blue insert" data-rel="tooltip">
                         <i class="ace-icon fa fa-share bigger-130"></i>
                     </a>
 
-                    <a class="green clone" title="clone this tower below" data-rel="tooltip" href="#">
+                    <a class="green clone" title="clone this tower below" data-rel="tooltip">
                         <i class="ace-icon fa fa-clone bigger-130"></i>
                     </a>
 
-                    <a class="red delete" title="delete tower" data-rel="tooltip" href="#">
+                    <a class="red delete" title="delete tower" data-rel="tooltip" >
                         <i class="ace-icon fa fa-trash-o bigger-130"></i>
                     </a></td>
                 <td rowspan=2 class="center num-col"></td>
+                <td rowspan=2 class="ceditable"></td>
+                <td rowspan=2 class="ceditable"></td>
+                <td rowspan=2 class="ceditable"></td>
+                <td rowspan=2 class="ceditable"></td>
                 <td rowspan=2 class="ceditable"></td>
                 <td rowspan=2 class="ceditable"></td>
                 <td rowspan=2 class="ceditable"></td>
@@ -171,11 +222,14 @@
             <tr id="end-tower">  
                 <td colspan=5 rowspan=2 class="center bolder">END</td>
                 <td rowspan=2></td>
+                <td rowspan=2></td>
+                <td rowspan=2></td>
+                <td rowspan=2></td>
+                <td rowspan=2></td>
             </tr>
-            <tr height="19">
+            <tr >
                 <td></td>
                 <td></td>
-
             </tr>
         </tbody>
     </table>
@@ -226,8 +280,8 @@
                 var spans = [], towers = [];
                 //first span, special handling
                 var fs = {
-                    act_span:$('#first-span').children().first().html(), 
-                    crossing_rem:$('#first-span').children().last().html()};
+                    act_span: $('#first-span').children().first().html(),
+                    crossing_rem: $('#first-span').children().last().html()};
                 spans.push(fs);
                 //the rest of span
                 $('.span-row:not(.span-template)').each(function (i, e) {
@@ -244,7 +298,11 @@
                                 tower_num: tower_row.children(':nth-child(3)').html(),
                                 tower_type: tower_row.children(':nth-child(4)').html(),
                                 tower_ext: tower_row.children(':nth-child(5)').html(),
-                                weight_span: tower_row.children(':nth-child(6)').html()
+                                weight_span: tower_row.children(':nth-child(6)').html(),
+                                tower_loc: tower_row.children(':nth-child(7)').html(),
+                                kelurahan: tower_row.children(':nth-child(8)').html(),
+                                kecamatan: tower_row.children(':nth-child(9)').html(),
+                                kabupaten: tower_row.children().last().html()
                             }
                     )
                 });
@@ -253,10 +311,14 @@
                 form_data.push({name: 'spans', value: JSON.stringify(spans)})
                 form_data.push({name: 'towers', value: JSON.stringify(towers)})
                 //POST data to server
-                $.post(url, form_data, function (data, textStatus) {
-                    //data contains the JSON object
-                    //textStatus contains the status: success, error, etc
-
+                $.post(url, form_data, function () {
+                    //refresh file list dropdown
+                    $.getJSON(base_url + 'converter/uploaded_files', function (data) {
+                        var select = $('#input-form [name="file"]').empty();
+                        $.each(data, function (i, e) {
+                            $('<option value="' + e + '">' + e + '</option>').appendTo(select)
+                        })
+                    })
                 }, "json");
             }
         })
@@ -288,6 +350,10 @@
                             tower_row.children(':nth-child(4)').html(tower.tower_type)
                             tower_row.children(':nth-child(5)').html(tower.tower_ext)
                             tower_row.children(':nth-child(6)').html(tower.weight_span)
+                            tower_row.children(':nth-child(7)').html(tower.tower_loc)
+                            tower_row.children(':nth-child(8)').html(tower.kelurahan)
+                            tower_row.children(':nth-child(9)').html(tower.kecamatan)
+                            tower_row.children().last().html(tower.kabupaten)
 
                             span_row.children().first().html(span.act_span)
                             span_row.children().last().html(span.crossing_rem)

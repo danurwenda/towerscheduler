@@ -51,8 +51,12 @@ class Converter extends Member_Controller {
             redirect('converter/preview');
         }
     }
+    
+    public function uploaded_files(){
+        echo json_encode($this->scan_dir());
+    }
 
-    function scan_dir($dir) {
+    private function scan_dir($dir='./uploads') {
         $ignored = array('.', '..', '.svn', '.htaccess');
 
         $files = array();
@@ -74,7 +78,7 @@ class Converter extends Member_Controller {
         $data['title'] = 'Preview';
         //list of all files in /uploads
 
-        $data['files'] = $this->scan_dir('./uploads');
+        $data['files'] = $this->scan_dir();
         $this->template->display('preview', $data);
     }
 
@@ -92,6 +96,7 @@ class Converter extends Member_Controller {
         $project = $this->input->post('project');
         $circuit = $this->input->post('circuit');
         $tarikan = $this->input->post('tarikan');
+        $haspel = $this->input->post('haspel');
         $tension = $this->input->post('tension');
         $sc = $this->input->post('sc');
         $w = $this->input->post('w');
@@ -119,6 +124,7 @@ class Converter extends Member_Controller {
             'circuit' => $circuit,
             'tarikan' => $tarikan,
             'tension' => $tension,
+            'haspel' => $haspel,
             'sc' => $sc,
             'w' => $w,
             'spans' => $spans,

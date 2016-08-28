@@ -18,6 +18,10 @@ class Xtemplate_model extends CI_Model {
     private $act_span = 'act_span';
     private $weight_span = 'weight_span';
     private $crossing_rem = 'crossing_rem';
+    private $tower_loc = 'tower_loc';
+    private $kecamatan = 'kecamatan';
+    private $kelurahan = 'kelurahan';
+    private $kabupaten = 'kabupaten';
 
     public function __construct() {
         parent::__construct();
@@ -52,6 +56,10 @@ class Xtemplate_model extends CI_Model {
     private $input_act_span_column = 'G';
     private $input_weight_span_column = 'H';
     private $input_crossing_rem_column = 'I';
+    private $input_tower_loc_column = 'J';
+    private $input_kelurahan_column = 'K';
+    private $input_kecamatan_column = 'L';
+    private $input_kabupaten_column = 'M';
 
     public function readInput($inputFileName) {
         $objWorksheet = $this->createReaderWorksheet($inputFileName);
@@ -63,9 +71,14 @@ class Xtemplate_model extends CI_Model {
         $tension = $objWorksheet->getCell('F7')->getValue();
         $tarikan = $objWorksheet->getCell('F8')->getValue();
         $project = $objWorksheet->getCell('J3')->getValue();
-        $conductorT = $objWorksheet->getCell('J4')->getValue();
+        $conductort = $objWorksheet->getCell('J4')->getValue();
         $ew1 = $objWorksheet->getCell('J5')->getValue();
         $ew2 = $objWorksheet->getCell('K5')->getValue();
+        $unit_induk = $objWorksheet->getCell('J6')->getValue();
+        $unit_laksana = $objWorksheet->getCell('J7')->getValue();
+        $pelaksana = $objWorksheet->getCell('J8')->getValue();
+        $haspel = $objWorksheet->getCell('F9')->getValue();
+
 
         //array of span, must be one more than the  number of tower
         //each element consists of the actual span (column B) and crossing remarks (I)
@@ -103,11 +116,19 @@ class Xtemplate_model extends CI_Model {
                     $towerNumValue = $objWorksheet->getCell($this->input_tower_num_column . $towerRow)->getValue();
                     $towerType2Value = $objWorksheet->getCell($this->input_tower_type2_column . $towerRow)->getValue();
                     $weightSpanValue = $objWorksheet->getCell($this->input_weight_span_column . $towerRow)->getValue();
+                    $tower_loc = $objWorksheet->getCell($this->input_tower_loc_column . $towerRow)->getValue();
+                    $kecamatan = $objWorksheet->getCell($this->input_kecamatan_column . $towerRow)->getValue();
+                    $kabupaten = $objWorksheet->getCell($this->input_kabupaten_column . $towerRow)->getValue();
+                    $kelurahan = $objWorksheet->getCell($this->input_kelurahan_column . $towerRow)->getValue();
                     $towers[] = [
                         $this->tower_num => $towerNumValue,
                         $this->tower_type => $towerTypeValue,
                         $this->tower_ext => $towerType2Value,
-                        $this->weight_span => $weightSpanValue
+                        $this->weight_span => $weightSpanValue,
+                        $this->kabupaten => $kabupaten,
+                        $this->kecamatan => $kecamatan,
+                        $this->kelurahan => $kelurahan,
+                        $this->tower_loc => $tower_loc
                     ];
                     //advancing row
                     $spanRow+=2;
@@ -124,7 +145,11 @@ class Xtemplate_model extends CI_Model {
             'tension' => $tension,
             'spans' => $spans,
             'towers' => $towers,
-            'conductorT' => $conductorT,
+            'conductort' => $conductort,
+            'haspel' => $haspel,
+            'induk' => $unit_induk,
+            'laksana' => $unit_laksana,
+            'pelaksana' => $pelaksana,
             'ew1' => $ew1,
             'ew2' => $ew2
         ];
@@ -146,8 +171,8 @@ class Xtemplate_model extends CI_Model {
     private $template0_kelurahan_column = 'K';
     private $template0_kecamatan_column = 'L';
     private $template0_kabupaten_column = 'M';
-    private $template0_span_columns = ['G', 'I', 'J', 'K', 'L', 'M'];
-    private $template0_tower_columns = [ 'C', 'D', 'E', 'F', 'H'];
+    private $template0_span_columns = ['G', 'I'];
+    private $template0_tower_columns = [ 'C', 'D', 'E', 'F', 'H', 'J', 'K', 'L', 'M'];
 
     public function save_input($data) {
         $objPHPExcel = PHPExcel_IOFactory::load('templates/input/tower_template.xlsx');
@@ -156,21 +181,22 @@ class Xtemplate_model extends CI_Model {
         //write data
         $spans = $data['spans'];
         $towers = $data['towers'];
-        $objSheet->setCellValue('F3',$data['conductor']);
-        $objSheet->setCellValue('F4',$data['circuit']);
-        $objSheet->setCellValue('F5',$data['sc']);
-        $objSheet->setCellValue('F6',$data['w']);
-        $objSheet->setCellValue('F7',$data['tension']);
-        $objSheet->setCellValue('F8',$data['tarikan']);
-        $objSheet->setCellValue('J3',$data['project']);
+        $objSheet->setCellValue('F3', $data['conductor']);
+        $objSheet->setCellValue('F4', $data['circuit']);
+        $objSheet->setCellValue('F5', $data['sc']);
+        $objSheet->setCellValue('F6', $data['w']);
+        $objSheet->setCellValue('F7', $data['tension']);
+        $objSheet->setCellValue('F8', $data['tarikan']);
+        $objSheet->setCellValue('J3', $data['project']);
+        $objSheet->setCellValue('F9', $data['haspel']);
         $spanRow = $this->template0_span_start;
-        
-        //already 2 tower rows and 3 span rows
-        //making space (assuming there're more than 2 towers)
-        $objSheet->insertNewRowBefore($spanRow + 4, 2 * (count($towers) - 2));
+
+        //already 1 tower rows and 2 span rows
+        //making space
+        $objSheet->insertNewRowBefore($spanRow + 2, 2 * (count($towers) - 1));
         //unmerge tower_columns
-        $this->unmerge($objSheet, $spanRow + 3, 2 * (count($towers)) + $spanRow, $this->template0_tower_columns);
-        
+        $this->unmerge($objSheet, $spanRow + 1, 2 * (count($towers)) + $spanRow, $this->template0_tower_columns);
+
         //start writing span
         //the cell for first span is already available
         //as well as the cell for first tower and last span
@@ -178,8 +204,8 @@ class Xtemplate_model extends CI_Model {
             set_time_limit(5);
             //SPAN
             $span = $spans[$i];
-            $objSheet->setCellValue($this->template0_act_span_column.$spanRow, $span[$this->act_span]);
-            $objSheet->setCellValue($this->template0_crossing_rem_column.$spanRow, $span[$this->crossing_rem]);
+            $objSheet->setCellValue($this->template0_act_span_column . $spanRow, $span[$this->act_span]);
+            $objSheet->setCellValue($this->template0_crossing_rem_column . $spanRow, $span[$this->crossing_rem]);
             //TOWER
             $towerRow = $spanRow + 1;
             $tower = $towers[$i];
@@ -187,6 +213,10 @@ class Xtemplate_model extends CI_Model {
             $objSheet->setCellValue($this->template0_tower_type_column . $towerRow, $tower[$this->tower_type]);
             $objSheet->setCellValue($this->template0_tower_ext_column . $towerRow, $tower[$this->tower_ext]);
             $objSheet->setCellValue($this->template0_weight_span_column . $towerRow, $tower[$this->weight_span]);
+            $objSheet->setCellValue($this->template0_tower_loc_column . $towerRow, $tower[$this->tower_loc]);
+            $objSheet->setCellValue($this->template0_kecamatan_column . $towerRow, $tower[$this->kecamatan]);
+            $objSheet->setCellValue($this->template0_kelurahan_column . $towerRow, $tower[$this->kelurahan]);
+            $objSheet->setCellValue($this->template0_kabupaten_column . $towerRow, $tower[$this->kabupaten]);
 
             //advancing row (merge on span cols if necessary), see condition below
             $spanRow+=2;
@@ -205,9 +235,9 @@ class Xtemplate_model extends CI_Model {
                 $span = $spans[$i];
                 $objSheet->setCellValue($this->template0_act_span_column . $spanRow, $span[$this->act_span]);
                 $objSheet->setCellValue($this->template0_crossing_rem_column . $spanRow, $span[$this->crossing_rem]);
-            }            
+            }
         }
-        
+
         //all data written
         $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, "Excel2007");
         $objWriter->save($data['filename']);
@@ -232,6 +262,10 @@ class Xtemplate_model extends CI_Model {
     private $template1_wind_span_column = 'K';
     private $template1_wtwd_ratio_column = 'L';
     private $template1_crossing_rem_column = 'M';
+    private $template1_tower_loc_column = 'N';
+    private $template1_kelurahan_column = 'O';
+    private $template1_kecamatan_column = 'P';
+    private $template1_kabupaten_column = 'Q';
     private $template1_span_columns = ['F', 'G', 'H', 'I', 'M'];
     private $template1_tower_columns = ['B', 'C', 'D', 'E', 'J', 'K', 'L', 'N', 'O', 'P', 'Q'];
 
@@ -246,9 +280,12 @@ class Xtemplate_model extends CI_Model {
         $objSheet = $objPHPExcel->getSheet(0);
         //informational
         $objSheet->setCellValue('N2', $data['project']);
-        $objSheet->setCellValue('N4', $data['conductorT']);
+        $objSheet->setCellValue('N4', $data['conductort']);
         $objSheet->setCellValue('N5', $data['ew1']);
         $objSheet->setCellValue('O5', $data['ew2']);
+        $objSheet->setCellValue('F3', $data['induk']);
+        $objSheet->setCellValue('F4', $data['laksana']);
+        $objSheet->setCellValue('F7', $data['pelaksana']);
         $spans = $data['spans'];
         $towers = $data['towers'];
         $spanRow = $this->template1_span_start;
@@ -274,6 +311,10 @@ class Xtemplate_model extends CI_Model {
             $objSheet->setCellValue($this->template1_tower_type_column . $towerRow, $tower[$this->tower_type]);
             $objSheet->setCellValue($this->template1_tower_ext_column . $towerRow, $tower[$this->tower_ext]);
             $objSheet->setCellValue($this->template1_weight_span_column . $towerRow, $tower[$this->weight_span]);
+            $objSheet->setCellValue($this->template1_tower_loc_column . $towerRow, $tower[$this->tower_loc]);
+            $objSheet->setCellValue($this->template1_kelurahan_column . $towerRow, $tower[$this->kelurahan]);
+            $objSheet->setCellValue($this->template1_kecamatan_column . $towerRow, $tower[$this->kecamatan]);
+            $objSheet->setCellValue($this->template1_kabupaten_column . $towerRow, $tower[$this->kabupaten]);
 
             //advancing row (merge on span cols if necessary), see condition below
             $spanRow+=2;
@@ -361,10 +402,13 @@ class Xtemplate_model extends CI_Model {
         $objSheet = $objPHPExcel->getSheet(0);
         //informational
         $objSheet->setCellValue('U2', $data['project']);
-        $objSheet->setCellValue('U4', $data['conductorT']);
+        $objSheet->setCellValue('U4', $data['conductort']);
         $objSheet->setCellValue('U5', $data['ew1']);
         $objSheet->setCellValue('V5', $data['ew2']);
         $objSheet->setCellValue('A8', $data['circuit']);
+        $objSheet->setCellValue('F3', $data['induk']);
+        $objSheet->setCellValue('F4', $data['laksana']);
+        $objSheet->setCellValue('F6', $data['pelaksana']);
         $spans = $data['spans'];
         $towers = $data['towers'];
         $spanRow = $this->template2_span_start;
@@ -541,9 +585,12 @@ class Xtemplate_model extends CI_Model {
         $objSheet = $objPHPExcel->getSheet(0);
         //informational
         $objSheet->setCellValue('M2', $data['project']);
-        $objSheet->setCellValue('M4', $data['conductorT']);
+        $objSheet->setCellValue('M4', $data['conductort']);
         $objSheet->setCellValue('M5', $data['ew1']);
         $objSheet->setCellValue('N5', $data['ew2']);
+        $objSheet->setCellValue('E3', $data['induk']);
+        $objSheet->setCellValue('E4', $data['laksana']);
+        $objSheet->setCellValue('E6', $data['pelaksana']);
         $spans = $data['spans'];
         $towers = $data['towers'];
         $tension = $data['tension'];
@@ -656,7 +703,7 @@ class Xtemplate_model extends CI_Model {
         $spans = $data['spans'];
         $towers = $data['towers'];
         //awal tarikan
-        if($data['tarikan']==='besar'){
+        if ($data['tarikan'] === 'besar') {
             //reverse
             $spans = array_reverse($spans);
             $towers = array_reverse($towers);
@@ -683,6 +730,7 @@ class Xtemplate_model extends CI_Model {
         $tower_in_sheet = 2;
         $sheetcounter = 1;
         $towercounter = 2;
+        log_message('debug', 'panjang haspel '.$data['haspel']);
         //starting tower udah terisi
         for ($i = 0; $i < count($spans); $i++) {
             log_message('debug', $i);
@@ -706,7 +754,7 @@ class Xtemplate_model extends CI_Model {
             //midspan joint hanya bisa dilakukan jika last_tower dan next_tower keduanya bertipe
             //suspension (AA) dan berjarak minimal (act_span) 100m
 
-            if ($calculated_cum >= 3600) {
+            if ($calculated_cum >= (0+$data['haspel'])) {
                 log_message('debug', 'jebol ' . $calculated_cum . ' saat menuju $tc = ' . $towercounter);
                 //masih ada harapan apabila prev_tower dan tower keduanya bertipe AA
                 if (
@@ -1041,10 +1089,12 @@ class Xtemplate_model extends CI_Model {
     public function template4_info(PHPExcel_Worksheet $objSheet, $data) {
         //informational
         $objSheet->setCellValue('W2', $data['project']);
-        $objSheet->setCellValue('W4', $data['conductorT']);
+        $objSheet->setCellValue('W4', $data['conductort']);
         $objSheet->setCellValue('W5', $data['ew1']);
         $objSheet->setCellValue('X5', $data['ew2']);
-
+        $objSheet->setCellValue('E3', $data['induk']);
+        $objSheet->setCellValue('E4', $data['laksana']);
+        $objSheet->setCellValue('E6', $data['pelaksana']);
         //written date
         $objSheet->setCellValue($this->template4_date, 25569 + (time() / (3600 * 24)));
     }
