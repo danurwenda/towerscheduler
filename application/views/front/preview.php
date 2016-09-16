@@ -273,6 +273,8 @@
         })
         //save selected excel files
         $('.btn-save').click(function (e) {
+            //make sure there's no editable cell active
+            $('#ceditable-input').trigger("enterKey");
             var filename = prompt("Save as", $('#input-form [name="file"]').val());
 
             if (filename != null) {
@@ -324,6 +326,8 @@
         })
         //load selected excel files (if possible)
         $('.btn-load').click(function (e) {
+            //make sure there's no editable cell active
+            $('#ceditable-input').trigger("enterKey");
             $.getJSON(
                     base_url + 'converter/load_file/' + $('select[name="file"]').val(),
                     function (data) {

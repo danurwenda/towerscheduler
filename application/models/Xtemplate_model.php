@@ -188,6 +188,10 @@ class Xtemplate_model extends CI_Model {
         $objSheet->setCellValue('F7', $data['tension']);
         $objSheet->setCellValue('F8', $data['tarikan']);
         $objSheet->setCellValue('J3', $data['project']);
+        $objSheet->setCellValue('J4', $data['conductort']);
+        $objSheet->setCellValue('J6', $data['induk']);
+        $objSheet->setCellValue('J7', $data['laksana']);
+        $objSheet->setCellValue('J8', $data['pelaksana']);
         $objSheet->setCellValue('F9', $data['haspel']);
         $spanRow = $this->template0_span_start;
 

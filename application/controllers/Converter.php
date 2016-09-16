@@ -93,6 +93,10 @@ class Converter extends Member_Controller {
 
     public function save_file($filename) {
         $conductor = $this->input->post('conductor');
+        $conductort = $this->input->post('conductort');
+        $induk = $this->input->post('induk');
+        $laksana = $this->input->post('laksana');
+        $pelaksana = $this->input->post('pelaksana');
         $project = $this->input->post('project');
         $circuit = $this->input->post('circuit');
         $tarikan = $this->input->post('tarikan');
@@ -120,6 +124,10 @@ class Converter extends Member_Controller {
         $data = [
             'filename' => 'uploads/' . $filename,
             'conductor' => $conductor,
+            'conductort' => $conductort,
+            'induk' => $induk,
+            'laksana' => $laksana,
+            'pelaksana' => $pelaksana,
             'project' => $project,
             'circuit' => $circuit,
             'tarikan' => $tarikan,
